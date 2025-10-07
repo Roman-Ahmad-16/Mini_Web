@@ -24,7 +24,7 @@
                                         </a>
                                         <div class="bottom-details">
                                             <a href="blog-details.html" class="thumbnail">
-                                                <img loading="lazy" src="assets/images/blog/01.webp" alt="blog-area">
+                                                <img loading="lazy" src="{{ asset('front/assets/images/blog/01.webp') }}" alt="blog-area">
                                             </a>
                                         </div>
                                     </div>
@@ -37,7 +37,7 @@
                                         </a>
                                         <div class="bottom-details">
                                             <a href="blog-details.html" class="thumbnail">
-                                                <img loading="lazy" src="assets/images/blog/02.webp" alt="blog-area">
+                                                <img loading="lazy" src="{{ asset('front/assets/images/blog/02.webp') }}" alt="blog-area">
                                             </a>
                                         </div>
                                     </div>
@@ -50,7 +50,7 @@
                                         </a>
                                         <div class="bottom-details">
                                             <a href="blog-details.html" class="thumbnail">
-                                                <img loading="lazy" src="assets/images/blog/03.webp" alt="blog-area">
+                                                <img loading="lazy" src="{{ asset('front/assets/images/blog/03.webp') }}" alt="blog-area">
                                             </a>
                                         </div>
                                     </div>
@@ -63,7 +63,7 @@
                                         </a>
                                         <div class="bottom-details">
                                             <a href="blog-details.html" class="thumbnail">
-                                                <img loading="lazy" src="assets/images/blog/01.webp" alt="blog-area">
+                                                <img loading="lazy" src="{{ asset('front/assets/images/blog/01.webp') }}" alt="blog-area">
                                             </a>
                                         </div>
                                     </div>
@@ -76,7 +76,7 @@
                                         </a>
                                         <div class="bottom-details">
                                             <a href="blog-details.html" class="thumbnail">
-                                                <img loading="lazy" src="assets/images/blog/02.webp" alt="blog-area">
+                                                <img loading="lazy" src="{{ asset('front/assets/images/blog/02.webp') }}" alt="blog-area">
                                             </a>
                                         </div>
                                     </div>
@@ -89,7 +89,7 @@
                                         </a>
                                         <div class="bottom-details">
                                             <a href="blog-details.html" class="thumbnail">
-                                                <img loading="lazy" src="assets/images/blog/03.webp" alt="blog-area">
+                                                <img loading="lazy" src="{{ asset('front/assets/images/blog/03.webp') }}" alt="blog-area">
                                             </a>
                                         </div>
                                     </div>

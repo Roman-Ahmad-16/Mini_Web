@@ -17,7 +17,7 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/04.webp" alt="Business_Team_single">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/team/04.webp') }}" alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -42,7 +42,7 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/05.webp" alt="Business_Team_single">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/team/05.webp') }}" alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -67,7 +67,7 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/06.webp" alt="Business_Team_single">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/team/06.webp') }}" alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -92,7 +92,7 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/07.webp" alt="Business_Team_single">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/team/07.webp') }}" alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -117,7 +117,7 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/07.webp" alt="Business_Team_single">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/team/07.webp') }}" alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>

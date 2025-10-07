@@ -24,7 +24,7 @@
                                             <div class="swiper-slide">
                                                 <div class="single-service-signle-wrapper">
                                                     <div class="icons">
-                                                        <img loading="lazy" src="assets/images/service/icons/01.svg"
+                                                        <img loading="lazy" src="{{ asset('front/assets/images/service/icons/01.svg') }}"
                                                             alt="service">
                                                     </div>
                                                     <div class="information">
@@ -44,7 +44,7 @@
                                             <div class="swiper-slide">
                                                 <div class="single-service-signle-wrapper">
                                                     <div class="icons">
-                                                        <img loading="lazy" src="assets/images/service/icons/02.svg"
+                                                        <img loading="lazy" src="{{ asset('front/assets/images/service/icons/02.svg') }}"
                                                             alt="service">
                                                     </div>
                                                     <div class="information">
@@ -64,7 +64,7 @@
                                             <div class="swiper-slide">
                                                 <div class="single-service-signle-wrapper">
                                                     <div class="icons">
-                                                        <img loading="lazy" src="assets/images/service/icons/03.svg"
+                                                        <img loading="lazy" src="{{ asset('front/assets/images/service/icons/03.svg') }}"
                                                             alt="service">
                                                     </div>
                                                     <div class="information">
@@ -84,7 +84,7 @@
                                             <div class="swiper-slide">
                                                 <div class="single-service-signle-wrapper">
                                                     <div class="icons">
-                                                        <img loading="lazy" src="assets/images/service/icons/01.svg"
+                                                        <img loading="lazy" src="{{ asset('front/assets/images/service/icons/01.svg') }}"
                                                             alt="service">
                                                     </div>
                                                     <div class="information">

@@ -5,9 +5,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="left-thumbnail-about-area-two">
-                        <img loading="lazy" src="assets/images/about/04.webp" alt="about">
+                        <img loading="lazy" src="{{ asset('front/assets/images/about/04.webp') }}" alt="about">
                         <div class="small-image">
-                            <img loading="lazy" src="assets/images/about/05.webp" alt="small">
+                            <img loading="lazy" src="{{ asset('front/assets/images/about/05.webp') }}" alt="small">
                         </div>
                         <div class="counter-about-area">
                             <h2 class="counter title"><span class="odometer" data-count="25">00</span>+
@@ -59,7 +59,7 @@
                                 </div>
                             </div>
                             <div class="sign-area">
-                                <img loading="lazy" src="assets/images/about/sign.svg" alt="">
+                                <img loading="lazy" src="{{ asset('front/assets/images/about/sign.svg') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -67,8 +67,8 @@
             </div>
         </div>
         <div class="shape-area">
-            <img loading="lazy" src="assets/images/about/shape/01.svg" alt="shape" class="one">
-            <img loading="lazy" src="assets/images/about/shape/02.svg" alt="shape" class="two">
+            <img loading="lazy" src="{{ asset('front/assets/images/about/shape/01.svg') }}" alt="shape" class="one">
+            <img loading="lazy" src="{{ asset('front/assets/images/about/shape/02.svg') }}" alt="shape" class="two">
         </div>
     </div>
     <!-- rts about area end -->

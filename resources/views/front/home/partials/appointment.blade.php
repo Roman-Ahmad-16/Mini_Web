@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="appoinment-thumbnail">
-                        <img loading="lazy" src="assets/images/appoinment/01.webp" alt="appoinment">
+                        <img loading="lazy" src="{{ asset('front/assets/images/appoinment/01.webp') }}" alt="appoinment">
                     </div>
                 </div>
             </div>

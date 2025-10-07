@@ -1,617 +1,6 @@
 @extends('front.home.layouts.master')
 @section('content')
 
-    <header class="header-one header--sticky">
-    <div class="header-top-area-wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="header-top-one-wrapper">
-                        <div class="left">
-                            <div class="mail">
-                                <a href="mailto:webmaster@example.com"><i class="fal fa-envelope"></i>
-                                    support@invena.com</a>
-                            </div>
-                            <div class="working-time">
-                                <p><i class="fal fa-clock"></i> Working: 8.00am - 5.00pm</p>
-                            </div>
-                        </div>
-                        <div class="right">
-                            <ul class="top-nav">
-                                <li><a href="blog-list.html">Company news</a></li>
-                                <li><a href="faq.html">Faq</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                            <ul class="social-wrapper-one">
-                                <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
-                                <li><a class="mr--0" href="#" aria-label="linkedin"><i
-                                            class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="header-main">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="header-main-one-wrapper">
-                        <div class="thumbnail">
-                            <a href="index.html">
-                                <img src="assets/images/logo/01.svg" alt="finbiz-logo">
-                            </a>
-                        </div>
-                        <div class="main-header">
-                            <div class="nav-area">
-    <ul class="">
-        <li class="main-nav has-dropdown mega-menu project-a-after">
-            <a href="#">Home</a>
-            <div class="rts-mega-menu with-home-demos">
-                <div class="wrapper">
-                    <div class="container">
-                        <div class="row g-0">
-                            <div class="col-lg-3">
-                                <ul class="mega-menu-item with-list parent-nav">
-                                    <li class="hega-menu-head-wrapper">
-                                        <p class="hega-menu-head"><i class="fa-regular fa-folder-open"></i>
-                                            Multi Page</p>
-                                    </li>
-                                    <li><a href="index.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business One</a></li>
-                                    <li><a href="index-two.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Two</a></li>
-                                    <li><a href="index-three.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Three</a></li>
-                                    <li><a href="index-four.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Four</a></li>
-                                    <li><a href="index-five.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Finance Demo</a></li>
-                                    <li><a href="index-six.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Marketing agency</a></li>
-                                    <li><a href="index-thirteen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Accountent One
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-                                    <li><a href="index-fifteen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            HR Website
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-                                    <li><a href="index-seventeen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            SEO Website
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-                                    <li><a href="index-nineteen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Investment
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3">
-                                <ul class="mega-menu-item with-list parent-nav">
-                                    <li class="hega-menu-head-wrapper">
-                                        <p class="hega-menu-head"><i class="fa-regular fa-folder-open"></i>
-                                            Multi Page</p>
-                                    </li>
-                                    <li><a href="index-seven.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business agency</a></li>
-                                    <li><a href="index-eight.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Management</a></li>
-                                    <li><a href="index-sixteen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Coach
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-                                    <li><a href="index-nine.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Insurance Home</a></li>
-                                    <li><a href="index-ten.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Website</a></li>
-                                    <li><a href="index-eleven.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Parallax</a></li>
-                                    <li><a href="index-twelve.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Video</a></li>
-                                    <li><a href="index-fourteen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Accountent Two
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-                                    <li><a href="index-eighteen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Technology Demo
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </div>
-
-                            <div class="col-lg-3">
-                                <ul class="mega-menu-item with-list parent-nav">
-                                    <li class="hega-menu-head-wrapper">
-                                        <p class="hega-menu-head"><i class="fa-regular fa-folder-open"></i>
-                                            One Page</p>
-                                    </li>
-                                    <li><a href="onepage-one.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business One</a></li>
-                                    <li><a href="onepage-two.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Two</a></li>
-                                    <li><a href="onepage-three.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Three</a></li>
-                                    <li><a href="onepage-four.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Four</a></li>
-                                    <li><a href="onepage-five.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Finance Demo</a></li>
-                                    <li><a href="onepage-six.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Marketing agency</a></li>
-                                    <li><a href="onepage-thirteen.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Accountent One
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-                                    <li><a href="onepage-fifteen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            HR Website Onepage
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-                                    <li><a href="onepage-seventeen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            SEO Website
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-                                    <li><a href="onepage-nineteen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Investment
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3">
-                                <ul class="mega-menu-item with-list parent-nav">
-                                    <li class="hega-menu-head-wrapper">
-                                        <p class="hega-menu-head"><i class="fa-regular fa-folder-open"></i>
-                                            One Page</p>
-                                    </li>
-                                    <li><a href="onepage-seven.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business agency</a></li>
-                                    <li><a href="onepage-eight.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Management</a></li>
-                                    <li><a href="onepage-sixteen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Coach
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-                                    <li><a href="onepage-nine.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Insurance Home</a></li>
-                                    <li><a href="onepage-ten.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Website</a></li>
-                                    <li><a href="onepage-eleven.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Parallax</a></li>
-                                    <li><a href="onepage-twelve.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Business Video</a></li>
-                                    <li><a href="onepage-fourteen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Accountent Two
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-                                    <li><a href="onepage-eighteen.html">
-                                            <i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Technology Demo
-                                            <span class="new-badge">New</span>
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </li>
-
-        <li class="main-nav has-dropdown mega-menu">
-            <a href="#">Pages</a>
-            <div class="rts-mega-menu">
-                <div class="wrapper">
-                    <div class="container">
-                        <div class="row g-0">
-                            <div class="col-lg-3">
-                                <ul class="mega-menu-item with-list parent-nav">
-                                    <li><a href="about.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>About
-                                            Company</a></li>
-                                    <li><a href="service.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Service</a></li>
-                                    <li><a href="service-details.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Service Details</a>
-                                    </li>
-                                    <li><a href="service-details-2.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Service Details 2</a>
-                                    </li>
-                                    <li><a href="project.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project</a>
-                                    </li>
-                                    <li><a href="team.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>Team</a>
-                                    </li>
-                                    <li><a href="gallery.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Gallery</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3">
-                                <ul class="mega-menu-item with-list parent-nav">
-                                    <li><a href="team-details.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Team Details</a>
-                                    </li>
-                                    <li><a href="pricing.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Pricing</a>
-                                    </li>
-                                    <li><a href="appoinment.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Appoinment</a>
-                                    </li>
-                                    <li><a href="history.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>Our
-                                            History</a>
-                                    </li>
-                                    <li><a href="blog-list.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Blog
-                                            List</a>
-                                    </li>
-                                    <li><a href="blog-grid.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Blog
-                                            Grid</a>
-                                    </li>
-                                    <li><a href="contact.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3">
-                                <ul class="mega-menu-item with-list parent-nav">
-                                    <li><a href="blog-details.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Blog
-                                            Details</a>
-                                    </li>
-                                    <li><a href="blog-details-2.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Blog
-                                            Details 02</a>
-                                    </li>
-                                    <li><a href="faq.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>Faq's</a>
-                                    <li><a href="career.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Career</a>
-                                    </li>
-                                    <li><a href="our-mission.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Our
-                                            Mission</a>
-                                    </li>
-                                    <li><a href="partners.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Partners</a>
-                                    </li>
-                                    <li><a href="contact-2.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Contact 2</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3">
-                                <ul class="mega-menu-item with-list parent-nav">
-
-                                    <li><a href="shop.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>Shop</a>
-                                    </li>
-                                    <li><a href="shop-single.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Shop Details</a>
-                                    </li>
-                                    <li><a href="cart.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>Cart</a>
-                                    </li>
-                                    <li><a href="chekout.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Checkout</a>
-                                    </li>
-                                    <li><a href="account.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Account</a>
-                                    </li>
-                                    <li><a href="coming-soon.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Coming Soon</a>
-                                    </li>
-                                    <li><a href="404.html"><i class="fa-sharp fa-regular fa-chevron-right"></i>404</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="main-nav has-dropdown mega-menu">
-            <a href="#">Service</a>
-            <div class="rts-mega-menu service-mega-menu-style">
-                <div class="wrapper">
-                    <div class="container">
-                        <div class="row g-5">
-                            <div class="col-lg-4">
-                                <ul class="mega-menu-item parent-nav">
-                                    <li>
-                                        <a href="service-details.html">
-                                            <div class="single-service-menu">
-                                                <div class="icon">
-                                                    <img src="assets/images/service/04.svg" alt="service">
-                                                </div>
-                                                <div class="info">
-                                                    <h5 class="title">Business Solution</h5>
-                                                    <p class="details">
-                                                        Once planning is complete, site preparation begins.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service-details-2.html">
-                                            <div class="single-service-menu">
-                                                <div class="icon">
-                                                    <img src="assets/images/service/05.svg" alt="service">
-                                                </div>
-                                                <div class="info">
-                                                    <h5 class="title">Creative Ideas</h5>
-                                                    <p class="details">
-                                                        Quis nulla blandit vulputate morbi adipiscing sem vestibulum.
-                                                        Nulla turpis...
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service-details-3.html">
-                                            <div class="single-service-menu">
-                                                <div class="icon">
-                                                    <img src="assets/images/service/06.svg" alt="service">
-                                                </div>
-                                                <div class="info">
-                                                    <h5 class="title">Market Research</h5>
-                                                    <p class="details">
-                                                        Elever Architecture is a New-York-based studio on modern...
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4">
-                                <ul class="mega-menu-item parent-nav">
-                                    <li>
-                                        <a href="service-details-4.html">
-                                            <div class="single-service-menu">
-                                                <div class="icon">
-                                                    <img src="assets/images/service/07.svg" alt="service">
-                                                </div>
-                                                <div class="info">
-                                                    <h5 class="title">Structural Engineering</h5>
-                                                    <p class="details">
-                                                        We provide best IT solutions for any type of business.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service-details-5.html">
-                                            <div class="single-service-menu">
-                                                <div class="icon">
-                                                    <img src="assets/images/service/12.svg" alt="service">
-                                                </div>
-                                                <div class="info">
-                                                    <h5 class="title">Post-Construction</h5>
-                                                    <p class="details">
-                                                        We provide best IT solutions for any type of business as.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html" class="free-consultation">
-                                            <div class="single-service-menu">
-                                                <div class="info">
-                                                    <h5 class="title">Get Free Consultation</h5>
-                                                    <p class="details">
-                                                        From preconstruction to virtual design and construction.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="menu-thumb pl--20">
-                                    <img src="assets/images/banner/24.webp" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="main-nav has-dropdown mega-menu">
-            <a href="#">Project</a>
-            <div class="rts-mega-menu">
-                <div class="wrapper">
-                    <div class="container">
-                        <div class="row g-0">
-                            <div class="col-lg-3">
-                                <ul class="mega-menu-item with-list parent-nav">
-                                    <li class="hega-menu-head-wrapper">
-                                        <p class="hega-menu-head"><i class="fa-regular fa-folder-open"></i>
-                                            Types</p>
-                                    </li>
-                                    <li><a href="project.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project</a>
-                                    </li>
-                                    <li><a href="project-slider.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Slider</a></li>
-                                    <li><a href="project-slider-2.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Slider 2</a></li>
-                                    <li><a href="project-card-slider.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Card Slider</a></li>
-                                    <li><a href="project-bg-dark.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Bg Dark</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3">
-                                <ul class="mega-menu-item with-list parent-nav">
-                                    <li class="hega-menu-head-wrapper">
-                                        <p class="hega-menu-head"><i class="fa-regular fa-folder-open"></i>
-                                            Grid Style</p>
-                                    </li>
-                                    <li><a href="project-grid.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Grid</a></li>
-                                    <li><a href="project-grid-col-2.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Grid Col 2</a></li>
-                                    <li><a href="project-slider-grid.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Grid Slider</a></li>
-                                    <li><a href="project-slider-overflow.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project Overflow</a>
-                                    </li>
-                                    <li><a href="project-grid-col-3.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project Grid Col 3</a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <div class="col-lg-3">
-                                <ul class="mega-menu-item with-list parent-nav">
-                                    <li class="hega-menu-head-wrapper">
-                                        <p class="hega-menu-head"><i class="fa-regular fa-folder-open"></i>Hover
-                                            Type
-                                        </p>
-                                    </li>
-                                    <li><a href="project-bg-dark.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Hide Content</a></li>
-
-
-                                    <li><a href="project-slider-2.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Hide
-                                            Content wide</a>
-                                    </li>
-                                    <li><a href="project-grid.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Card Hover</a>
-                                    </li>
-                                    <li><a href="project-slider-2.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Slider Image
-                                            Zoom</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3">
-                                <ul class="mega-menu-item with-list parent-nav">
-                                    <li class="hega-menu-head-wrapper">
-                                        <p class="hega-menu-head"><i class="fa-regular fa-folder-open"></i>
-                                            Single</p>
-                                    </li>
-                                    <li><a href="project-details.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Detials</a>
-                                    </li>
-                                    <li><a href="project-details-2.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Detials
-                                            Video</a>
-                                    </li>
-                                    <li><a href="project-details-3.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>Project
-                                            Detials
-                                            Slider</a>
-                                    </li>
-                                    <li><a href="project-details-large-image.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Large Image</a>
-                                    </li>
-                                    <li><a href="project-details-gallery.html"><i
-                                                class="fa-sharp fa-regular fa-chevron-right"></i>
-                                            Project Gallery</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="main-nav has-dropdown project-a-after">
-            <a href="#">Blog</a>
-            <ul class="submenu parent-nav">
-                <li><a href="blog-grid.html">Blog Grid</a></li>
-                <li><a href="blog-list.html">Blog List</a></li>
-                <li><a href="blog-details.html">Blog Details</a></li>
-                <li><a href="blog-details-2.html">Blog Details 2</a></li>
-            </ul>
-        </li>
-        <li class="main-nav has-dropdown project-a-after">
-            <a href="#">Contact</a>
-            <ul class="submenu parent-nav">
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="contact-2.html">Contact 2</a></li>
-            </ul>
-        </li>
-    </ul>
-</div>
-
-
-<div class="loader-wrapper">
-    <div class="loader">
-    </div>
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-</div>
-                            <div class="button-area">
-                                <button class="search" id="search" aria-label="Search"><i
-                                        class="far fa-search"></i></button>
-                                <a href="contact.html"
-                                    class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">Get
-                                    Quote</a>
-                                <button id="menu-btn" aria-label="Menu" class="menu-btn menu ml--20 ml_sm--5">
-                                    <img class="menu-light" src="assets/images/icons/01.svg" alt="Menu-icon">
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
 
     <div class="banner-swiper-two">
         <div class="swiper mySwiper-banner-two">
@@ -989,8 +378,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="button-wrapper mt--40" data-animation="fadeInUp" data-delay="0.4"
-                            data-duration="1.2">
+                        <div class="button-wrapper mt--40" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
                             <a href="contact.html" class="rts-btn btn-primary">Contact Us</a>
                             <div class="vedio-icone">
                                 <a class="video-play-button play-video popup-video"
@@ -1205,8 +593,7 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/04.webp"
-                                                alt="Business_Team_single">
+                                            <img loading="lazy" src="assets/images/team/04.webp" alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -1231,8 +618,7 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/05.webp"
-                                                alt="Business_Team_single">
+                                            <img loading="lazy" src="assets/images/team/05.webp" alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -1257,8 +643,7 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/06.webp"
-                                                alt="Business_Team_single">
+                                            <img loading="lazy" src="assets/images/team/06.webp" alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -1283,8 +668,7 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/07.webp"
-                                                alt="Business_Team_single">
+                                            <img loading="lazy" src="assets/images/team/07.webp" alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -1309,8 +693,7 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/07.webp"
-                                                alt="Business_Team_single">
+                                            <img loading="lazy" src="assets/images/team/07.webp" alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -1372,8 +755,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-main-wrapper-two">
                                         <div class="left-thumbnail">
-                                            <img loading="lazy" src="assets/images/testimonials/01.webp"
-                                                alt="testimonials">
+                                            <img loading="lazy" src="assets/images/testimonials/01.webp" alt="testimonials">
                                         </div>
                                         <div class="right-content-testimonials">
                                             <p class="disc">
@@ -1393,8 +775,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-main-wrapper-two">
                                         <div class="left-thumbnail">
-                                            <img loading="lazy" src="assets/images/testimonials/01.webp"
-                                                alt="testimonials">
+                                            <img loading="lazy" src="assets/images/testimonials/01.webp" alt="testimonials">
                                         </div>
                                         <div class="right-content-testimonials">
                                             <p class="disc">
@@ -1414,8 +795,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-main-wrapper-two">
                                         <div class="left-thumbnail">
-                                            <img loading="lazy" src="assets/images/testimonials/01.webp"
-                                                alt="testimonials">
+                                            <img loading="lazy" src="assets/images/testimonials/01.webp" alt="testimonials">
                                         </div>
                                         <div class="right-content-testimonials">
                                             <p class="disc">
@@ -1593,458 +973,296 @@
 
 
 
-    <!-- rts footer two area wrapper -->
-    <div class="rts-footer-area footer-two mt-dec-footer-map bg-footer-two bg_image">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="map-area-main-wrapper">
-                        <div class="row">
-                            <div class="col-lg-7">
-                                <div class="map-area-main-footer-two">
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29208.07522277672!2d90.423296!3d23.7826795!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1738651440174!5m2!1sen!2sbd"
-                                        width="625" height="625" style="border:0;" allowfullscreen="" loading="lazy"
-                                        referrerpolicy="no-referrer-when-downgrade"
-                                        title="Company location on Google Maps"></iframe>
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
-                                <div class="map-information-2-footer">
-                                    <h5 class="title-main">Contact Us</h5>
-                                    <img loading="lazy" src="assets/images/footer/02.svg" alt="line" class="line">
-                                    <div class="contact-information-main-wrapper">
-                                        <div class="signle-contact-information">
-                                            <div class="icon">
-                                                <i class="fa-solid fa-phone"></i>
-                                            </div>
-                                            <div class="information-wrapper">
-                                                <span>Call Us 24/7</span>
-                                                <a href="#">
-                                                    <h6 class="title">(+256) 2145.2156</h6>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="signle-contact-information">
-                                            <div class="icon">
-                                                <i class="fa-regular fa-envelope"></i>
-                                            </div>
-                                            <div class="information-wrapper">
-                                                <span>Work with us</span>
-                                                <a href="#">
-                                                    <h6 class="title">info@invena.com</h6>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="signle-contact-information">
-                                            <div class="icon">
-                                                <i class="fa-sharp fa-solid fa-location-dot"></i>
-                                            </div>
-                                            <div class="information-wrapper">
-                                                <span>Our Location</span>
-                                                <a href="#">
-                                                    <h6 class="title">125 TownUnited State</h6>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container bg-shape-f1">
-            <!-- rts footer area -->
-            <div class="row pt--120 pt_sm--80 pb--80 pb_sm--40">
 
-                <div class="col-xl-4 col-md-6 col-sm-12 col-12">
-                    <div class="footer-one-single-wized mid-bg">
-                        <div class="wized-title">
-                            <h5 class="title">Opening Hours</h5>
-                            <img loading="lazy" src="assets/images/footer/01.svg" alt="finbiz_footer">
-                        </div>
-                        <div class="opening-time-inner">
-                            <div class="single-opening">
-                                <p class="day">Week Days</p>
-                                <p class="time">09.00 - 24:00</p>
-                            </div>
-                            <div class="single-opening">
-                                <p class="day">Saturday</p>
-                                <p class="time">08:00 - 03.00</p>
-                            </div>
-                            <div class="single-opening mb--30 mb_sm--10">
-                                <p class="day">Sunday</p>
-                                <p class="time">Day Off</p>
-                            </div>
-                            <a href="#" class="rts-btn btn-primary btn-white">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- footer mid area end -->
-                <div class="col-xl-4 col-md-6 col-sm-12 col-12 pl--50 pl_sm--15">
-                    <div class="footer-one-single-wized">
-                        <div class="wized-title">
-                            <h5 class="title">Quick Links</h5>
-                            <img loading="lazy" src="assets/images/footer/01.svg" alt="finbiz_footer">
-                        </div>
-                        <div class="quick-link-inner">
-                            <ul class="links">
-                                <li><a href="#"><i class="far fa-arrow-right"></i> Forum Support</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i> Help &amp; FAQ</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i> Contact Us</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i> Pricing &amp; Plans</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i> Cookie Policy</a></li>
-                            </ul>
-                            <ul class="links margin-left-70">
-                                <li><a href="#"><i class="far fa-arrow-right"></i> About Us</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i> My Account</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i>Our Company</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i>Service</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- footer mid area -->
-
-                <!-- footer end area post -->
-                <div class="col-xl-4 col-md-6 col-sm-12 col-12">
-                    <div class="footer-one-single-wized margin-left-65">
-                        <div class="wized-title">
-                            <h5 class="title">Get Updates</h5>
-                            <img loading="lazy" src="assets/images/footer/01.svg" alt="finbiz_footer">
-                        </div>
-                        <div class="body">
-                            <div class="update-wrapper">
-                                <p class="disc">Sign up for our latest news &amp; articles. We won’t give you spam
-                                    mails.</p>
-                                <form class="email-footer-area">
-                                    <input type="email" placeholder="Enter Email Address" required="">
-                                    <button type="submit" title="Close menu"><i
-                                            class="fas fa-location-arrow"></i></button>
-                                </form>
-                                <div class="note-area">
-                                    <p><span>Note:</span> We do not publish your email</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- footer end area post end-->
-            </div>
-            <!-- rts footer area End -->
-        </div>
-        <!-- copyright area start -->
-        <div class="rts-copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="text-center">
-                            <p>Invena - Copyright
-                                <script>
-                                    document.write(
-                                        new Date().getFullYear()
-                                    )
-                                </script>. All rights reserved.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- copyright area end -->
-    </div>
-    <!-- rts footer two area wrapper end -->
 
 
 
     <div id="side-bar" class="side-bar header-two">
-    <button class="close-icon-menu" title="Close menu"><i class="far fa-times"></i></button>
-    <!-- inner menu area desktop start -->
-    <div class="rts-sidebar-menu-desktop">
-        <a class="logo-1" href="index.html"><img class="logo" src="assets/images/logo/01.svg" alt="finbiz_logo"></a>
-        <div class="body d-none d-xl-block">
-            <p class="disc">
-                We must explain to you how all seds this mistakens idea denouncing pleasures and praising account.
-                All seds this mistakens idea denouncing pleasures.
-            </p>
-            <div class="get-in-touch">
-                <!-- title -->
-                <div class="h6 title">Get In Touch</div>
-                <!-- title End -->
-                <div class="wrapper">
-                    <!-- single -->
-                    <div class="single">
-                        <i class="fas fa-phone-alt"></i>
-                        <a href="#">+8801234566789</a>
+        <button class="close-icon-menu" title="Close menu"><i class="far fa-times"></i></button>
+        <!-- inner menu area desktop start -->
+        <div class="rts-sidebar-menu-desktop">
+            <a class="logo-1" href="index.html"><img class="logo" src="assets/images/logo/01.svg" alt="finbiz_logo"></a>
+            <div class="body d-none d-xl-block">
+                <p class="disc">
+                    We must explain to you how all seds this mistakens idea denouncing pleasures and praising account.
+                    All seds this mistakens idea denouncing pleasures.
+                </p>
+                <div class="get-in-touch">
+                    <!-- title -->
+                    <div class="h6 title">Get In Touch</div>
+                    <!-- title End -->
+                    <div class="wrapper">
+                        <!-- single -->
+                        <div class="single">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="#">+8801234566789</a>
+                        </div>
+                        <!-- single ENd -->
+                        <!-- single -->
+                        <div class="single">
+                            <i class="fas fa-envelope"></i>
+                            <a href="#">example@gmail.com</a>
+                        </div>
+                        <!-- single ENd -->
+                        <!-- single -->
+                        <div class="single">
+                            <i class="fas fa-globe"></i>
+                            <a href="#">www.webexample.com</a>
+                        </div>
+                        <!-- single ENd -->
+                        <!-- single -->
+                        <div class="single">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="#">13/A, New Pro State, NYC</a>
+                        </div>
+                        <!-- single ENd -->
                     </div>
-                    <!-- single ENd -->
-                    <!-- single -->
-                    <div class="single">
-                        <i class="fas fa-envelope"></i>
-                        <a href="#">example@gmail.com</a>
+                    <div class="social-wrapper-two menu">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                        <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
                     </div>
-                    <!-- single ENd -->
-                    <!-- single -->
-                    <div class="single">
-                        <i class="fas fa-globe"></i>
-                        <a href="#">www.webexample.com</a>
-                    </div>
-                    <!-- single ENd -->
-                    <!-- single -->
-                    <div class="single">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <a href="#">13/A, New Pro State, NYC</a>
-                    </div>
-                    <!-- single ENd -->
-                </div>
-                <div class="social-wrapper-two menu">
-                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
-                    <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
                 </div>
             </div>
         </div>
-    </div>
-    <!-- mobile menu area start -->
-    <div class="mobile-menu d-block d-xl-none">
-        <nav class="nav-main mainmenu-nav mt--30">
-            <ul class="mainmenu metismenu" id="mobile-menu-active">
-                <li class="has-droupdown">
-                    <a href="#" class="main" aria-expanded="false">Demos</a>
-                    <ul class="submenu mm-collapse" style="height: 0px;">
-                        <li><a href="index.html">Business One</a></li>
-                        <li><a href="index-two.html">Business Two</a></li>
-                        <li><a href="index-three.html">Business Three</a></li>
-                        <li><a href="index-four.html">Business Four</a></li>
-                        <li><a href="index-five.html">Finance Demo</a></li>
-                        <li><a href="index-six.html">Marketing agency</a></li>
-                        <li><a href="index-seven.html">Business agency</a></li>
-                        <li><a href="index-eight.html">Business Management</a></li>
-                        <li><a href="index-nine.html">Insurance Home</a></li>
-                        <li><a href="index-ten.html">Business Website</a></li>
-                        <li><a href="index-eleven.html">Business Parallax</a></li>
-                        <li><a href="index-twelve.html">Business Video</a></li>
-                        <li><a href="index-thirteen.html">Accountent One</a></li>
-                        <li><a href="index-fourteen.html">Accountent Two</a></li>
-                        <li><a href="index-fifteen.html">HR Website</a></li>
-                        <li><a href="index-sixteen.html">Business Coach</a></li>
-                        <li><a href="index-seventeen.html">SEO Website</a></li>
-                        <li><a href="index-eighteen.html">Technology Demo</a></li>
-                        <li><a href="index-nineteen.html">Business Investment</a></li>
-                    </ul>
-                </li>
-                <li class="has-droupdown">
-                    <a href="#" class="main" aria-expanded="false">Onepage</a>
-                    <ul class="submenu mm-collapse" style="height: 0px;">
-                        <li><a href="onepage-one.html">Business One</a></li>
-                        <li><a href="onepage-two.html">Business Two</a></li>
-                        <li><a href="onepage-three.html">Business Three</a></li>
-                        <li><a href="onepage-four.html">Business Four</a></li>
-                        <li><a href="onepage-five.html">Finance Demo</a></li>
-                        <li><a href="onepage-six.html">Marketing agency</a></li>
-                        <li><a href="onepage-seven.html">Business agency</a></li>
-                        <li><a href="onepage-eight.html">Business Management</a></li>
-                        <li><a href="onepage-nine.html">Insurance Home</a></li>
-                        <li><a href="onepage-ten.html">Business Website</a></li>
-                        <li><a href="onepage-eleven.html">Business Parallax</a></li>
-                        <li><a href="onepage-twelve.html">Business Video</a></li>
-                        <li><a href="onepage-thirteen.html">Accountent One</a></li>
-                        <li><a href="onepage-fourteen.html">Accountent Two</a></li>
-                        <li><a href="onepage-fifteen.html">HR Website</a></li>
-                        <li><a href="onepage-sixteen.html">Business Coach</a></li>
-                        <li><a href="onepage-eighteen.html">Technology Demo</a></li>
-                        <li><a href="onepage-nineteen.html">Business Investment</a></li>
-                    </ul>
-                </li>
-                <li class="has-droupdown">
-                    <a href="#" class="main" aria-expanded="false">Pages</a>
-                    <ul class="submenu mm-collapse" style="height: 0px;">
-                        <li><a href="about.html">About
-                                Company</a></li>
-                        <li><a href="service.html">Service</a></li>
-                        <li><a href="service-details.html">Service
-                                Details</a>
-                        </li>
-                        <li><a href="service-details-2.html">Service
-                                Details 2</a>
-                        </li>
-                        <li><a href="project.html">Project</a>
-                        </li>
-                        <li><a href="team.html">Team</a>
-                        </li>
-                        <li><a href="team-details.html">Team
-                                Details</a>
-                        </li>
-                        <li><a href="pricing.html">Pricing</a>
-                        </li>
-                        <li><a href="appoinment.html">Appoinment</a>
-                        </li>
-                        <li><a href="history.html">Our
-                                History</a>
-                        </li>
-                        <li><a href="blog-list.html">Blog
-                                List</a>
-                        </li>
-                        <li><a href="blog-grid.html">Blog
-                                List</a>
-                        </li>
-                        <li><a href="blog-details.html">Blog
-                                Details</a>
-                        </li>
-                        <li><a href="blog-details-2.html">Blog
-                                Details 02</a>
-                        </li>
-                        <li><a href="faq.html">Faq's</a>
-                        <li><a href="career.html">Career</a>
-                        </li>
-                        <li><a href="our-mission.html">Our
-                                Mission</a>
-                        </li>
-                        <li><a href="partners.html">Partners</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="has-droupdown">
-                    <a href="#" class="main" aria-expanded="false">Services</a>
-                    <ul class="submenu mm-collapse" style="height: 0px;">
-                        <li><a class="mobile-menu-link" href="service.html">Service</a></li>
-                        <li><a class="mobile-menu-link" href="service-details.html">Service Details</a></li>
-                        <li><a class="mobile-menu-link" href="service-details-2.html">Service Details 2</a></li>
-                        <li><a class="mobile-menu-link" href="service-details-3.html">Service Details 3</a></li>
-                        <li><a class="mobile-menu-link" href="service-details-4.html">Service Details 4</a></li>
-                        <li><a class="mobile-menu-link" href="service-details-5.html">Service Details 5</a></li>
+        <!-- mobile menu area start -->
+        <div class="mobile-menu d-block d-xl-none">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu metismenu" id="mobile-menu-active">
+                    <li class="has-droupdown">
+                        <a href="#" class="main" aria-expanded="false">Demos</a>
+                        <ul class="submenu mm-collapse" style="height: 0px;">
+                            <li><a href="index.html">Business One</a></li>
+                            <li><a href="index-two.html">Business Two</a></li>
+                            <li><a href="index-three.html">Business Three</a></li>
+                            <li><a href="index-four.html">Business Four</a></li>
+                            <li><a href="index-five.html">Finance Demo</a></li>
+                            <li><a href="index-six.html">Marketing agency</a></li>
+                            <li><a href="index-seven.html">Business agency</a></li>
+                            <li><a href="index-eight.html">Business Management</a></li>
+                            <li><a href="index-nine.html">Insurance Home</a></li>
+                            <li><a href="index-ten.html">Business Website</a></li>
+                            <li><a href="index-eleven.html">Business Parallax</a></li>
+                            <li><a href="index-twelve.html">Business Video</a></li>
+                            <li><a href="index-thirteen.html">Accountent One</a></li>
+                            <li><a href="index-fourteen.html">Accountent Two</a></li>
+                            <li><a href="index-fifteen.html">HR Website</a></li>
+                            <li><a href="index-sixteen.html">Business Coach</a></li>
+                            <li><a href="index-seventeen.html">SEO Website</a></li>
+                            <li><a href="index-eighteen.html">Technology Demo</a></li>
+                            <li><a href="index-nineteen.html">Business Investment</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main" aria-expanded="false">Onepage</a>
+                        <ul class="submenu mm-collapse" style="height: 0px;">
+                            <li><a href="onepage-one.html">Business One</a></li>
+                            <li><a href="onepage-two.html">Business Two</a></li>
+                            <li><a href="onepage-three.html">Business Three</a></li>
+                            <li><a href="onepage-four.html">Business Four</a></li>
+                            <li><a href="onepage-five.html">Finance Demo</a></li>
+                            <li><a href="onepage-six.html">Marketing agency</a></li>
+                            <li><a href="onepage-seven.html">Business agency</a></li>
+                            <li><a href="onepage-eight.html">Business Management</a></li>
+                            <li><a href="onepage-nine.html">Insurance Home</a></li>
+                            <li><a href="onepage-ten.html">Business Website</a></li>
+                            <li><a href="onepage-eleven.html">Business Parallax</a></li>
+                            <li><a href="onepage-twelve.html">Business Video</a></li>
+                            <li><a href="onepage-thirteen.html">Accountent One</a></li>
+                            <li><a href="onepage-fourteen.html">Accountent Two</a></li>
+                            <li><a href="onepage-fifteen.html">HR Website</a></li>
+                            <li><a href="onepage-sixteen.html">Business Coach</a></li>
+                            <li><a href="onepage-eighteen.html">Technology Demo</a></li>
+                            <li><a href="onepage-nineteen.html">Business Investment</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main" aria-expanded="false">Pages</a>
+                        <ul class="submenu mm-collapse" style="height: 0px;">
+                            <li><a href="about.html">About
+                                    Company</a></li>
+                            <li><a href="service.html">Service</a></li>
+                            <li><a href="service-details.html">Service
+                                    Details</a>
+                            </li>
+                            <li><a href="service-details-2.html">Service
+                                    Details 2</a>
+                            </li>
+                            <li><a href="project.html">Project</a>
+                            </li>
+                            <li><a href="team.html">Team</a>
+                            </li>
+                            <li><a href="team-details.html">Team
+                                    Details</a>
+                            </li>
+                            <li><a href="pricing.html">Pricing</a>
+                            </li>
+                            <li><a href="appoinment.html">Appoinment</a>
+                            </li>
+                            <li><a href="history.html">Our
+                                    History</a>
+                            </li>
+                            <li><a href="blog-list.html">Blog
+                                    List</a>
+                            </li>
+                            <li><a href="blog-grid.html">Blog
+                                    List</a>
+                            </li>
+                            <li><a href="blog-details.html">Blog
+                                    Details</a>
+                            </li>
+                            <li><a href="blog-details-2.html">Blog
+                                    Details 02</a>
+                            </li>
+                            <li><a href="faq.html">Faq's</a>
+                            <li><a href="career.html">Career</a>
+                            </li>
+                            <li><a href="our-mission.html">Our
+                                    Mission</a>
+                            </li>
+                            <li><a href="partners.html">Partners</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main" aria-expanded="false">Services</a>
+                        <ul class="submenu mm-collapse" style="height: 0px;">
+                            <li><a class="mobile-menu-link" href="service.html">Service</a></li>
+                            <li><a class="mobile-menu-link" href="service-details.html">Service Details</a></li>
+                            <li><a class="mobile-menu-link" href="service-details-2.html">Service Details 2</a></li>
+                            <li><a class="mobile-menu-link" href="service-details-3.html">Service Details 3</a></li>
+                            <li><a class="mobile-menu-link" href="service-details-4.html">Service Details 4</a></li>
+                            <li><a class="mobile-menu-link" href="service-details-5.html">Service Details 5</a></li>
 
-                    </ul>
-                </li>
-                <li class="has-droupdown">
-                    <a href="#" class="main" aria-expanded="false">Projects</a>
-                    <ul class="submenu mm-collapse">
-                        <li><a href="project.html">Project</a>
-                        </li>
-                        <li><a href="project-slider.html">Project
-                                Slider</a></li>
-                        <li><a href="project-slider-2.html">Project
-                                Slider 2</a></li>
-                        <li><a href="project-card-slider.html">Project
-                                Card Slider</a></li>
-                        <li><a href="project-bg-dark.html">Project
-                                Bg Dark</a></li>
-                        <li><a href="project-grid.html">Project
-                                Grid</a></li>
-                        <li><a href="project-grid-col-2.html">Project
-                                Grid Col 2</a></li>
-                        <li><a href="project-slider-grid.html">Grid Slider</a></li>
-                        <li><a href="project-slider-overflow.html">Project Overflow</a>
-                        </li>
-                        <li><a href="project-grid-col-3.html">Project Grid Col 3</a>
-                        </li>
-                        <li><a href="project-bg-dark.html">Project
-                                Hide Content</a></li>
-
-
-                        <li><a href="project-slider-2.html">Project
-                                Hide
-                                Content wide</a>
-                        </li>
-                        <li><a href="project-grid.html">Project
-                                Card Hover</a>
-                        </li>
-                        <li><a href="project-slider-2.html">Project
-                                Slider Image
-                                Zoom</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="has-droupdown">
-                    <a href="#" class="main" aria-expanded="false">Shop Pages</a>
-                    <ul class="submenu mm-collapse">
-                        <li><a href="shop.html">Shop</a>
-                        </li>
-                        <li><a href="shop-single.html">Shop
-                                Details</a>
-                        </li>
-                        <li><a href="account.html">Account</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="has-droupdown">
-                    <a href="#" class="main" aria-expanded="false">Blog</a>
-                    <ul class="submenu mm-collapse">
-                        <li><a href="blog-grid.html">Blog Grid</a></li>
-                        <li><a href="blog-list.html">Blog List</a></li>
-                        <li><a href="blog-details.html">Blog Details</a></li>
-                        <li><a href="blog-details-2.html">Blog Details 2</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="contact.html" class="main" aria-expanded="false">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-
-        <div class="social-wrapper-one">
-            <ul>
-                <li>
-                    <a href="#" aria-label="Facebook">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" aria-label="twitter">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" aria-label="youtube">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" aria-label="linkedin">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!-- mobile menu area end -->
-</div>
-<!-- inner menu area desktop End -->
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main" aria-expanded="false">Projects</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a href="project.html">Project</a>
+                            </li>
+                            <li><a href="project-slider.html">Project
+                                    Slider</a></li>
+                            <li><a href="project-slider-2.html">Project
+                                    Slider 2</a></li>
+                            <li><a href="project-card-slider.html">Project
+                                    Card Slider</a></li>
+                            <li><a href="project-bg-dark.html">Project
+                                    Bg Dark</a></li>
+                            <li><a href="project-grid.html">Project
+                                    Grid</a></li>
+                            <li><a href="project-grid-col-2.html">Project
+                                    Grid Col 2</a></li>
+                            <li><a href="project-slider-grid.html">Grid Slider</a></li>
+                            <li><a href="project-slider-overflow.html">Project Overflow</a>
+                            </li>
+                            <li><a href="project-grid-col-3.html">Project Grid Col 3</a>
+                            </li>
+                            <li><a href="project-bg-dark.html">Project
+                                    Hide Content</a></li>
 
 
-<!-- offcanvase search -->
-<div class="search-input-area">
-    <div class="container">
-        <div class="search-input-inner">
-            <div class="input-div">
-                <input class="search-input autocomplete" type="text" placeholder="Search by keyword or #">
-                <button><i class="far fa-search"></i></button>
+                            <li><a href="project-slider-2.html">Project
+                                    Hide
+                                    Content wide</a>
+                            </li>
+                            <li><a href="project-grid.html">Project
+                                    Card Hover</a>
+                            </li>
+                            <li><a href="project-slider-2.html">Project
+                                    Slider Image
+                                    Zoom</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main" aria-expanded="false">Shop Pages</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a href="shop.html">Shop</a>
+                            </li>
+                            <li><a href="shop-single.html">Shop
+                                    Details</a>
+                            </li>
+                            <li><a href="account.html">Account</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main" aria-expanded="false">Blog</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                            <li><a href="blog-list.html">Blog List</a></li>
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                            <li><a href="blog-details-2.html">Blog Details 2</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="main" aria-expanded="false">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="social-wrapper-one">
+                <ul>
+                    <li>
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="linkedin">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
+        <!-- mobile menu area end -->
     </div>
-    <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
-</div>
-<div id="anywhere-home" class="">
-</div>
+    <!-- inner menu area desktop End -->
 
-<!-- rtl btn area start -->
-<div class="rtl-ltr-switcher-btn">
-    <span class="rtl show">View RTL</span>
-    <span class="ltr">View LTR</span>
-</div>
-<!-- rtl btn area end -->
 
-<!-- progress area start -->
-<div class="progress-wrap">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-            style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
-        </path>
-    </svg>
-</div>
-<!-- progress area end -->
+    <!-- offcanvase search -->
+    <div class="search-input-area">
+        <div class="container">
+            <div class="search-input-inner">
+                <div class="input-div">
+                    <input class="search-input autocomplete" type="text" placeholder="Search by keyword or #">
+                    <button><i class="far fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
+    </div>
+    <div id="anywhere-home" class="">
+    </div>
+
+    <!-- rtl btn area start -->
+    <div class="rtl-ltr-switcher-btn">
+        <span class="rtl show">View RTL</span>
+        <span class="ltr">View LTR</span>
+    </div>
+    <!-- rtl btn area end -->
+
+    <!-- progress area start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
+        </svg>
+    </div>
+    <!-- progress area end -->
 @endsection

@@ -1,0 +1,13 @@
+<script defer src="{{ asset('front/assets/js/plugins/jquery.js') }}"></script>
+<script defer src="{{ asset('front/assets/js/plugins/odometer.js') }}"></script>
+<script defer src="{{ asset('front/assets/js/plugins/jquery-appear.js') }}"></script>
+<script defer src="{{ asset('front/assets/js/plugins/gsap.js') }}"></script>
+<script defer src="{{ asset('front/assets/js/plugins/split-text.js') }}"></script>
+<script defer src="{{ asset('front/assets/js/plugins/scroll-trigger.js') }}"></script>
+<script defer src="{{ asset('front/assets/js/plugins/smooth-scroll.js') }}"></script>
+<script defer src="{{ asset('front/assets/js/plugins/metismenu.js') }}"></script>
+<script defer src="{{ asset('front/assets/js/plugins/popup.js') }}"></script>
+<script defer src="{{ asset('front/assets/js/vendor/bootstrap.min.js') }}"></script>
+<script defer src="{{ asset('front/assets/js/plugins/swiper.js') }}"></script>
+<script defer src="{{ asset('front/assets/js/plugins/contact.form.js') }}"></script>
+<script defer src="{{ asset('front/assets/js/main.js') }}"></script>

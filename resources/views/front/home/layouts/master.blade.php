@@ -8,12 +8,10 @@
         content="Invena – A modern and responsive HTML template for consulting businesses. Perfect for finance, corporate, and agency websites. SEO-friendly, fast-loading, and easy to customize. Create a professional online presence today!">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
     <title>Invena Business Consulting HTML Template</title>
-    <link rel="stylesheet preload" href="{{ asset('front/assets/css/plugins/fontawesome.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ asset('front/assets/css/plugins/swiper.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ asset('front/assets/css/plugins/metismenu.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ asset('front/assets/css/plugins/magnifying-popup.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ asset('front/assets/css/plugins/odometer.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ asset('front/assets/css/vendor/bootstrap.min.css') }}" as="style">
+
+    @include('front.home.layouts.partials.style')
+
+    @yield('css')
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,26 +24,18 @@
 
 <body>
 
+    @include('front.home.layouts.partials.header')
 
     @yield('content')
 
+    @include('front.home.layouts.partials.footer')
 
 
-<script defer src="{{ asset('front/assets/js/plugins/jquery.js') }}"></script>
-<script defer src="{{ asset('front/assets/js/plugins/odometer.js') }}"></script>
-<script defer src="{{ asset('front/assets/js/plugins/jquery-appear.js') }}"></script>
-<script defer src="{{ asset('front/assets/js/plugins/gsap.js') }}"></script>
-<script defer src="{{ asset('front/assets/js/plugins/split-text.js') }}"></script>
-<script defer src="{{ asset('front/assets/js/plugins/scroll-trigger.js') }}"></script>
-<script defer src="{{ asset('front/assets/js/plugins/smooth-scroll.js') }}"></script>
-<script defer src="{{ asset('front/assets/js/plugins/metismenu.js') }}"></script>
-<script defer src="{{ asset('front/assets/js/plugins/popup.js') }}"></script>
-<script defer src="{{ asset('front/assets/js/vendor/bootstrap.min.js') }}"></script>
-<script defer src="{{ asset('front/assets/js/plugins/swiper.js') }}"></script>
-<script defer src="{{ asset('front/assets/js/plugins/contact.form.js') }}"></script>
-<script defer src="{{ asset('front/assets/js/main.js') }}"></script>
 
 
+    @include('front.home.layouts.partials.script')
+
+    @yield('js')
 
 </body>
 

@@ -971,12 +971,7 @@
     </div>
     <!-- rts blog area end -->
 
-
-
-
-
-
-
+    
     <div id="side-bar" class="side-bar header-two">
         <button class="close-icon-menu" title="Close menu"><i class="far fa-times"></i></button>
         <!-- inner menu area desktop start -->

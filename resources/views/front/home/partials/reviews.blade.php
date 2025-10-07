@@ -28,7 +28,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-main-wrapper-two">
                                         <div class="left-thumbnail">
-                                            <img loading="lazy" src="assets/images/testimonials/01.webp" alt="testimonials">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/testimonials/01.webp') }}" alt="testimonials">
                                         </div>
                                         <div class="right-content-testimonials">
                                             <p class="disc">
@@ -48,7 +48,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-main-wrapper-two">
                                         <div class="left-thumbnail">
-                                            <img loading="lazy" src="assets/images/testimonials/01.webp" alt="testimonials">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/testimonials/01.webp') }}" alt="testimonials">
                                         </div>
                                         <div class="right-content-testimonials">
                                             <p class="disc">
@@ -68,7 +68,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-main-wrapper-two">
                                         <div class="left-thumbnail">
-                                            <img loading="lazy" src="assets/images/testimonials/01.webp" alt="testimonials">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/testimonials/01.webp') }}" alt="testimonials">
                                         </div>
                                         <div class="right-content-testimonials">
                                             <p class="disc">

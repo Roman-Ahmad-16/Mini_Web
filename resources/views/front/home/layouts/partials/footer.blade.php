@@ -17,7 +17,7 @@
                         <div class="col-lg-5">
                             <div class="map-information-2-footer">
                                 <h5 class="title-main">Contact Us</h5>
-                                <img loading="lazy" src="assets/images/footer/02.svg" alt="line" class="line">
+                                <img loading="lazy" src="{{ asset('front/assets/images/footer/02.svg') }}" alt="line" class="line">
                                 <div class="contact-information-main-wrapper">
                                     <div class="signle-contact-information">
                                         <div class="icon">
@@ -68,7 +68,7 @@
                 <div class="footer-one-single-wized mid-bg">
                     <div class="wized-title">
                         <h5 class="title">Opening Hours</h5>
-                        <img loading="lazy" src="assets/images/footer/01.svg" alt="finbiz_footer">
+                        <img loading="lazy" src="{{ asset('front/assets/images/footer/01.svg') }}" alt="finbiz_footer">
                     </div>
                     <div class="opening-time-inner">
                         <div class="single-opening">
@@ -92,7 +92,7 @@
                 <div class="footer-one-single-wized">
                     <div class="wized-title">
                         <h5 class="title">Quick Links</h5>
-                        <img loading="lazy" src="assets/images/footer/01.svg" alt="finbiz_footer">
+                        <img loading="lazy" src="{{ asset('front/assets/images/footer/01.svg') }}" alt="finbiz_footer">
                     </div>
                     <div class="quick-link-inner">
                         <ul class="links">
@@ -118,7 +118,7 @@
                 <div class="footer-one-single-wized margin-left-65">
                     <div class="wized-title">
                         <h5 class="title">Get Updates</h5>
-                        <img loading="lazy" src="assets/images/footer/01.svg" alt="finbiz_footer">
+                        <img loading="lazy" src="{{ asset('front/assets/images/footer/01.svg') }}" alt="finbiz_footer">
                     </div>
                     <div class="body">
                         <div class="update-wrapper">

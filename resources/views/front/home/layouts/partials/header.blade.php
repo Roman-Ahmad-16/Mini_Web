@@ -39,7 +39,7 @@
                     <div class="header-main-one-wrapper">
                         <div class="thumbnail">
                             <a href="index.html">
-                                <img src="assets/images/logo/01.svg" alt="finbiz-logo">
+                                <img src="{{ asset('front/assets/images/logo/01.svg') }}" alt="finbiz-logo">
                             </a>
                         </div>
                         <div class="main-header">
@@ -401,7 +401,7 @@
                                                                     <a href="service-details.html">
                                                                         <div class="single-service-menu">
                                                                             <div class="icon">
-                                                                                <img src="assets/images/service/04.svg"
+                                                                                <img src="{{ asset('front/assets/images/service/04.svg') }}" 
                                                                                     alt="service">
                                                                             </div>
                                                                             <div class="info">
@@ -418,7 +418,7 @@
                                                                     <a href="service-details-2.html">
                                                                         <div class="single-service-menu">
                                                                             <div class="icon">
-                                                                                <img src="assets/images/service/05.svg"
+                                                                                <img src="{{ asset('front/assets/images/service/05.svg') }}" 
                                                                                     alt="service">
                                                                             </div>
                                                                             <div class="info">
@@ -436,7 +436,7 @@
                                                                     <a href="service-details-3.html">
                                                                         <div class="single-service-menu">
                                                                             <div class="icon">
-                                                                                <img src="assets/images/service/06.svg"
+                                                                                <img src="{{ asset('front/assets/images/service/06.svg') }}" 
                                                                                     alt="service">
                                                                             </div>
                                                                             <div class="info">
@@ -457,7 +457,7 @@
                                                                     <a href="service-details-4.html">
                                                                         <div class="single-service-menu">
                                                                             <div class="icon">
-                                                                                <img src="assets/images/service/07.svg"
+                                                                                <img src="{{ asset('front/assets/images/service/07.svg') }}" 
                                                                                     alt="service">
                                                                             </div>
                                                                             <div class="info">
@@ -475,7 +475,7 @@
                                                                     <a href="service-details-5.html">
                                                                         <div class="single-service-menu">
                                                                             <div class="icon">
-                                                                                <img src="assets/images/service/12.svg"
+                                                                                <img src="{{ asset('front/assets/images/service/12.svg') }}" 
                                                                                     alt="service">
                                                                             </div>
                                                                             <div class="info">
@@ -506,7 +506,7 @@
                                                         </div>
                                                         <div class="col-lg-4">
                                                             <div class="menu-thumb pl--20">
-                                                                <img src="assets/images/banner/24.webp" alt="">
+                                                                <img src="{{ asset('front/assets/images/banner/24.webp') }}"  alt="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -669,7 +669,7 @@
                                     class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">Get
                                     Quote</a>
                                 <button id="menu-btn" aria-label="Menu" class="menu-btn menu ml--20 ml_sm--5">
-                                    <img class="menu-light" src="assets/images/icons/01.svg" alt="Menu-icon">
+                                    <img class="menu-light" src="{{ asset('front/assets/images/icons/01.svg') }}"  alt="Menu-icon">
                                 </button>
                             </div>
                         </div>

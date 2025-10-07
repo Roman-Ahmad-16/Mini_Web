@@ -22,16 +22,16 @@
                         </div>
                         <div class="shape-area-start">
                             <div class="shape shape-one">
-                                <img loading="lazy" src="assets/images/banner/shape/01.webp" alt="shape-area">
+                                <img loading="lazy" src="{{ asset('front/assets/images/banner/shape/01.webp') }}" alt="shape-area">
                             </div>
                             <div class="shape shape-two">
-                                <img loading="lazy" src="assets/images/banner/shape/02.webp" alt="shape-area">
+                                <img loading="lazy" src="{{ asset('front/assets/images/banner/shape/02.webp') }}" alt="shape-area">
                             </div>
                             <div class="shape shape-three">
-                                <img loading="lazy" src="assets/images/banner/shape/03.webp" alt="shape-area">
+                                <img loading="lazy" src="{{ asset('front/assets/images/banner/shape/03.webp') }}" alt="shape-area">
                             </div>
                             <div class="shape shape-four">
-                                <img loading="lazy" src="assets/images/banner/shape/04.webp" alt="shape-area">
+                                <img loading="lazy" src="{{ asset('front/assets/images/banner/shape/04.webp') }}" alt="shape-area">
                             </div>
                         </div>
                     </div>
@@ -58,16 +58,16 @@
                         </div>
                         <div class="shape-area-start">
                             <div class="shape shape-one">
-                                <img loading="lazy" src="assets/images/banner/shape/01.webp" alt="">
+                                <img loading="lazy" src="{{ asset('front/assets/images/banner/shape/01.webp') }}" alt="">
                             </div>
                             <div class="shape shape-two">
-                                <img loading="lazy" src="assets/images/banner/shape/02.webp" alt="">
+                                <img loading="lazy" src="{{ asset('front/assets/images/banner/shape/02.webp') }}" alt="">
                             </div>
                             <div class="shape shape-three">
-                                <img loading="lazy" src="assets/images/banner/shape/03.webp" alt="">
+                                <img loading="lazy" src="{{ asset('front/assets/images/banner/shape/03.webp') }}" alt="">
                             </div>
                             <div class="shape shape-four">
-                                <img loading="lazy" src="assets/images/banner/shape/04.webp" alt="">
+                                <img loading="lazy" src="{{ asset('front/assets/images/banner/shape/04.webp') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -94,16 +94,16 @@
                         </div>
                         <div class="shape-area-start">
                             <div class="shape shape-one">
-                                <img loading="lazy" src="assets/images/banner/shape/01.webp" alt="">
+                                <img loading="lazy" src="{{ asset('front/assets/images/banner/shape/01.webp') }}" alt="">
                             </div>
                             <div class="shape shape-two">
-                                <img loading="lazy" src="assets/images/banner/shape/02.webp" alt="">
+                                <img loading="lazy" src="{{ asset('front/front/assets/images/banner/shape/02.webp') }}" alt="">
                             </div>
                             <div class="shape shape-three">
-                                <img loading="lazy" src="assets/images/banner/shape/03.webp" alt="">
+                                <img loading="lazy" src="{{ asset('front/assets/images/banner/shape/03.webp') }}" alt="">
                             </div>
                             <div class="shape shape-four">
-                                <img loading="lazy" src="assets/images/banner/shape/04.webp" alt="">
+                                <img loading="lazy" src="{{ asset('front/assets/images/banner/shape/04.webp') }}" alt="">
                             </div>
                         </div>
                     </div>

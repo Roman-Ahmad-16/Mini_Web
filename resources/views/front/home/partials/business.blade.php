@@ -13,7 +13,7 @@
                         </div>
                         <div class="signle-consultancy mb--30">
                             <div class="icon">
-                                <img loading="lazy" src="assets/images/about/icons/01.svg" alt="">
+                                <img loading="lazy" src="{{ asset('front/assets/images/about/icons/01.svg') }}" alt="">
                             </div>
                             <div class="information">
                                 <h4 class="title">Best Business Consulting</h4>
@@ -26,7 +26,7 @@
                         </div>
                         <div class="signle-consultancy">
                             <div class="icon">
-                                <img loading="lazy" src="assets/images/about/icons/02.svg" alt="">
+                                <img loading="lazy" src="{{ asset('front/assets/images/about/icons/02.svg') }}" alt="">
                             </div>
                             <div class="information">
                                 <h4 class="title">24/7 Customer Support</h4>
@@ -55,10 +55,10 @@
                 <div class="col-lg-6">
                     <div class="thumbnail-business-area-right-two">
                         <div class="large-thumbnail">
-                            <img loading="lazy" src="assets/images/business-goal/02.webp" alt="">
+                            <img loading="lazy" src="{{ asset('front/assets/images/business-goal/02.webp') }}" alt="">
                         </div>
                         <div class="small-thumbnail images-r">
-                            <img loading="lazy" src="assets/images/business-goal/01.webp" alt="">
+                            <img loading="lazy" src="{{ asset('front/assets/images/business-goal/01.webp') }}" alt="">
                         </div>
                     </div>
                 </div>

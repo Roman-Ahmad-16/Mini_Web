@@ -25,7 +25,7 @@
                                 <div class="swiper-slide">
                                     <div class="project-style-one">
                                         <a href="project-details.html" class="thumbnail">
-                                            <img loading="lazy" src="assets/images/project/01.webp" alt="project">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/project/01.webp') }}" alt="project">
                                         </a>
                                         <div class="inner-content">
                                             <a href="project-details.html">
@@ -38,7 +38,7 @@
                                 <div class="swiper-slide">
                                     <div class="project-style-one">
                                         <a href="project-details.html" class="thumbnail">
-                                            <img loading="lazy" src="assets/images/project/02.webp" alt="project">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/project/02.webp') }}" alt="project">
                                         </a>
                                         <div class="inner-content">
                                             <a href="project-details.html">
@@ -51,7 +51,7 @@
                                 <div class="swiper-slide">
                                     <div class="project-style-one">
                                         <a href="project-details.html" class="thumbnail">
-                                            <img loading="lazy" src="assets/images/project/01.webp" alt="project">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/project/01.webp') }}" alt="project">
                                         </a>
                                         <div class="inner-content">
                                             <a href="project-details.html">

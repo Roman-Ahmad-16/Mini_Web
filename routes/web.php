@@ -9,3 +9,5 @@ Route::get('/', function () {
 });
 
 Route::get('/index' , [FrontController::class,'index'])->name('index');
+Route::get('/about-us', [FrontController::class, 'aboutUs'])->name('about-us');
+Route::get('/contact-us', [FrontController::class, 'contactus'])->name('contact-us');

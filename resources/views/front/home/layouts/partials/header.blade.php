@@ -649,7 +649,7 @@
                                         <a href="#">Contact</a>
                                         <ul class="submenu parent-nav">
                                             <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="contact-2.html">Contact 2</a></li>
+                                            <li><a href="{{ route('contact-us') }}">Contact 2</a></li>
                                         </ul>
                                     </li>
                                 </ul>

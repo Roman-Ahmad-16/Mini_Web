@@ -10,7 +10,11 @@
 
     @include('front.home.partials.cta')
 
+    @include('front.home.partials.service2')
+
     @include('front.home.partials.business')
+
+    @include('front.home.partials.service3')
 
     @include('front.home.partials.counter')
 

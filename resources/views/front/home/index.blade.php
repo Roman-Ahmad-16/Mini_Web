@@ -1,5 +1,5 @@
-@extends('front.home.layouts.master');
-@section('content');
+@extends('front.home.layouts.master')
+@section('content')
 
     <header class="header-one header--sticky">
     <div class="header-top-area-wrapper">

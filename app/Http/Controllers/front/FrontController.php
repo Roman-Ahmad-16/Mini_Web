@@ -14,17 +14,17 @@ class FrontController extends Controller
 
     public function aboutus()
     {
-        return view("front.home.about-us");
+        return view("front.about-us");
     }
 
     public function contactus()
     {
-        return view("front.home.contact-us");
+        return view("front.contact-us");
     }
   
     public function pages()
     {
-        return view("front.home.pages");
+        return view("front.pages");
     }
 
 

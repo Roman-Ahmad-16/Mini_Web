@@ -2,11 +2,11 @@
     <div class="rts-service-area pt--40 pb--60">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 mt-5">
                     <div class="title-style-two center">
-                        <span class="bg-content">Services</span>
-                        <span class="pre">our Service</span>
-                        <h2 class="title rts-text-anime-style-1">High Quality Services
+                        <span class="bg-content">Features</span>
+                        <span class="pre">our Features</span>
+                        <h2 class="title rts-text-anime-style-1">High Quality Features
                         </h2>
                     </div>
                 </div>

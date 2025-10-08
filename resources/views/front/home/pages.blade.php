@@ -739,6 +739,19 @@
         </div>
     </div>
     <!-- rts about us area end -->
+    @include('front.home.partials.blogs')
 
+    @include('front.home.partials.progress')
 
+    @include('front.home.partials.service3')
+
+    @include('front.home.partials.reviews')
+
+    @include('front.home.partials.clients')
+
+    @include('front.home.partials.gallery')
+
+    @include('front.home.partials.counter')
+
+    @include('front.home.partials.team')
 @endsection

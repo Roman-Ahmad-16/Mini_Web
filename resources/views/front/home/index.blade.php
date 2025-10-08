@@ -13,7 +13,7 @@
     @include('front.home.partials.business')
 
     @include('front.home.partials.cta')
-    
+
     @include('front.home.partials.service')
 
     <br><br><br>
@@ -23,10 +23,6 @@
     @include('front.home.partials.testimonial')
 
     @include('front.home.partials.appointment')
-
-    @include('front.home.partials.blogs')
-
-
 
 
     <div id="side-bar" class="side-bar header-two">
@@ -308,18 +304,6 @@
     </div>
     <!-- rtl btn area end -->
 
-    @include('front.home.partials.progress')
 
-    @include('front.home.partials.service3')
-
-    @include('front.home.partials.reviews')
-
-    @include('front.home.partials.clients')
-
-    @include('front.home.partials.gallery')
-
-    @include('front.home.partials.counter')
-
-    @include('front.home.partials.team')
 
 @endsection

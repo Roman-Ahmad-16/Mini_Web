@@ -21,4 +21,14 @@ class FrontController extends Controller
     {
         return view("front.home.contact-us");
     }
+  
+    public function pages()
+    {
+        return view("front.home.pages");
+    }
+
+
 }
+
+
+

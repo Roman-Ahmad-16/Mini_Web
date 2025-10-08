@@ -22,9 +22,246 @@
             <img src="{{ asset('front/assets/images/about/shape/03.png') }}" alt="shape" class="three">
         </div>
     </div>
+<!-- rts about area stat -->
+    <div class="rts-about-area-start rts-section-gapBottom" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="thumbnail-about-10-wrapper">
+                        <img src="{{ asset('front/assets/images/about/15.webp') }}" alt="abotu">
+                        <div class="top-counter-area">
+                            <div class="icon">
+                                <img src="{{ asset('front/assets/images/about/icons/08.svg') }}" alt="about">
+                            </div>
+                            <h2 class="counter title"><span class="odometer" data-count="25">00</span>+
+                            </h2>
+                            <p>Business Solution</p>
+                        </div>
+                        <div class="top-counter-area bottom">
+                            <div class="icon">
+                                <img src="{{ asset('front/assets/images/about/icons/09.svg') }}" alt="about">
+                            </div>
+                            <h2 class="counter title"><span class="odometer" data-count="567">00</span>+
+                            </h2>
+                            <p>Skilled Experts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt_md--50 mt_sm--50">
+                    <div class="about-area-wrapper-content-10">
+                        <div class="title-style-10 left">
+                            <span class="pre">Easy Business Solution</span>
+                            <h2 class="title rts-text-anime-style-1">Your Partner Better <br> Business Deals</h2>
+                        </div>
+                        <p class="disc">
+                            We are the leading agency dedicated to enhancing your deals, driving growth, and delivering
+                            exceptional results. Trust us to maximize your potential and take your business to the next
+                            level
+                        </p>
+                        <div class="progress-wrapper-about-4">
+
+                            <div class="single-progress">
+                                <h6 class="title">Business Solution</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s"
+                                        data-wow-delay=".3s" role="progressbar" style="width: 88%" aria-valuenow="88"
+                                        aria-valuemin="0" aria-valuemax="88">
+                                    </div>
+                                    <span class="progress-number">88%</span>
+                                </div>
+                            </div>
+                            <div class="single-progress">
+                                <h6 class="title">Financial Support</h6>
+                                <div class="progress">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s"
+                                        data-wow-delay=".3s" role="progressbar" style="width: 77%" aria-valuenow="77"
+                                        aria-valuemin="0" aria-valuemax="77">
+                                    </div>
+                                    <span class="progress-number">77%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts about area end -->
+     <div class="row rts-section-gap">
+                <div class="col-lg-12">
+                    <div class="service-bottom-cta">
+                        <h5 class="title">Do You Need Any Kind Of Work?</h5>
+                        <div class="right">
+                            <p>Call Us Anytime! <a href="#">+(125) 2153-2158</a></p>
+                        </div>
+                        <div class="mid-image">
+                            <img src="{{ asset('front/assets/images/service/01.png') }}" alt="service_image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+        <!-- eorking process areas start -->
+        <div class="working-process-one bg-main rts-section-gap without-clip-radious">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="title-style-one">
+                            <span class="pre">How we works</span>
+                            <h2 class="title rts-text-anime-style-1">Easy 3 Steps To Work
+                            </h2>
+                        </div>
+                        <div class="working-process-main-wrapper mt--60">
+                            <div class="single-working-process-one" data-animation="fadeInUp" data-delay="0.2"
+                                data-duration="1.2">
+                                <div class="left">
+                                    <div class="icon">
+                                        <img src="{{ asset('front/assets/images/process/icon/01.svg') }}" alt="process">
+                                    </div>
+                                </div>
+                                <div class="inner-content">
+                                    <div class="number-main">
+                                        <span class="number">01</span>
+                                    </div>
+                                    <h5 class="title">Client Discovery</h5>
+                                    <p class="disc">
+                                        The agency begins by understanding the
+                                        client's needs, goals, and
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-working-process-one" data-animation="fadeInUp" data-delay="0.2"
+                                data-duration="1.2">
+                                <div class="left">
+                                    <div class="icon">
+                                        <img src="{{ asset('front/assets/images/process/icon/02.svg') }}" alt="process">
+                                    </div>
+                                </div>
+                                <div class="inner-content">
+                                    <div class="number-main">
+                                        <span class="number">02</span>
+                                    </div>
+                                    <h5 class="title">Research & Analysis</h5>
+                                    <p class="disc">
+                                        The agency begins by understanding the
+                                        client's needs, goals, and
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-working-process-one" data-animation="fadeInUp" data-delay="0.2"
+                                data-duration="1.2">
+                                <div class="left">
+                                    <div class="icon">
+                                        <img src="{{ asset('front/assets/images/process/icon/03.svg') }}" alt="process">
+                                    </div>
+                                </div>
+                                <div class="inner-content">
+                                    <div class="number-main">
+                                        <span class="number">03</span>
+                                    </div>
+                                    <h5 class="title">Strategy Development</h5>
+                                    <p class="disc">
+                                        The agency begins by understanding the
+                                        client's needs, goals, and
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="thumbnail-working-procss-one" data-animation="zoomOut" data-delay="0.2"
+                            data-duration="1.2">
+                            <img src="{{ asset('front/assets/images/process/02.webp') }}" alt="working-process">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- eorking process areas end -->
+         
+          <!-- appoinment  area start -->
+        <div class="appoinment-area-seven bg_image ptb--100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="appoinment-main-wrapper-7">
+                            <form action="#">
+                                <span>Make an Appointment</span>
+                                <h4 class="title">Request a free quote</h4>
+                                <div class="input-half-wrapper">
+                                    <div class="signle-input">
+                                        <input type="text" placeholder="Your Name">
+                                    </div>
+                                    <div class="signle-input">
+                                        <input type="text" placeholder="Your Name">
+                                    </div>
+                                </div>
+                                <div class="signle-input">
+                                    <input type="text" placeholder="Your Name">
+                                </div>
+                                <div class="signle-input">
+                                    <textarea placeholder="Type Your Message"></textarea>
+                                </div>
+                                <button class="btn-primary rts-btn ">Submit Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- appoinment  area end -->
 
 
-    <!-- contact areas main -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- contact areas main -
     <div class="rts-contact-area-in-page" data-animation="fadeInUp" data-delay="0.2">
         <div class="container">
             <div class="row align-items-center">
@@ -75,7 +312,7 @@
             </div>
         </div>
     </div>
-    <!-- contact areas main end -->
+     contact areas main end -
       <div class="rts-breadcrumb-area">
         <div class="container">
             <div class="row">
@@ -97,7 +334,7 @@
     </div>
 
 
-    <!-- contact areas main -->
+     contact areas main -
     <div class="rts-contact-area-in-page" data-animation="fadeInUp" data-delay="0.2">
         <div class="container">
             <div class="row align-items-center">
@@ -153,7 +390,7 @@
             </div>
         </div>
     </div>
-    <!-- contact areas main end -->
+     contact areas main end -
 
    
 
@@ -197,10 +434,10 @@
             </div>
         </div>
     </div>
-    <!-- rts brand area end -->
+     rts brand area end 
 
 
-    <!-- rts cta area start -->
+     rts cta area start -
     <div class="rts-cta-area-inner bg_image ptb--100">
         <div class="container">
             <div class="row">
@@ -219,7 +456,7 @@
             </div>
         </div>
     </div>
-    <!-- rts cta area end -->
+     rts cta area end -->
 
 
 @endsection

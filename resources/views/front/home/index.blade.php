@@ -6,29 +6,22 @@
 
     @include('front.home.partials.about')
 
-    @include('front.home.partials.service')
+    @include('front.home.partials.service2')
 
     @include('front.home.partials.cta')
-
-    @include('front.home.partials.service2')
+    <br><br><br>
+    @include('front.home.partials.faq')
 
     @include('front.home.partials.business')
 
-    @include('front.home.partials.service3')
-
-    @include('front.home.partials.counter')
-
-    @include('front.home.partials.gallery')
-
-    @include('front.home.partials.clients')
-
-    @include('front.home.partials.team')
-
-    @include('front.home.partials.reviews')
+    @include('front.home.partials.testimonial')
 
     @include('front.home.partials.appointment')
 
     @include('front.home.partials.blogs')
+
+    @include('front.home.partials.counter2')
+
 
 
     <div id="side-bar" class="side-bar header-two">
@@ -312,6 +305,18 @@
 
     @include('front.home.partials.progress')
 
+    @include('front.home.partials.service')
 
+    @include('front.home.partials.service3')
+
+    @include('front.home.partials.reviews')
+
+    @include('front.home.partials.clients')
+
+    @include('front.home.partials.gallery')
+
+    @include('front.home.partials.counter')
+
+    @include('front.home.partials.team')
 
 @endsection

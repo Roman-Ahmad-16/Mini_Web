@@ -8,11 +8,17 @@
 
     @include('front.home.partials.service2')
 
-    @include('front.home.partials.cta')
-    <br><br><br>
-    @include('front.home.partials.faq')
+    @include('front.home.partials.counter2')
 
     @include('front.home.partials.business')
+
+    @include('front.home.partials.cta')
+    
+    @include('front.home.partials.service')
+
+    <br><br><br>
+    @include('front.home.partials.faq')
+    <br><br><br>
 
     @include('front.home.partials.testimonial')
 
@@ -20,7 +26,6 @@
 
     @include('front.home.partials.blogs')
 
-    @include('front.home.partials.counter2')
 
 
 
@@ -304,8 +309,6 @@
     <!-- rtl btn area end -->
 
     @include('front.home.partials.progress')
-
-    @include('front.home.partials.service')
 
     @include('front.home.partials.service3')
 

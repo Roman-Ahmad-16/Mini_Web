@@ -1,6 +1,7 @@
 @extends('front.home.layouts.master')
 @section('content')
- <!-- rts banner area start -->
+
+    <!-- rts banner area start -->
     <div class="rts-banner-area-start rts-banner-business-coach bg_image">
         <div class="container">
             <div class="row">
@@ -25,7 +26,6 @@
         </div>
     </div>
     <!-- rts banner area end -->
-
 
     <!-- rts service area start -->
     <div class="rts-service-area-start rts-section-gap">
@@ -107,14 +107,16 @@
         </div>
     </div>
     <!-- rts service area end -->
-     <!-- rts business case area start -->
+
+    <!-- rts business case area start -->
     <div class="rts-business-case-area rts-section-gap investment">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-between-area">
                         <div class="title-style-five">
-                            <span class="pre"><img src="{{ asset('front/assets/images/banner/icon/star.svg') }}" alt=""> RECENT CASE STUDIES</span>
+                            <span class="pre"><img src="{{ asset('front/assets/images/banner/icon/star.svg') }}" alt="">
+                                RECENT CASE STUDIES</span>
                             <h2 class="title rts-text-anime-style-1">Our Business Cases
                             </h2>
                         </div>
@@ -205,7 +207,7 @@
         </div>
     </div>
     <!-- rts business case area end -->
-        <!-- rts team area start -->
+    <!-- rts team area start -->
     <div class="rts-team-area rts-section-gap">
         <div class="container">
             <div class="row">
@@ -222,7 +224,8 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img src="{{ asset('front/assets/images/team/12.webp') }}" alt="Business_Team_single">
+                                            <img src="{{ asset('front/assets/images/team/12.webp') }}"
+                                                alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -247,7 +250,8 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img src="{{ asset('front/assets/images/team/13.webp') }}" alt="Business_Team_single">
+                                            <img src="{{ asset('front/assets/images/team/13.webp') }}"
+                                                alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -272,7 +276,8 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img src="{{ asset('front/assets/images/team/14.webp') }}" alt="Business_Team_single">
+                                            <img src="{{ asset('front/assets/images/team/14.webp') }}"
+                                                alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -297,7 +302,8 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img src="{{ asset('front/assets/images/team/15.webp') }}" alt="Business_Team_single">
+                                            <img src="{{ asset('front/assets/images/team/15.webp') }}"
+                                                alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -322,7 +328,8 @@
                                 <div class="team-single-one-start">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img src="{{ asset('front/assets/images/team/07.webp') }}" alt="Business_Team_single">
+                                            <img src="{{ asset('front/assets/images/team/07.webp') }}"
+                                                alt="Business_Team_single">
                                             <div class="team-social">
                                                 <div class="main">
                                                     <i class="fal fa-plus"></i>
@@ -424,91 +431,88 @@
         </div>
     </div>
     <!-- rts about area end -->
-      <!-- rts service area start -->
-        <div class="rts-service-area rts-section-gap" id="service">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="title-area-between-hr">
-                            <div class="title-area-hr-left">
-                                <span class="pre">
-                                    Our Service
-                                </span>
-                                <h2 class="title rts-text-anime-style-1">
-                                    Comprehensive HR Solutions <br> for Every Stage of Growth
-                                </h2>
+    <!-- rts service area start -->
+    <div class="rts-service-area rts-section-gap" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-area-between-hr">
+                        <div class="title-area-hr-left">
+                            <span class="pre">
+                                Our Service
+                            </span>
+                            <h2 class="title rts-text-anime-style-1">
+                                Comprehensive HR Solutions <br> for Every Stage of Growth
+                            </h2>
+                        </div>
+                        <a href="#" class="rts-btn btn-primary btn-border">View All Service</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-5 mt--40">
+                <div class="col-xl-4 col-lg-6 col-sm-12" data-animation="fadeInUp" data-delay="0.1" data-duration="1.2">
+                    <div class="single-service-hr">
+                        <a href="#" class="thumbnail">
+                            <img src="{{ asset('front/assets/images/service/14.webp') }}" alt="service">
+                        </a>
+                        <div class="inner">
+                            <div class="icon-area">
+                                <img src="{{ asset('front/assets/images/service/icon/03.svg') }}" alt="">
                             </div>
-                            <a href="#" class="rts-btn btn-primary btn-border">View All Service</a>
+                            <a href="#">
+                                <h3 class="title">Team Leadership</h3>
+                            </a>
+                            <p class="disc">
+                                Purus dui eget sollicitudin curae leo proin platea cras, morbi torquent massa
+                            </p>
+                            <a href="#" class="rts-btn btn-primary btn-white">Read More</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="row g-5 mt--40">
-                    <div class="col-xl-4 col-lg-6 col-sm-12" data-animation="fadeInUp" data-delay="0.1"
-                        data-duration="1.2">
-                        <div class="single-service-hr">
-                            <a href="#" class="thumbnail">
-                                <img src="{{ asset('front/assets/images/service/14.webp') }}" alt="service">
-                            </a>
-                            <div class="inner">
-                                <div class="icon-area">
-                                    <img src="{{ asset('front/assets/images/service/icon/03.svg') }}" alt="">
-                                </div>
-                                <a href="#">
-                                    <h3 class="title">Team Leadership</h3>
-                                </a>
-                                <p class="disc">
-                                    Purus dui eget sollicitudin curae leo proin platea cras, morbi torquent massa
-                                </p>
-                                <a href="#" class="rts-btn btn-primary btn-white">Read More</a>
+                <div class="col-xl-4 col-lg-6 col-sm-12" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
+                    <div class="single-service-hr">
+                        <a href="#" class="thumbnail">
+                            <img src="{{ asset('front/assets/images/service/15.webp') }}" alt="service">
+                        </a>
+                        <div class="inner">
+                            <div class="icon-area">
+                                <img src="{{ asset('front/assets/images/service/icon/04.svg') }}" alt="">
                             </div>
+                            <a href="#">
+                                <h3 class="title">People Cohesion</h3>
+                            </a>
+                            <p class="disc">
+                                Purus dui eget sollicitudin curae leo proin platea cras, morbi torquent massa
+                            </p>
+                            <a href="#" class="rts-btn btn-primary btn-white">Read More</a>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-sm-12" data-animation="fadeInUp" data-delay="0.4"
-                        data-duration="1.2">
-                        <div class="single-service-hr">
-                            <a href="#" class="thumbnail">
-                                <img src="{{ asset('front/assets/images/service/15.webp') }}" alt="service">
-                            </a>
-                            <div class="inner">
-                                <div class="icon-area">
-                                    <img src="{{ asset('front/assets/images/service/icon/04.svg') }}" alt="">
-                                </div>
-                                <a href="#">
-                                    <h3 class="title">People Cohesion</h3>
-                                </a>
-                                <p class="disc">
-                                    Purus dui eget sollicitudin curae leo proin platea cras, morbi torquent massa
-                                </p>
-                                <a href="#" class="rts-btn btn-primary btn-white">Read More</a>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-sm-12" data-animation="fadeInUp" data-delay="0.7" data-duration="1.2">
+                    <div class="single-service-hr">
+                        <a href="#" class="thumbnail">
+                            <img src="{{ asset('front/assets/images/service/16.webp') }}" alt="service">
+                        </a>
+                        <div class="inner">
+                            <div class="icon-area">
+                                <img src="{{ asset('front/assets/images/service/icon/05.svg') }}" alt="">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-sm-12" data-animation="fadeInUp" data-delay="0.7"
-                        data-duration="1.2">
-                        <div class="single-service-hr">
-                            <a href="#" class="thumbnail">
-                                <img src="{{ asset('front/assets/images/service/16.webp') }}" alt="service">
+                            <a href="#">
+                                <h3 class="title">Team Build Up</h3>
                             </a>
-                            <div class="inner">
-                                <div class="icon-area">
-                                    <img src="{{ asset('front/assets/images/service/icon/05.svg') }}" alt="">
-                                </div>
-                                <a href="#">
-                                    <h3 class="title">Team Build Up</h3>
-                                </a>
-                                <p class="disc">
-                                    Purus dui eget sollicitudin curae leo proin platea cras, morbi torquent massa
-                                </p>
-                                <a href="#" class="rts-btn btn-primary btn-white">Read More</a>
-                            </div>
+                            <p class="disc">
+                                Purus dui eget sollicitudin curae leo proin platea cras, morbi torquent massa
+                            </p>
+                            <a href="#" class="rts-btn btn-primary btn-white">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- rts service area end -->
-     
+    </div>
+    <!-- rts service area end -->
+
     <!-- rts team area start -->
     <div class="rts-team-area rts-section-gapBottom">
         <div class="container pb--70">
@@ -595,7 +599,7 @@
         </div>
     </div>
     <!-- rts team area ends -->
- <!-- why choose us area start -->
+    <!-- why choose us area start -->
     <div class="why-choose-us-area rts-section-gapBottom rts_jump_animation-wrapper">
         <div class="container">
             <div class="row">
@@ -622,8 +626,7 @@
                             <p class="disc">
                                 Creativity, and a commitment to quality to deliver solutions meet your unique needs.
                             </p>
-                            <a href="#" class="read-more">Read More <i
-                                    class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                            <a href="#" class="read-more">Read More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -642,8 +645,7 @@
                             <p class="disc">
                                 Creativity, and a commitment to quality to deliver solutions meet your unique needs.
                             </p>
-                            <a href="#" class="read-more">Read More <i
-                                    class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                            <a href="#" class="read-more">Read More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -662,8 +664,7 @@
                             <p class="disc">
                                 Creativity, and a commitment to quality to deliver solutions meet your unique needs.
                             </p>
-                            <a href="#" class="read-more">Read More <i
-                                    class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                            <a href="#" class="read-more">Read More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -672,210 +673,72 @@
     </div>
     <!-- why choose us area end -->
 
-
-
-
-
-
-
-
-
-
-<!-- rts about us area start -->
-        <div class="rts-about-area-6 rts-section-gap">
-            <div class="container pb--40">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-7">
-                        <div class="about-6-thumbnail-left-wrapper">
-                            <div class="single-thumbnail">
-                                <img src="{{ asset('front/assets/images/about/12.webp') }}" alt="about">
-                            </div>
-                            <div class="single-thumbnail mt--40">
-                                <img src="{{ asset('front/assets/images/about/13.webp') }}" alt="about">
-                            </div>
-                            <div class="progress-circle-main-wrapper">
-                                <div class="progress-area-wrapper images-r">
-                                    <div class="single-progress-circle">
-                                        <svg class="radial-progress" data-countervalue="80" viewBox="0 0 80 80">
-                                            <circle class="bar-static" cx="40" cy="40" r="35"></circle>
-                                            <circle class="bar--animated" cx="40" cy="40" r="35"
-                                                style="stroke-dashoffset: 217.8;"></circle>
-                                            <text class="countervalue start" x="50%" y="55%"
-                                                transform="matrix(0, 1, -1, 0, 80, 0)">80</text>
-                                        </svg>
-                                    </div>
-                                    <h5 class="title">Business Progress</h5>
+    <!-- rts about us area start -->
+    <div class="rts-about-area-6 rts-section-gap">
+        <div class="container pb--40">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-7">
+                    <div class="about-6-thumbnail-left-wrapper">
+                        <div class="single-thumbnail">
+                            <img src="{{ asset('front/assets/images/about/12.webp') }}" alt="about">
+                        </div>
+                        <div class="single-thumbnail mt--40">
+                            <img src="{{ asset('front/assets/images/about/13.webp') }}" alt="about">
+                        </div>
+                        <div class="progress-circle-main-wrapper">
+                            <div class="progress-area-wrapper images-r">
+                                <div class="single-progress-circle">
+                                    <svg class="radial-progress" data-countervalue="80" viewBox="0 0 80 80">
+                                        <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                        <circle class="bar--animated" cx="40" cy="40" r="35"
+                                            style="stroke-dashoffset: 217.8;"></circle>
+                                        <text class="countervalue start" x="50%" y="55%"
+                                            transform="matrix(0, 1, -1, 0, 80, 0)">80</text>
+                                    </svg>
                                 </div>
+                                <h5 class="title">Business Progress</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 pl--30 mt_md--100 mt_sm--100">
-                        <div class="about-6-inner-content-content">
-                            <div class="title-style-one left mb--30">
-                                <span class="pre">About Business</span>
-                                <h2 class="title rts-text-anime-style-1">Smart and effective <br>
-                                    business agency.
+                </div>
+                <div class="col-lg-5 pl--30 mt_md--100 mt_sm--100">
+                    <div class="about-6-inner-content-content">
+                        <div class="title-style-one left mb--30">
+                            <span class="pre">About Business</span>
+                            <h2 class="title rts-text-anime-style-1">Smart and effective <br>
+                                business agency.
 
-                                </h2>
-                            </div>
-                            <p class="disc">
-                                we believe in the power of collaboration and personalized solutions. By understanding
-                                our clients' unique needs and goals, we tailor our approach to deliver strategic
-                                insights, creative solutions.
-                            </p>
-                            <div class="call-and-sign-area">
-                                <div class="call-area">
-                                    <div class="icon">
-                                        <i class="fa-sharp fa-regular fa-phone-volume"></i>
-                                    </div>
-                                    <div class="information">
-                                        <span>Call us anytime</span>
-                                        <a href="#">
-                                            <h6 class="title">+256 56778.5678</h6>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="sign-area">
-                                    <img src="{{ asset('front/assets/images/about/sign.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <a href="about.html" class="rts-btn btn-primary">About Us</a>
-
+                            </h2>
                         </div>
+                        <p class="disc">
+                            we believe in the power of collaboration and personalized solutions. By understanding
+                            our clients' unique needs and goals, we tailor our approach to deliver strategic
+                            insights, creative solutions.
+                        </p>
+                        <div class="call-and-sign-area">
+                            <div class="call-area">
+                                <div class="icon">
+                                    <i class="fa-sharp fa-regular fa-phone-volume"></i>
+                                </div>
+                                <div class="information">
+                                    <span>Call us anytime</span>
+                                    <a href="#">
+                                        <h6 class="title">+256 56778.5678</h6>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sign-area">
+                                <img src="{{ asset('front/assets/images/about/sign.svg') }}" alt="">
+                            </div>
+                        </div>
+                        <a href="about.html" class="rts-btn btn-primary">About Us</a>
+
                     </div>
                 </div>
             </div>
         </div>
-        <!-- rts about us area end -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
+    <!-- rts about us area end -->
 
 
 @endsection

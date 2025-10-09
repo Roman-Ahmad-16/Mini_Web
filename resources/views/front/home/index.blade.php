@@ -20,6 +20,8 @@
     @include('front.home.partials.faq')
     <br><br><br>
 
+    @include('front.home.partials.pricing')
+
     @include('front.home.partials.testimonial')
 
     @include('front.home.partials.appointment')

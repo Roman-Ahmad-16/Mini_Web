@@ -1,5 +1,8 @@
 @extends('front.home.layouts.master')
 @section('content')
+
+
+
     <!-- about us area wrapper main -->
     <div class="rts-breadcrumb-area">
         <div class="container">
@@ -36,6 +39,9 @@
         </div>
     </div>
 
+    @include('front.about.partials.about1')
+
+    
     <!-- rts about area start -->
     <div class="rts-about-area-two rts-section-gap">
         <div class="container">

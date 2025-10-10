@@ -36,9 +36,11 @@
 
 
     @include('front.partials.service3')
+    
+    @include('front.about.partials.work_process')
+    <br><br><br><br>
+    @include('front.home.partials.testimonial')
 
     @include('front.home.partials.appointment')
-
-    @include('front.home.partials.testimonial')
 
 @endsection

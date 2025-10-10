@@ -56,11 +56,9 @@
                                         <a href="{{ route('front.services') }}">Service</a>
                                     </li>
                                     <li class="main-nav ">
-                                        <a href="#">Project</a>
+                                        <a href="/service/detail">Service Detail</a>
                                     </li>
-                                    <li class="main-nav ">
-                                        <a href="#">Blog</a>
-                                    </li>
+                                 
                                     <li class="main-nav">
                                         <a href="{{ route('contact-us') }}">Contact</a>
                                     </li>

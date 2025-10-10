@@ -53,7 +53,7 @@
                                         <a href="{{ route('about-us') }}">About Us</a>
                                     </li>
                                     <li class="main-nav ">
-                                        <a href="#">Service</a>
+                                        <a href="{{ route('front.services') }}">Service</a>
                                     </li>
                                     <li class="main-nav ">
                                         <a href="#">Project</a>

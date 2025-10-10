@@ -73,7 +73,7 @@
             z-index: 2 !important;
         }
     </style>
-    
+
     @include('front.home.layouts.partials.header')
 
     @yield('content')
@@ -319,6 +319,8 @@
         </div>
     </div>
     <!-- rts business details area left main end -->
+     
+    @include('front.home.partials.appointment')
 
 
     @include('front.home.layouts.partials.footer')

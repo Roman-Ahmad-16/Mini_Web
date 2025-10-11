@@ -31,6 +31,10 @@ class FrontController extends Controller
     {
         return view("front.pages");
     }
+    public function index_12()
+    {
+        return view("front.home_12.index_12");
+    }
 
 
 }

@@ -51,6 +51,34 @@ class FrontController extends Controller
     {
         return view("front.home.index_12");
     }
+    public function index_13()
+    {
+        return view("front.home.index_13");
+    }
+    public function index_14()
+    {
+        return view("front.home.index_14");
+    }
+    public function index_15()
+    {
+        return view("front.home.index_15");
+    }
+    public function index_16()
+    {
+        return view("front.home.index_16");
+    }
+    public function index_17()
+    {
+        return view("front.home.index_17");
+    }
+    public function index_18()
+    {
+        return view("front.home.index_18");
+    }
+    public function index_19()
+    {
+        return view("front.home.index_19");
+    }
 
 
 

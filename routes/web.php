@@ -18,6 +18,13 @@ Route::get('/index_9', [FrontController::class, 'index_9'])->name('front.index_9
 Route::get('/index_10', [FrontController::class, 'index_10'])->name('front.index_10');
 Route::get('/index_11', [FrontController::class, 'index_11'])->name('front.index_11');
 Route::get('/index_12', [FrontController::class, 'index_12'])->name('front.index_12');
+Route::get('/index_13', [FrontController::class, 'index_13'])->name('front.index_13');
+Route::get('/index_14', [FrontController::class, 'index_14'])->name('front.index_14');
+Route::get('/index_15', [FrontController::class, 'index_15'])->name('front.index_15');
+Route::get('/index_16', [FrontController::class, 'index_16'])->name('front.index_16');
+Route::get('/index_17', [FrontController::class, 'index_17'])->name('front.index_17');
+Route::get('/index_18', [FrontController::class, 'index_18'])->name('front.index_18');
+Route::get('/index_19', [FrontController::class, 'index_19'])->name('front.index_19');
 
 
 

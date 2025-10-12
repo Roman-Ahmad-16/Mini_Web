@@ -1,4 +1,6 @@
 @extends('front.home.layouts.master')
+@section('title', 'About')
+
 @section('content')
 
     @include('front.about.partials.banner')

@@ -1,20 +1,22 @@
-@extends('front.home_12.layouts.master')
+@extends('front.home.layouts.master')
+@section('title', 'Home')
+
 @section('content')
 
 <div class="page-wrapper radious-none-button">
 
-    @include('front.home_12.partials.banner_12')
-    @include('front.home_12.partials.about_12')
-    @include('front.home_12.partials.cta_12')
-    @include('front.home_12.partials.service_12')
-    @include('front.home_12.partials.work_process_12')
-    @include('front.home_12.partials.projects_12')
-    @include('front.home_12.partials.clients_12')
-    @include('front.home_12.partials.pricing_12')
-    @include('front.home_12.partials.testimonials_12')
-    @include('front.home_12.partials.appointment_12')
-    @include('front.home_12.partials.blogs_12')
-    @include('front.home_12.partials.newsletter_12')
+    @include('front.home.partials.banner_12')
+    @include('front.home.partials.about_12')
+    @include('front.home.partials.cta_12')
+    @include('front.home.partials.service_12')
+    @include('front.home.partials.work_process_12')
+    @include('front.home.partials.projects_12')
+    @include('front.home.partials.clients_12')
+    @include('front.home.partials.pricing_12')
+    @include('front.home.partials.testimonials_12')
+    @include('front.home.partials.appointment_12')
+    @include('front.home.partials.blogs_12')
+    @include('front.home.partials.newsletter_12')
 
 
 

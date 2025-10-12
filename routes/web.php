@@ -8,8 +8,24 @@ Route::get('/service/detail', function () {
 });
 
 Route::get('/', [FrontController::class, 'index'])->name('index');
-Route::get('/about-us', [FrontController::class, 'aboutus'])->name('about-us');
+Route::get('/index_3', [FrontController::class, 'index_3'])->name('front.index_3');
+Route::get('/index_4', [FrontController::class, 'index_4'])->name('front.index_4');
+Route::get('/index_5', [FrontController::class, 'index_5'])->name('front.index_5');
+Route::get('/index_6', [FrontController::class, 'index_6'])->name('front.index_6');
+Route::get('/index_7', [FrontController::class, 'index_7'])->name('front.index_7');
+Route::get('/index_8', [FrontController::class, 'index_8'])->name('front.index_8');
+Route::get('/index_9', [FrontController::class, 'index_9'])->name('front.index_9');
+Route::get('/index_10', [FrontController::class, 'index_10'])->name('front.index_10');
+Route::get('/index_11', [FrontController::class, 'index_11'])->name('front.index_11');
 Route::get('/index_12', [FrontController::class, 'index_12'])->name('front.index_12');
+
+
+
+
+
+
+
+Route::get('/about-us', [FrontController::class, 'aboutus'])->name('about-us');
 Route::get('/services', [FrontController::class, 'services'])->name('front.services');
 Route::get('/contact-us', [FrontController::class, 'contactus'])->name('contact-us');
 Route::get('/pages', [FrontController::class, 'pages'])->name('pages');

@@ -18,12 +18,12 @@
         </div>
 
         <div class="right-thumbnail rts-reveal-one">
-            <img class="rts-reveal-image-one" src="assets/images/banner/04.webp" alt="banner-area">
+            <img class="rts-reveal-image-one" src="{{ asset('front/assets/images/banner/04.webp') }}" alt="banner-area">
         </div>
         <div class="all-shape">
-            <img src="assets/images/banner/shape/01.png" alt="banner" class="one">
-            <img src="assets/images/banner/shape/02.png" alt="banner" class="two">
-            <img src="assets/images/banner/shape/03.png" alt="banner" class="three">
+            <img src="{{ asset('front/assets/images/banner/shape/01.png') }}" alt="banner" class="one">
+            <img src="{{ asset('front/assets/images/banner/shape/02.png') }}" alt="banner" class="two">
+            <img src="{{ asset('front/assets/images/banner/shape/03.png') }}" alt="banner" class="three">
         </div>
     </div>
 
@@ -45,7 +45,7 @@
                     <div class="single-service-style-three">
                         <div class="inner">
                             <div class="icon">
-                                <img src="assets/images/service/icons/04.svg" alt="icon">
+                                <img src="{{ asset('front/assets/images/service/icons/04.svg') }}" alt="icon">
                             </div>
                             <a href="service-details.html">
                                 <h4 class="title">Business Solution</h4>
@@ -63,7 +63,7 @@
                     <div class="single-service-style-three">
                         <div class="inner">
                             <div class="icon">
-                                <img src="assets/images/service/icons/05.svg" alt="icon">
+                                <img src="{{ asset('front/assets/images/service/icons/05.svg') }}" alt="icon">
                             </div>
                             <a href="service-details.html">
                                 <h4 class="title">Creative Ideas</h4>
@@ -81,7 +81,7 @@
                     <div class="single-service-style-three">
                         <div class="inner">
                             <div class="icon">
-                                <img src="assets/images/service/icons/06.svg" alt="icon">
+                                <img src="{{ asset('front/assets/images/service/icons/06.svg') }}" alt="icon">
                             </div>
                             <a href="service-details.html">
                                 <h4 class="title">Market Research</h4>
@@ -99,7 +99,7 @@
                     <div class="single-service-style-three">
                         <div class="inner">
                             <div class="icon">
-                                <img src="assets/images/service/icons/07.svg" alt="icon">
+                                <img src="{{ asset('front/assets/images/service/icons/07.svg') }}" alt="icon">
                             </div>
                             <a href="service-details.html">
                                 <h4 class="title">Business Solution</h4>
@@ -149,12 +149,12 @@
                     <div class="main-thumnal-inner-about-three">
                         <div class="about-thumbnail-style-three">
                             <div class="thumbnail">
-                                <img src="assets/images/about/06.webp" alt="about">
+                                <img src="{{ asset('front/assets/images/about/06.webp') }}" alt="about">
                             </div>
                         </div>
 
                         <div class="shape">
-                            <img src="assets/images/about/shape/04.svg" alt="about">
+                            <img src="{{ asset('front/assets/images/about/shape/04.svg') }}" alt="about">
                         </div>
                     </div>
                 </div>
@@ -206,7 +206,7 @@
                     <div class="rts-working-process-1 text-center">
                         <div class="inner">
                             <div class="icon">
-                                <img src="assets/images/wokring-process/icon/01.svg" alt="Working_process">
+                                <img src="{{ asset('front/assets/images/wokring-process/icon/01.svg') }}" alt="Working_process">
                             </div>
                         </div>
                         <div class="content">
@@ -223,7 +223,7 @@
                     <div class="rts-working-process-1 process-lg text-center">
                         <div class="inner two">
                             <div class="icon">
-                                <img src="assets/images/wokring-process/icon/02.svg" alt="Working_process">
+                                <img src="{{ asset('front/assets/images/wokring-process/icon/02.svg') }}" alt="Working_process">
                             </div>
                         </div>
                         <div class="content">
@@ -240,7 +240,7 @@
                     <div class="rts-working-process-1 text-center">
                         <div class="inner three">
                             <div class="icon">
-                                <img src="assets/images/wokring-process/icon/03.svg" alt="Working_process">
+                                <img src="{{ asset('front/assets/images/wokring-process/icon/03.svg') }}" alt="Working_process">
                             </div>
                         </div>
                         <div class="content">
@@ -257,7 +257,7 @@
                     <div class="rts-working-process-1 process-lg text-center">
                         <div class="inner four">
                             <div class="icon">
-                                <img src="assets/images/wokring-process/icon/04.svg" alt="Working_process">
+                                <img src="{{ asset('front/assets/images/wokring-process/icon/04.svg') }}" alt="Working_process">
                             </div>
                         </div>
                         <div class="content">
@@ -294,20 +294,20 @@
                         <div class="why-choose-feature">
                             <div class="single">
                                 <div class="icon">
-                                    <img src="assets/images/why-choose/01.svg" alt="">
+                                    <img src="{{ asset('front/assets/images/why-choose/01.svg') }}" alt="">
                                 </div>
                                 <p>Fast Growing Sells</p>
                             </div>
                             <div class="single">
                                 <div class="icon">
-                                    <img src="assets/images/why-choose/02.svg" alt="">
+                                    <img src="{{ asset('front/assets/images/why-choose/02.svg') }}" alt="">
                                 </div>
                                 <p>24/7 Quality Services</p>
                             </div>
                         </div>
                         <div class="call-area">
                             <div class="thumb">
-                                <img src="assets/images/why-choose/01.webp" alt="why">
+                                <img src="{{ asset('front/assets/images/why-choose/01.webp') }}" alt="why">
                             </div>
                             <div class="inner">
                                 <span>24/7 Support Team</span>
@@ -321,10 +321,10 @@
                 <div class="col-lg-6">
                     <div class="right-image-inner-why-choose-three">
                         <div class="thumbnail-large">
-                            <img src="assets/images/why-choose/03.webp" alt="why">
+                            <img src="{{ asset('front/assets/images/why-choose/03.webp') }}" alt="why">
                         </div>
                         <div class="small">
-                            <img src="assets/images/why-choose/02.webp" alt="">
+                            <img src="{{ asset('front/assets/images/why-choose/02.webp') }}" alt="">
                         </div>
                         <div class="black-shape">
 
@@ -352,7 +352,7 @@
                 <div class="col-lg-6 rts-jump__item">
                     <div class="single-project-style-three">
                         <a href="project-details.html" class="thumbnail">
-                            <img src="assets/images/project/03.webp" alt="project">
+                            <img src="{{ asset('front/assets/images/project/03.webp') }}" alt="project">
                         </a>
                         <div class="inner-content">
                             <a href="project-details.html">
@@ -365,7 +365,7 @@
                 <div class="col-lg-6 rts-jump__item">
                     <div class="single-project-style-three">
                         <a href="project-details.html" class="thumbnail">
-                            <img src="assets/images/project/04.webp" alt="project">
+                            <img src="{{ asset('front/assets/images/project/04.webp') }}" alt="project">
                         </a>
                         <div class="inner-content">
                             <a href="project-details.html">
@@ -378,7 +378,7 @@
                 <div class="col-lg-6 rts-jump__item">
                     <div class="single-project-style-three">
                         <a href="project-details.html" class="thumbnail">
-                            <img src="assets/images/project/05.webp" alt="project">
+                            <img src="{{ asset('front/assets/images/project/05.webp') }}" alt="project">
                         </a>
                         <div class="inner-content">
                             <a href="project-details.html">
@@ -391,7 +391,7 @@
                 <div class="col-lg-6 rts-jump__item">
                     <div class="single-project-style-three">
                         <a href="project-details.html" class="thumbnail">
-                            <img src="assets/images/project/06.webp" alt="project">
+                            <img src="{{ asset('front/assets/images/project/06.webp') }}" alt="project">
                         </a>
                         <div class="inner-content">
                             <a href="project-details.html">
@@ -431,7 +431,7 @@
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
                                         <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/avatar/01.webp" alt="testimonials_area">
+                                            <img src="{{ asset('front/assets/images/testimonials/avatar/01.webp') }}" alt="testimonials_area">
                                         </a>
                                         <div class="discription">
                                             <a href="#">
@@ -447,7 +447,7 @@
                                             volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                         </p>
                                         <div class="body-end">
-                                            <a href="#"><img src="assets/images/testimonials/icons/01.webp"
+                                            <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/01.webp') }}"
                                                     alt="Client_logo"></a>
                                             <div class="star-icon">
                                                 <i class="fas fa-star"></i>
@@ -466,7 +466,7 @@
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
                                         <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/avatar/02.webp" alt="testimonials_area">
+                                            <img src="{{ asset('front/assets/images/testimonials/avatar/02.webp') }}" alt="testimonials_area">
                                         </a>
                                         <div class="discription">
                                             <a href="#">
@@ -482,7 +482,7 @@
                                             volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                         </p>
                                         <div class="body-end">
-                                            <a href="#"><img src="assets/images/testimonials/icons/02.webp"
+                                            <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/02.webp') }}"
                                                     alt="Client_logo"></a>
                                             <div class="star-icon">
                                                 <i class="fas fa-star"></i>
@@ -501,7 +501,7 @@
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
                                         <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/avatar/03.webp" alt="testimonials_area">
+                                            <img src="{{ asset('front/assets/images/testimonials/avatar/03.webp') }}" alt="testimonials_area">
                                         </a>
                                         <div class="discription">
                                             <a href="#">
@@ -517,7 +517,7 @@
                                             volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                         </p>
                                         <div class="body-end">
-                                            <a href="#"><img src="assets/images/testimonials/icons/03.webp"
+                                            <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}"
                                                     alt="Client_logo"></a>
                                             <div class="star-icon">
                                                 <i class="fas fa-star"></i>
@@ -536,7 +536,7 @@
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
                                         <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/avatar/01.webp" alt="testimonials_area">
+                                            <img src="{{ asset('front/assets/images/testimonials/avatar/01.webp') }}" alt="testimonials_area">
                                         </a>
                                         <div class="discription">
                                             <a href="#">
@@ -552,7 +552,7 @@
                                             volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                         </p>
                                         <div class="body-end">
-                                            <a href="#"><img src="assets/images/testimonials/icons/01.webp"
+                                            <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/01.webp') }}"
                                                     alt="Client_logo"></a>
                                             <div class="star-icon">
                                                 <i class="fas fa-star"></i>
@@ -571,7 +571,7 @@
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
                                         <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/avatar/02.webp" alt="testimonials_area">
+                                            <img src="{{ asset('front/assets/images/testimonials/avatar/02.webp') }}" alt="testimonials_area">
                                         </a>
                                         <div class="discription">
                                             <a href="#">
@@ -587,7 +587,7 @@
                                             volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                         </p>
                                         <div class="body-end">
-                                            <a href="#"><img src="assets/images/testimonials/icons/02.webp"
+                                            <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/02.webp') }}"
                                                     alt="Client_logo"></a>
                                             <div class="star-icon">
                                                 <i class="fas fa-star"></i>
@@ -606,7 +606,7 @@
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
                                         <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/avatar/03.webp" alt="testimonials_area">
+                                            <img src="{{ asset('front/assets/images/testimonials/avatar/03.webp') }}" alt="testimonials_area">
                                         </a>
                                         <div class="discription">
                                             <a href="#">
@@ -622,7 +622,7 @@
                                             volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                         </p>
                                         <div class="body-end">
-                                            <a href="#"><img src="assets/images/testimonials/icons/03.webp"
+                                            <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}"
                                                     alt="Client_logo"></a>
                                             <div class="star-icon">
                                                 <i class="fas fa-star"></i>
@@ -1096,22 +1096,22 @@
                 <div class="col-lg-12">
                     <div class="client-three-wrapper">
                         <div class="single">
-                            <img src="assets/images/brand/01.webp" alt="Business_client">
+                            <img src="{{ asset('front/assets/images/brand/01.webp') }}" alt="Business_client">
                         </div>
                         <div class="single">
-                            <img src="assets/images/brand/02.webp" alt="Business_client">
+                            <img src="{{ asset('front/assets/images/brand/02.webp') }}" alt="Business_client">
                         </div>
                         <div class="single">
-                            <img src="assets/images/brand/03.webp" alt="Business_client">
+                            <img src="{{ asset('front/assets/images/brand/03.webp') }}" alt="Business_client">
                         </div>
                         <div class="single">
-                            <img src="assets/images/brand/04.webp" alt="Business_client">
+                            <img src="{{ asset('front/assets/images/brand/04.webp') }}" alt="Business_client">
                         </div>
                         <div class="single">
-                            <img src="assets/images/brand/05.webp" alt="Business_client">
+                            <img src="{{ asset('front/assets/images/brand/05.webp') }}" alt="Business_client">
                         </div>
                         <div class="single">
-                            <img src="assets/images/brand/06.webp" alt="Business_client">
+                            <img src="{{ asset('front/assets/images/brand/06.webp') }}" alt="Business_client">
                         </div>
                     </div>
                 </div>
@@ -1136,7 +1136,7 @@
                     <!-- single Post blog large -->
                     <div class="rts-blog-h-2-wrapper">
                         <a href="blog-details.html" class="thumbnail">
-                            <img src="assets/images/blog/04.webp" alt="Business_blog">
+                            <img src="{{ asset('front/assets/images/blog/04.webp') }}" alt="Business_blog">
                         </a>
                         <div class="body">
                             <span>Business Solution / by David Dolean</span>
@@ -1156,7 +1156,7 @@
                     <!-- single Post blog large -->
                     <div class="rts-blog-h-2-wrapper">
                         <a href="blog-details.html" class="thumbnail">
-                            <img src="assets/images/blog/05.webp" alt="Business_blog">
+                            <img src="{{ asset('front/assets/images/blog/05.webp') }}" alt="Business_blog">
                         </a>
                         <div class="body">
                             <span>Business Solution / by David Dolean</span>
@@ -1176,7 +1176,7 @@
                     <!-- single Post blog large -->
                     <div class="rts-blog-h-2-wrapper">
                         <a href="blog-details.html" class="thumbnail">
-                            <img src="assets/images/blog/06.webp" alt="Business_blog">
+                            <img src="{{ asset('front/assets/images/blog/06.webp') }}" alt="Business_blog">
                         </a>
                         <div class="body">
                             <span>Business Solution / by David Dolean</span>

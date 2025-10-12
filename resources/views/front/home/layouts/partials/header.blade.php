@@ -46,7 +46,7 @@
                             <div class="nav-area">
                                 <ul class="">
                                     <li class="main-nav has-dropdown mega-menu project-a-after">
-                                        <a href="{{ route('front.index') }}">Home</a>
+                                        <a href="{{ route('front.index_1') }}">Home</a>
                                         <div class="rts-mega-menu with-home-demos">
                                             <div class="wrapper">
                                                 <div class="container">
@@ -58,10 +58,10 @@
                                                                             class="fa-regular fa-folder-open"></i>
                                                                         Multi Page</p>
                                                                 </li>
-                                                                <li><a href="{{ route('front.index') }}"><i
+                                                                <li><a href="{{ route('front.index_1') }}"><i
                                                                             class="fa-sharp fa-regular fa-chevron-right"></i>
                                                                         Index One</a></li>
-                                                                <li><a href="{{ route('front.index') }}"><i
+                                                                <li><a href="{{ route('front.index_1') }}"><i
                                                                             class="fa-sharp fa-regular fa-chevron-right"></i>
                                                                         Index Two</a></li>
                                                                 <li><a href="{{ route('front.index_3') }}"><i

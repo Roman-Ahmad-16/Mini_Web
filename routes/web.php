@@ -7,7 +7,7 @@ Route::get('/service/detail', function () {
     return view('front.service_detail');
 });
 
-Route::get('/', [FrontController::class, 'index'])->name('front.index');
+Route::get('/', [FrontController::class, 'index_1'])->name('front.index_1');
 Route::get('/index_3', [FrontController::class, 'index_3'])->name('front.index_3');
 Route::get('/index_4', [FrontController::class, 'index_4'])->name('front.index_4');
 Route::get('/index_5', [FrontController::class, 'index_5'])->name('front.index_5');

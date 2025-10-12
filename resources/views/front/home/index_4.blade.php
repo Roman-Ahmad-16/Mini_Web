@@ -2,11 +2,8 @@
 @section('title', 'Home')
 
 @section('content')
-
-
     <!-- banner three area start -->
     <div class="banner-four-area-main-wrapper">
-
         <div class="swiper mySwiper-banner-four" dir="ltr">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -27,8 +24,7 @@
                                                 service.
                                             </p>
                                             <div class="button-wrapper">
-                                                <a href="contact.html" class="rts-btn btn-primary btn-white">Get
-                                                    Started</a>
+                                                <a href="contact.html" class="rts-btn btn-primary btn-white">Get Started</a>
                                                 <a href="contact.html" class="rts-btn btn-primary btn-border">Get
                                                     Started</a>
                                             </div>
@@ -97,19 +93,17 @@
                 </div>
             </div>
         </div>
-
         <div class="swiper-pagination"></div>
         <div class="banner-shape-left-right">
             <div class="left">
-                <img src="assets/images/banner/shape/left.svg" alt="left">
+                <img src="{{asset('front/assets/images/banner/shape/left.svg')}}" alt="left">
             </div>
             <div class="right">
-                <img src="assets/images/banner/shape/right.svg" alt="left">
+                <img src="{{asset('front/assets/images/banner/shape/right.svg')}}" alt="left">
             </div>
         </div>
     </div>
     <!-- banner three area end -->
-
     <!-- rts about area start -->
     <div class="rts-about-area about-bg-four bg_image rts-section-gap">
         <div class="container pt--50">
@@ -126,13 +120,12 @@
                             dictumst sollicitudin cursus tellus senectus aliquet
                         </p>
                         <div class="progress-wrapper-about-4">
-
                             <div class="single-progress">
                                 <h6 class="title">Business Solution</h6>
                                 <div class="progress">
-                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s"
-                                        data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                        aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s"
+                                        role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                                        aria-valuemax="100">
                                     </div>
                                     <span class="progress-number">100%</span>
                                 </div>
@@ -140,9 +133,9 @@
                             <div class="single-progress">
                                 <h6 class="title">Empowering Success</h6>
                                 <div class="progress">
-                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s"
-                                        data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                        aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s"
+                                        role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                                        aria-valuemax="100">
                                     </div>
                                     <span class="progress-number">100%</span>
                                 </div>
@@ -150,9 +143,9 @@
                             <div class="single-progress">
                                 <h6 class="title">Simplifying Success</h6>
                                 <div class="progress">
-                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s"
-                                        data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                        aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s"
+                                        role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                                        aria-valuemax="100">
                                     </div>
                                     <span class="progress-number">100%</span>
                                 </div>
@@ -163,16 +156,16 @@
                 <div class="col-lg-5">
                     <div class="thumbnail-about-right-4">
                         <div class="large-iamge">
-                            <img src="assets/images/about/08.webp" alt="about">
+                            <img src="{{asset('front/assets/images/about/08.webp')}}" alt="about">
                         </div>
                         <div class="small-image images-r">
-                            <img src="assets/images/about/09.webp" alt="about">
+                            <img src="{{asset('front/assets/images/about/09.webp')}}" alt="about">
                         </div>
                         <div class="poligon-shape images-r">
-                            <img src="assets/images/about/poligon-shape.svg" alt="">
+                            <img src="{{asset('front/assets/images/about/poligon-shape.svg')}}" alt="">
                         </div>
                         <div class="video-area">
-                            <img src="assets/images/about/video.svg" alt="video">
+                            <img src="{{asset('front/assets/images/about/video.svg')}}" alt="video">
                             <div class="vedio-icone">
                                 <a class="video-play-button play-video popup-video"
                                     href="https://www.youtube.com/watch?v=vZE0j_WCRvI">
@@ -189,7 +182,6 @@
         </div>
     </div>
     <!-- rts about area end -->
-
     <!-- rts brand area start -->
     <div class="rts-brand-area rts-section-gap">
         <div class="container">
@@ -200,44 +192,42 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="single-brand">
-                                        <img src="assets/images/brand/01.webp" alt="brand">
+                                        <img src="{{asset('front/assets/images/brand/01.webp')}}" alt="brand">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-brand">
-                                        <img src="assets/images/brand/02.webp" alt="brand">
+                                        <img src="{{asset('front/assets/images/brand/02.webp')}}" alt="brand">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-brand">
-                                        <img src="assets/images/brand/03.webp" alt="brand">
+                                        <img src="{{asset('front/assets/images/brand/03.webp')}}" alt="brand">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-brand">
-                                        <img src="assets/images/brand/04.webp" alt="brand">
+                                        <img src="{{asset('front/assets/images/brand/04.webp')}}" alt="brand">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-brand">
-                                        <img src="assets/images/brand/05.webp" alt="brand">
+                                        <img src="{{asset('front/assets/images/brand/05.webp')}}" alt="brand">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-brand">
-                                        <img src="assets/images/brand/03.webp" alt="brand">
+                                        <img src="{{asset('front/assets/images/brand/03.webp')}}" alt="brand">
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- rts brand area end -->
-
     <!-- why choose us area start -->
     <div class="why-choose-us-area rts-section-gapBottom rts_jump_animation-wrapper">
         <div class="container">
@@ -253,11 +243,11 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 rts-jump__item">
                     <div class="single-why-choose-four">
                         <a href="#" class="thumbnail">
-                            <img src="assets/images/why-choose/04.webp" alt="choose">
+                            <img src="{{asset('front/assets/images/why-choose/04.webp')}}" alt="choose">
                         </a>
                         <div class="inner-content">
                             <div class="icon">
-                                <img src="assets/images/why-choose/icons/01.svg" alt="why-choose">
+                                <img src="{{asset('front/assets/images/why-choose/icons/01.svg')}}" alt="why-choose">
                             </div>
                             <a href="#">
                                 <h5 class="title">Business Consultancy</h5>
@@ -265,19 +255,18 @@
                             <p class="disc">
                                 Creativity, and a commitment to quality to deliver solutions meet your unique needs.
                             </p>
-                            <a href="#" class="read-more">Read More <i
-                                    class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                            <a href="#" class="read-more">Read More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 rts-jump__item">
                     <div class="single-why-choose-four">
                         <a href="#" class="thumbnail">
-                            <img src="assets/images/why-choose/05.webp" alt="choose">
+                            <img src="{{asset('front/assets/images/why-choose/05.webp')}}" alt="choose">
                         </a>
                         <div class="inner-content">
                             <div class="icon">
-                                <img src="assets/images/why-choose/icons/02.svg" alt="why-choose">
+                                <img src="{{asset('front/assets/images/why-choose/icons/02.svg')}}" alt="why-choose">
                             </div>
                             <a href="#">
                                 <h5 class="title">Target Marketing</h5>
@@ -285,19 +274,18 @@
                             <p class="disc">
                                 Creativity, and a commitment to quality to deliver solutions meet your unique needs.
                             </p>
-                            <a href="#" class="read-more">Read More <i
-                                    class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                            <a href="#" class="read-more">Read More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 rts-jump__item">
                     <div class="single-why-choose-four">
                         <a href="#" class="thumbnail">
-                            <img src="assets/images/why-choose/06.webp" alt="choose">
+                            <img src="{{asset('front/assets/images/why-choose/06.webp')}}" alt="choose">
                         </a>
                         <div class="inner-content">
                             <div class="icon">
-                                <img src="assets/images/why-choose/icons/03.svg" alt="why-choose">
+                                <img src="{{asset('front/assets/images/why-choose/icons/03.svg')}}" alt="why-choose">
                             </div>
                             <a href="#">
                                 <h5 class="title">Investment Analysis</h5>
@@ -305,8 +293,7 @@
                             <p class="disc">
                                 Creativity, and a commitment to quality to deliver solutions meet your unique needs.
                             </p>
-                            <a href="#" class="read-more">Read More <i
-                                    class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                            <a href="#" class="read-more">Read More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -314,7 +301,6 @@
         </div>
     </div>
     <!-- why choose us area end -->
-
     <!-- rts call to action area start -->
     <div class="rts-call-to-action-area ptb--30 bg_call-toaction-4 bg_image">
         <div class="container">
@@ -323,7 +309,7 @@
                     <div class="cta-four-wrapper">
                         <div class="left">
                             <div class="img-area">
-                                <img src="assets/images/cta/05.webp" alt="cta">
+                                <img src="{{asset('front/assets/images/cta/05.webp')}}" alt="cta">
                             </div>
                             <h3 class="title rts-text-anime-style-1">
                                 Need Any Business Consultancy? <br>
@@ -339,7 +325,6 @@
         </div>
     </div>
     <!-- rts call to action area end -->
-
     <!-- business solution area start -->
     <div class="business-solution-area rts-section-gap">
         <div class="container">
@@ -347,10 +332,10 @@
                 <div class="col-lg-6">
                     <div class="business-solution-area-left-thumbnail">
                         <div class="iamge-large">
-                            <img src="assets/images/why-choose/07.webp" alt="choose">
+                            <img src="{{asset('front/assets/images/why-choose/07.webp')}}" alt="choose">
                         </div>
                         <div class="small-mobile">
-                            <img src="assets/images/why-choose/08.webp" alt="choose">
+                            <img src="{{asset('front/assets/images/why-choose/08.webp')}}" alt="choose">
                         </div>
                         <div class="success-rate-area">
                             <div class="inner">
@@ -376,7 +361,7 @@
                         </p>
                         <div class="featuremain-wrapper">
                             <div class="single-feature-wrapper">
-                                <img src="assets/images/why-choose/icons/06.svg" alt="icon">
+                                <img src="{{asset('front/assets/images/why-choose/icons/06.svg')}}" alt="icon">
                                 <h5 class="title">Strategic Vision Work</h5>
                                 <p class="disc">
                                     Dorem ipsum dolor sit amet, consectetu mod tempor incididunt business phasellus
@@ -384,7 +369,7 @@
                                 </p>
                             </div>
                             <div class="single-feature-wrapper">
-                                <img src="assets/images/why-choose/icons/07.svg" alt="icon">
+                                <img src="{{asset('front/assets/images/why-choose/icons/07.svg')}}" alt="icon">
                                 <h5 class="title">Ultimate Business Goal</h5>
                                 <p class="disc">
                                     Dorem ipsum dolor sit amet, consectetu mod tempor incididunt business phasellus
@@ -398,7 +383,6 @@
         </div>
     </div>
     <!-- business solution area end -->
-
     <!-- rts fun facts area start -->
     <div class="rts-fun-facts-area rts-section-gapBottom">
         <div class="container">
@@ -406,7 +390,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
                     <div class="signle-fun-facts-one">
                         <div class="icon">
-                            <img src="assets/images/fun-facts/01.svg" alt="fun-facts">
+                            <img src="{{asset('front/assets/images/fun-facts/01.svg')}}" alt="fun-facts">
                         </div>
                         <h2 class="counter title"><span class="odometer" data-count="1200">00</span>+
                         </h2>
@@ -416,7 +400,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
                     <div class="signle-fun-facts-one">
                         <div class="icon">
-                            <img src="assets/images/fun-facts/02.svg" alt="fun-facts">
+                            <img src="{{asset('front/assets/images/fun-facts/02.svg')}}" alt="fun-facts">
                         </div>
                         <h2 class="counter title"><span class="odometer" data-count="2.2">00</span>k
                         </h2>
@@ -426,7 +410,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.6" data-duration="1.2">
                     <div class="signle-fun-facts-one">
                         <div class="icon">
-                            <img src="assets/images/fun-facts/03.svg" alt="fun-facts">
+                            <img src="{{asset('front/assets/images/fun-facts/03.svg')}}" alt="fun-facts">
                         </div>
                         <h2 class="counter title"><span class="odometer" data-count="196">00</span>k
                         </h2>
@@ -437,7 +421,6 @@
         </div>
     </div>
     <!-- rts fun facts area end -->
-
     <!-- rts business case area start -->
     <div class="rts-business-case-area rts-section-gapBottom">
         <div class="container">
@@ -461,7 +444,7 @@
                                 <div class="swiper-slide">
                                     <div class="single-case-studies-four">
                                         <a href="project-details.html" class="thumbnail">
-                                            <img src="assets/images/project/07.webp" alt="project">
+                                            <img src="{{asset('front/assets/images/project/07.webp')}}" alt="project">
                                         </a>
                                         <div class="inner">
                                             <a href="project-details.html">
@@ -470,14 +453,14 @@
                                             </a>
                                         </div>
                                         <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
+                                            <img src="{{asset('front/assets/images/project/eye.svg')}}" alt="project">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-case-studies-four">
                                         <a href="project-details.html" class="thumbnail">
-                                            <img src="assets/images/project/08.webp" alt="project">
+                                            <img src="{{asset('front/assets/images/project/08.webp')}}" alt="project">
                                         </a>
                                         <div class="inner">
                                             <a href="project-details.html">
@@ -486,14 +469,14 @@
                                             </a>
                                         </div>
                                         <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
+                                            <img src="{{asset('front/assets/images/project/eye.svg')}}" alt="project">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-case-studies-four">
                                         <a href="project-details.html" class="thumbnail">
-                                            <img src="assets/images/project/09.webp" alt="project">
+                                            <img src="{{asset('front/assets/images/project/09.webp')}}" alt="project">
                                         </a>
                                         <div class="inner">
                                             <a href="project-details.html">
@@ -502,14 +485,14 @@
                                             </a>
                                         </div>
                                         <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
+                                            <img src="{{asset('front/assets/images/project/eye.svg')}}" alt="project">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-case-studies-four">
                                         <a href="project-details.html" class="thumbnail">
-                                            <img src="assets/images/project/08.webp" alt="project">
+                                            <img src="{{asset('front/assets/images/project/08.webp')}}" alt="project">
                                         </a>
                                         <div class="inner">
                                             <a href="project-details.html">
@@ -518,7 +501,7 @@
                                             </a>
                                         </div>
                                         <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
+                                            <img src="{{asset('front/assets/images/project/eye.svg')}}" alt="project">
                                         </div>
                                     </div>
                                 </div>
@@ -533,7 +516,6 @@
         </div>
     </div>
     <!-- rts business case area end -->
-
     <!-- rtsd faq area start -->
     <div class="rts-faq-area rts-section-gap faq-bg-one bg_image">
         <div class="container">
@@ -582,8 +564,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
+                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         03. Did you get any business consultant?
                                     </button>
                                 </h2>
@@ -603,7 +584,7 @@
                     <div class="faq-one-thumbnail-wrapper-right" data-animation="zoomOut" data-delay="0.2"
                         data-duration="1.2">
                         <div class="thumbnail">
-                            <img src="assets/images/faq/01.webp" alt="faq">
+                            <img src="{{asset('front/assets/images/faq/01.webp')}}" alt="faq">
                         </div>
                     </div>
                 </div>
@@ -629,7 +610,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
                     <div class="single-team-area-one-start wide-space">
                         <a href="team-details.html" class="thumbnail">
-                            <img src="assets/images/team/01.webp" alt="team">
+                            <img src="{{asset('front/assets/images/team/01.webp')}}" alt="team">
                         </a>
                         <div class="inner-content">
                             <div class="inner">
@@ -653,7 +634,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
                     <div class="single-team-area-one-start wide-space">
                         <a href="team-details.html" class="thumbnail">
-                            <img src="assets/images/team/02.webp" alt="team">
+                            <img src="{{asset('front/assets/images/team/02.webp')}}" alt="team">
                         </a>
                         <div class="inner-content">
                             <div class="inner">
@@ -671,14 +652,13 @@
                                     </ul>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.6" data-duration="1.2">
                     <div class="single-team-area-one-start wide-space">
                         <a href="team-details.html" class="thumbnail">
-                            <img src="assets/images/team/03.webp" alt="team">
+                            <img src="{{asset('front/assets/images/team/03.webp')}}" alt="team">
                         </a>
                         <div class="inner-content">
                             <div class="inner">
@@ -723,9 +703,8 @@
                                         aria-selected="true">Monthly PLan</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                                        data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
-                                        aria-selected="false">Yearly
+                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                        type="button" role="tab" aria-controls="profile" aria-selected="false">Yearly
                                         Plan</button>
                                 </li>
                             </ul>
@@ -1190,7 +1169,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="single-blog-area-four">
                         <a href="blog-details.html" class="thumbnail">
-                            <img src="assets/images/blog/07.webp" alt="blog">
+                            <img src="{{asset('front/assets/images/blog/07.webp')}}" alt="blog">
                         </a>
                         <div class="inner-content">
                             <div class="tag-area-wrapper">
@@ -1216,7 +1195,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="single-blog-area-four">
                         <a href="blog-details.html" class="thumbnail">
-                            <img src="assets/images/blog/08.webp" alt="blog">
+                            <img src="{{asset('front/assets/images/blog/08.webp')}}" alt="blog">
                         </a>
                         <div class="inner-content">
                             <div class="tag-area-wrapper">
@@ -1243,7 +1222,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="single-blog-area-four">
                         <a href="blog-details.html" class="thumbnail">
-                            <img src="assets/images/blog/09.webp" alt="blog">
+                            <img src="{{asset('front/assets/images/blog/09.webp')}}" alt="blog">
                         </a>
                         <div class="inner-content">
                             <div class="tag-area-wrapper">
@@ -1278,43 +1257,43 @@
                 <div class="col-lg-12">
                     <div class="gallery-area-main-wrapper-4">
                         <div class="single-gallery">
-                            <a href="assets/images/gallery/01.webp" class="thumbnail gallery-image">
-                                <img src="assets/images/gallery/01.webp" alt="gallery">
+                            <a href="{{asset('front/assets/images/gallery/01.webp')}}" class="thumbnail gallery-image">
+                                <img src="{{asset('front/assets/images/gallery/01.webp')}}" alt="gallery">
                             </a>
                             <div class="instagram">
-                                <img src="assets/images/gallery/instagram.svg" alt="instagram.svg">
+                                <img src="{{asset('front/assets/images/gallery/instagram.svg')}}" alt="instagram.svg">
                             </div>
                         </div>
                         <div class="single-gallery">
-                            <a href="assets/images/gallery/03.webp" class="thumbnail gallery-image">
-                                <img src="assets/images/gallery/03.webp" alt="gallery">
+                            <a href="{{asset('front/assets/images/gallery/03.webp')}}" class="thumbnail gallery-image">
+                                <img src="{{asset('front/assets/images/gallery/03.webp')}}" alt="gallery">
                             </a>
                             <div class="instagram">
-                                <img src="assets/images/gallery/instagram.svg" alt="instagram.svg">
+                                <img src="{{asset('front/assets/images/gallery/instagram.svg')}}" alt="instagram.svg">
                             </div>
                         </div>
                         <div class="single-gallery">
-                            <a href="assets/images/gallery/04.webp" class="thumbnail gallery-image">
-                                <img src="assets/images/gallery/04.webp" alt="gallery">
+                            <a href="{{asset('front/assets/images/gallery/04.webp')}}" class="thumbnail gallery-image">
+                                <img src="{{asset('front/assets/images/gallery/04.webp')}}" alt="gallery">
                             </a>
                             <div class="instagram">
-                                <img src="assets/images/gallery/instagram.svg" alt="instagram.svg">
+                                <img src="{{asset('front/assets/images/gallery/instagram.svg')}}" alt="instagram.svg">
                             </div>
                         </div>
                         <div class="single-gallery">
-                            <a href="assets/images/gallery/05.webp" class="thumbnail gallery-image">
-                                <img src="assets/images/gallery/05.webp" alt="gallery">
+                            <a href="{{asset('front/assets/images/gallery/05.webp')}}" class="thumbnail gallery-image">
+                                <img src="{{asset('front/assets/images/gallery/05.webp')}}" alt="gallery">
                             </a>
                             <div class="instagram">
-                                <img src="assets/images/gallery/instagram.svg" alt="instagram.svg">
+                                <img src="{{asset('front/assets/images/gallery/instagram.svg')}}" alt="instagram.svg">
                             </div>
                         </div>
                         <div class="single-gallery">
-                            <a href="assets/images/gallery/02.webp" class="thumbnail gallery-image">
-                                <img src="assets/images/gallery/02.webp" alt="gallery">
+                            <a href="{{asset('front/assets/images/gallery/02.webp')}}" class="thumbnail gallery-image">
+                                <img src="{{asset('front/assets/images/gallery/02.webp')}}" alt="gallery">
                             </a>
                             <div class="instagram">
-                                <img src="assets/images/gallery/instagram.svg" alt="instagram.svg">
+                                <img src="{{asset('front/assets/images/gallery/instagram.svg')}}" alt="instagram.svg">
                             </div>
                         </div>
                     </div>
@@ -1326,37 +1305,38 @@
 
 
 
-<!-- offcanvase search -->
-<div class="search-input-area">
-    <div class="container">
-        <div class="search-input-inner">
-            <div class="input-div">
-                <input class="search-input autocomplete" type="text" placeholder="Search by keyword or #">
-                <button><i class="far fa-search"></i></button>
+    <!-- offcanvase search -->
+    <div class="search-input-area">
+        <div class="container">
+            <div class="search-input-inner">
+                <div class="input-div">
+                    <input class="search-input autocomplete" type="text" placeholder="Search by keyword or #">
+                    <button><i class="far fa-search"></i></button>
+                </div>
             </div>
         </div>
+        <div id="close" class="search-close-icon"><i class="far fa-times"></i>
+        </div>
     </div>
-    <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
-</div>
-<div id="anywhere-home" class="">
-</div>
+    <div id="anywhere-home" class="">
+    </div>
 
-<!-- rtl btn area start -->
-<div class="rtl-ltr-switcher-btn">
-    <span class="rtl show">View RTL</span>
-    <span class="ltr">View LTR</span>
-</div>
-<!-- rtl btn area end -->
+    <!-- rtl btn area start -->
+    <div class="rtl-ltr-switcher-btn">
+        <span class="rtl show">View RTL</span>
+        <span class="ltr">View LTR</span>
+    </div>
+    <!-- rtl btn area end -->
 
-<!-- progress area start -->
-<div class="progress-wrap">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-            style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
-        </path>
-    </svg>
-</div>
-<!-- progress area end -->
+    <!-- progress area start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
+        </svg>
+    </div>
+    <!-- progress area end -->
 
 
 @endsection

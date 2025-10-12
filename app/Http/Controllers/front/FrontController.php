@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 
 class FrontController extends Controller
 {
-    public function index()
+    public function index_1()
     {
-        return view("front.home.index");
+        return view("front.home.index_1");
     }
     public function index_3()
     {

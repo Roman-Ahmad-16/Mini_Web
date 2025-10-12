@@ -114,74 +114,7 @@
         </div>
     </div>
 
-    <!-- rts about area start -->
-    <div class="rts-about-area-two rts-section-gapBottom investment">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="left-thumbnail-about-area-two">
-                        <img loading="lazy" src="assets/images/about/18.webp" width="490" alt="about">
-                        <div class="small-image">
-                            <img loading="lazy" src="assets/images/about/19.webp" width="211" alt="small">
-                        </div>
-                        <div class="counter-about-area">
-                            <h2 class="counter title"><span class="odometer" data-count="25">00</span>+
-                            </h2>
-                            <span>Year of experience</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mt_sm--80 mt_md--80">
-                    <div class="about-inner-content-two">
-                        <div class="title-style-two left">
-                            <span class="pre"><img src="assets/images/banner/icon/star.svg" alt=""> About Us</span>
-                            <h2 class="title rts-text-anime-style-1">Driven by Insight, Focused <br> on Your Future
-                            </h2>
-                        </div>
-                        <div class="about-between-wrapper">
-                            <p class="disc">
-                                Porttitor ornare fermentum aliquam pharetra
-                                ut facilisis gravida risus suscipit. dui feugiat
-                                fusce conubia ridiculus tristique parturient
-                                natoque vulputate risu.
-                            </p>
-                            <div class="check-wrapper-area">
-                                <div class="single-check">
-                                    <i class="fa-solid fa-circle-check"></i>
-                                    <p>24/7 Call Services Avilable</p>
-                                </div>
-                                <div class="single-check">
-                                    <i class="fa-solid fa-circle-check"></i>
-                                    <p>Great Skilled Consultant</p>
-                                </div>
-                                <div class="single-check">
-                                    <i class="fa-solid fa-circle-check"></i>
-                                    <p>Expert Team Members</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="call-and-sign-area two">
-                            <div class="call-area">
-                                <div class="icon">
-                                    <i class="fa-sharp fa-regular fa-phone-volume"></i>
-                                </div>
-                                <div class="information">
-                                    <span>Call us anytime</span>
-                                    <a href="#">
-                                        <h6 class="title">+256 56778.5678</h6>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="sign-area">
-                                <img loading="lazy" src="assets/images/about/sign.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- rts about area end -->
+   @include('front.home.partials.about_1')
 
     <!-- rts service area start -->
     <div class="rts-service-area rts-section-gapBottom">
@@ -339,72 +272,7 @@
     </div>
     <!-- rts business case area end -->
 
-    <!-- rts blog area start -->
-    <div class="rts-blog-area rts-section-gap">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-style-four center">
-                        <span class="pre"><img src="assets/images/banner/icon/star.svg" alt=""> Investment</span>
-                        <h2 class="title rts-text-anime-style-1">Top-Rated Investment <br> Opportunities
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5 mt--10">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="single-blog-area-four investment">
-                        <a href="blog-details.html" class="thumbnail">
-                            <img src="assets/images/blog/21.webp" alt="blog">
-                        </a>
-                        <div class="inner-content">
-                            <a href="blog-details.html">
-                                <h5 class="title">
-                                    My Journey with Lessons Of <br> Learned Along the Way
-                                </h5>
-                            </a>
-                            <a href="blog-details.html" class="read-more">Read More <i
-                                    class="fa-sharp fa-regular fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="single-blog-area-four investment">
-                        <a href="blog-details.html" class="thumbnail">
-                            <img src="assets/images/blog/22.webp" alt="blog">
-                        </a>
-                        <div class="inner-content">
-                            <a href="blog-details.html">
-                                <h5 class="title">
-                                    The quick settle tips new ages <br>
-                                    exist working solution
-                                </h5>
-                            </a>
-                            <a href="blog-details.html" class="read-more">Read More <i
-                                    class="fa-sharp fa-regular fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="single-blog-area-four investment">
-                        <a href="blog-details.html" class="thumbnail">
-                            <img src="assets/images/blog/23.webp" alt="blog">
-                        </a>
-                        <div class="inner-content">
-                            <a href="blog-details.html">
-                                <h5 class="title">
-                                    Unlocking the Secrets to A <br> Beginner’s Guide
-                                </h5>
-                            </a>
-                            <a href="blog-details.html" class="read-more">Read More <i
-                                    class="fa-sharp fa-regular fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- rts blog area end -->
+ @include('front.home.partials.blogs_3')
 
     <div class="rts-trusted-client rts-section-gapBottom">
         <div class="container">
@@ -627,28 +495,7 @@
     </div>
     <!-- rts business case area end -->
 
-    <!-- rts cta area start -->
-    <div class="rts-cta-area-one rts-section-gap">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="cta-main-area-wrapper-one bg_image investment">
-                        <div class="left-areas">
-                            <span class="pre">Latest Business Ideas</span>
-                            <h3 class="title">Sign Up Newsletter</h3>
-                        </div>
-                        <div class="right-area">
-                            <div class="inpur-area-main">
-                                <input type="text" placeholder="Enter Email Address">
-                                <button class="rts-btn btn-primary">Subscribe Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- rts cta area end -->
+   @include('front.home.partials.cta')
 
 
 

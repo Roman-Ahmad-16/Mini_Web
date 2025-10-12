@@ -112,79 +112,7 @@
             </div>
         </div>
         <!-- rts service area end -->
-
-        <!-- rts about area start -->
-        <div class="rts-about-area-two rts-section-gapBottom">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 mt_sm--80 mt_md--80">
-                        <div class="about-inner-content-two">
-                            <div class="title-style-two left">
-                                <span class="pre">More About Us</span>
-                                <h2 class="title rts-text-anime-style-1">Meet the Experts Behind <br> Next Level of Success
-                                </h2>
-                            </div>
-                            <div class="about-between-wrapper">
-                                <p class="disc">
-                                    Porttitor ornare fermentum aliquam pharetra
-                                    ut facilisis gravida risus suscipit. dui feugiat
-                                    fusce conubia ridiculus tristique parturient
-                                    natoque vulputate risu.
-                                </p>
-                                <div class="check-wrapper-area">
-                                    <div class="single-check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        <p>24/7 Call Services Avilable</p>
-                                    </div>
-                                    <div class="single-check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        <p>Great Skilled Consultant</p>
-                                    </div>
-                                    <div class="single-check">
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        <p>Expert Team Members</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="call-and-sign-area two">
-                                <div class="call-area">
-                                    <div class="icon">
-                                        <i class="fa-sharp fa-regular fa-phone-volume"></i>
-                                    </div>
-                                    <div class="information">
-                                        <span>Call us anytime</span>
-                                        <a href="#">
-                                            <h6 class="title">+256 56778.5678</h6>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="sign-area">
-                                    <img loading="lazy" src="assets/images/about/sign.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="left-thumbnail-about-area-two">
-                            <img loading="lazy" src="assets/images/about/17.webp" alt="about">
-                            <div class="small-image">
-                                <img loading="lazy" src="assets/images/about/05.webp" alt="small">
-                            </div>
-                            <div class="counter-about-area">
-                                <h2 class="counter title"><span class="odometer" data-count="25">00</span>+
-                                </h2>
-                                <span>Year of experience</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="shape-area">
-                <img loading="lazy" src="assets/images/about/shape/01.svg" alt="shape" class="one">
-                <img loading="lazy" src="assets/images/about/shape/02.svg" alt="shape" class="two">
-            </div>
-        </div>
-        <!-- rts about area end -->
+@include('front.home.partials.about_6')
 
 
         <div class="rts-trusted-client rts-section-gapBottom">
@@ -780,29 +708,7 @@
         </div>
         <!-- rts pricing area end -->
 
-        <!-- rs call to action area three -->
-        <div class="rts-call-to-action-area-three bg_image">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="cta-main-wrapper-inner">
-                            <h2 class="title rts-text-anime-style-1">
-                                Contact Our Agent For Any kind off <br> Business Help
-                                <span>(24/7 Available)</span>
-                            </h2>
-                            <div class="call-area">
-                                <div class="icon">
-                                    <i class="fa-solid fa-phone-flip"></i>
-                                </div>
-                                <a href="#">+215 2153.2159</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- rs call to action area three end -->
-
+       @include('front.home.partials.cta')
 
         <!-- rts team area start -->
         <div class="rts-team-area rts-section-gap">
@@ -958,102 +864,7 @@
         <!-- rts team area end -->
 
 
-        <!-- rts blog area start -->
-        <div class="rts-blog-area rts-section-gapBottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="title-style-one center">
-                            <span class="pre">Weekly Update</span>
-                            <h2 class="title rts-text-anime-style-1">Our Latest Updates
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-5 mt--10">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="single-blog-area-four">
-                            <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/07.webp" alt="blog">
-                            </a>
-                            <div class="inner-content">
-                                <div class="tag-area-wrapper">
-                                    <div class="single">
-                                        <i class="fa-light fa-clock"></i>
-                                        <p>25 Jan, 2022</p>
-                                    </div>
-                                    <div class="single">
-                                        <i class="fa-light fa-user"></i>
-                                        <p>25 Jan, 2022</p>
-                                    </div>
-                                </div>
-                                <a href="blog-details.html">
-                                    <h5 class="title">
-                                        My Journey with Lessons Of <br> Learned Along the Way
-                                    </h5>
-                                </a>
-                                <a href="blog-details.html" class="read-more">Read More <i
-                                        class="fa-sharp fa-regular fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="single-blog-area-four">
-                            <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/08.webp" alt="blog">
-                            </a>
-                            <div class="inner-content">
-                                <div class="tag-area-wrapper">
-                                    <div class="single">
-                                        <i class="fa-light fa-clock"></i>
-                                        <p>25 Jan, 2022</p>
-                                    </div>
-                                    <div class="single">
-                                        <i class="fa-light fa-user"></i>
-                                        <p>25 Jan, 2022</p>
-                                    </div>
-                                </div>
-                                <a href="blog-details.html">
-                                    <h5 class="title">
-                                        The quick settle tips new ages <br>
-                                        exist working solution
-                                    </h5>
-                                </a>
-                                <a href="blog-details.html" class="read-more">Read More <i
-                                        class="fa-sharp fa-regular fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="single-blog-area-four">
-                            <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/09.webp" alt="blog">
-                            </a>
-                            <div class="inner-content">
-                                <div class="tag-area-wrapper">
-                                    <div class="single">
-                                        <i class="fa-light fa-clock"></i>
-                                        <p>25 Jan, 2022</p>
-                                    </div>
-                                    <div class="single">
-                                        <i class="fa-light fa-user"></i>
-                                        <p>25 Jan, 2022</p>
-                                    </div>
-                                </div>
-                                <a href="blog-details.html">
-                                    <h5 class="title">
-                                        Unlocking the Secrets to A <br> Beginner’s Guide
-                                    </h5>
-                                </a>
-                                <a href="blog-details.html" class="read-more">Read More <i
-                                        class="fa-sharp fa-regular fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- rts blog area end -->
+        @include('front.home.partials.blogs_4')
 
 
         <!-- rts ubscribe area start -->

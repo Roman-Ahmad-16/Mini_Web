@@ -6,7 +6,7 @@
 
     @include('front.home.partials.banner')
 
-    @include('front.home.partials.about')
+    @include('front.home.partials.about_1')
 
     @include('front.home.partials.service2')
 

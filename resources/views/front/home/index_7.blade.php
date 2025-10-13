@@ -161,7 +161,7 @@
 
 
 
-         @include('front.home.partials.about_1')
+         @include('front.partials.about.about_1')
 
             <!-- rts call to action area start -->
             <div class="rts-call-to-action-area-two bg_image">
@@ -947,7 +947,7 @@
             </div>
             <!-- rts pricing area end -->
 
-       @include('front.home.partials.testimonial_7')
+       @include('front.partials.testimonials.testimonial_7')
 
             <!-- appoinment  area start -->
             <div class="appoinment-area-seven bg_image ptb--100">
@@ -982,9 +982,9 @@
             <!-- appoinment  area end -->
 
 
-         @include('front.home.partials.blogs_5')
+         @include('front.partials.blog.blogs_5')
 
-           @include('front.home.partials.cta')
+           @include('front.partials.cta.cta')
         </div>
 
         <div id="side-bar" class="side-bar header-two">

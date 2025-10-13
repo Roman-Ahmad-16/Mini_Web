@@ -159,7 +159,7 @@
     </div>
     <!-- rts service area end -->
 
- @include('front.home.partials.about_3')
+ @include('front.partials.about.about_3')
 
     <div class="our-experties-area rts-section-gap">
         <div class="container">
@@ -346,10 +346,10 @@
     </div>
     <!-- rts business case area end -->
 
-    @include('front.home.partials.why_us_2')
-     @include('front.home.partials.testimonial_7')
+    @include('front.partials.why_choose_us.why_us_2')
+     @include('front.partials.testimonials.testimonial_7')
 
-   @include('front.home.partials.blogs_5')
+   @include('front.partials.blog.blogs_5')
 
     <div class="rts-trusted-client rts-section-gapBottom">
         <div class="container">

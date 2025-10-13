@@ -112,7 +112,7 @@
             </div>
         </div>
         <!-- rts service area end -->
-@include('front.home.partials.about_6')
+@include('front.partials.about.about_6')
 
 
         <div class="rts-trusted-client rts-section-gapBottom">
@@ -708,7 +708,7 @@
         </div>
         <!-- rts pricing area end -->
 
-       @include('front.home.partials.cta')
+       @include('front.partials.cta.cta')
 
         <!-- rts team area start -->
         <div class="rts-team-area rts-section-gap">
@@ -864,7 +864,7 @@
         <!-- rts team area end -->
 
 
-        @include('front.home.partials.blogs_4')
+        @include('front.partials.blog.blogs_4')
 
 
         <!-- rts ubscribe area start -->

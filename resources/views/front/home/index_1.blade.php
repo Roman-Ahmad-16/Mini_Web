@@ -4,27 +4,27 @@
 @section('content')
 
 
-    @include('front.home.partials.banner')
+    @include('front.partials.banner.banner')
 
-    @include('front.home.partials.about_1')
+    @include('front.partials.about.about_1')
 
-    @include('front.home.partials.service2')
+    @include('front.partials.service.service2')
 
-    @include('front.home.partials.counter2')
+    @include('front.partials.counter.counter2')
 
     @include('front.home.partials.business')
 
-    @include('front.home.partials.cta')
+    @include('front.partials.cta.cta')
 
-    @include('front.home.partials.service')
+    @include('front.partials.service.service')
 
     <br><br><br>
-    @include('front.home.partials.faq_2')
+    @include('front.partials.faq.faq_2')
     <br><br><br>
 
-    @include('front.home.partials.pricing')
+    @include('front.partials.pricing.pricing')
 
-    @include('front.home.partials.testimonial')
+    @include('front.partials.testimonials.testimonial')
 
     @include('front.home.partials.appointment_12')
 

@@ -164,7 +164,7 @@
 
 
 
-        @include('front.home.partials.why_us_4')
+        @include('front.partials.why_choose_us.why_us_4')
 
 
         <!-- rts team area start -->
@@ -394,7 +394,7 @@
 
 
 
-       @include('front.home.partials.testimonial_7')
+       @include('front.partials.testimonials.testimonial_7')
 
 
         <!-- rts appoinment area start -->
@@ -439,8 +439,8 @@
         </div>
         <!-- rts appoinment area end -->
 
-@include('front.home.partials.blogs_4')
-@include('front.home.partials.cta_2')
+@include('front.partials.blog.blogs_4')
+@include('front.partials.cta.cta_2')
         <!-- offcanvase search -->
         <div class="search-input-area">
             <div class="container">

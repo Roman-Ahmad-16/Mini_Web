@@ -114,7 +114,7 @@
         </div>
         <!-- rts service area end -->
 
-        @include('front.home.partials.why_us_2')
+        @include('front.partials.why_choose_us.why_us_2')
 
         <div class="rts-trusted-client rts-section-gapBottom">
             <div class="container">
@@ -153,7 +153,7 @@
         </div>
 
 
-       @include('front.home.partials.testimonial_7')
+       @include('front.partials.testimonials.testimonial_7')
 
 
         <!-- appoinment contact area start -->
@@ -248,11 +248,11 @@
 
 
 
-    @include('front.home.partials.blogs_6')
+    @include('front.partials.blog.blogs_6')
 
 
 
-      @include('front.home.partials.cta')
+      @include('front.partials.cta.cta')
         <button class="close-icon-menu" title="Close menu"><i class="far fa-times"></i></button>
         <!-- inner menu area desktop start -->
         <div class="rts-sidebar-menu-desktop">

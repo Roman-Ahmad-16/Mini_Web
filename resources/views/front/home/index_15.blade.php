@@ -160,7 +160,7 @@
         </div>
 
 
-      @include('front.home.partials.about_5')
+      @include('front.partials.about.about_5')
 
 
         <!-- rts c;ients review area start -->
@@ -493,7 +493,7 @@
         </div>
         <!-- rts team area ends -->
 
-      @include('front.home.partials.testimonial_5')
+      @include('front.partials.testimonials.testimonial_5')
 
         <!-- rts business process area start -->
         <div class="rts-business-process-area rts-section-gap">
@@ -543,9 +543,9 @@
         </div>
         <!-- rts business process area end -->
 
-       @include('front.home.partials.blogs_5')
+       @include('front.partials.blog.blogs_5')
 
-       @include('front.home.partials.cta_3')
+       @include('front.partials.cta.cta_3')
 
 
         <!-- offcanvase search -->

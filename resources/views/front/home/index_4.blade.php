@@ -104,7 +104,7 @@
         </div>
     </div>
     <!-- banner three area end -->
-   @include('front.home.partials.about_4')
+   @include('front.partials.about.about_4')
     <!-- rts brand area start -->
     <div class="rts-brand-area rts-section-gap">
         <div class="container">
@@ -151,8 +151,8 @@
         </div>
     </div>
     <!-- rts brand area end -->
-     @include('front.home.partials.why_us_4')
-    @include('front.home.partials.cta')
+     @include('front.partials.why_choose_us.why_us_4')
+    @include('front.partials.cta.cta')
     <!-- business solution area start -->
     <div class="business-solution-area rts-section-gap">
         <div class="container">
@@ -344,7 +344,7 @@
         </div>
     </div>
     <!-- rts business case area end -->
-   @include('front.home.partials.faq_2')
+   @include('front.partials.faq.faq_2')
 
     <!-- rts team area start -->
     <div class="rts-team-area-start-four rts-section-gap">
@@ -905,7 +905,7 @@
     </div>
     <!-- rts appoinment area end -->
 
-   @include('front.home.partials.blogs_4')
+   @include('front.partials.blog.blogs_4')
 
     <!-- rts galllery area start -->
     <div class="rts-gallery-area">

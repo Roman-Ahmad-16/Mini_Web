@@ -5,17 +5,17 @@
 
 <div class="page-wrapper radious-none-button">
 
-    @include('front.home.partials.banner_12')
-    @include('front.home.partials.about_12')
-    @include('front.home.partials.cta_12')
-    @include('front.home.partials.service_12')
+    @include('front.partials.banner.banner_12')
+    @include('front.partials.about.about_12')
+    @include('front.partials.cta.cta_12')
+    @include('front.partials.service.service_12')
     @include('front.home.partials.work_process_12')
     @include('front.home.partials.projects_12')
-    @include('front.home.partials.clients_12')
-    @include('front.home.partials.pricing_12')
-    @include('front.home.partials.testimonials_12')
+    @include('front.partials.clients.clients_12')
+    @include('front.partials.pricing.pricing_12')
+    @include('front.partials.testimonials.testimonials_12')
     @include('front.home.partials.appointment_12')
-    @include('front.home.partials.blogs_12')
+    @include('front.partials.blog.blogs_12')
     @include('front.home.partials.newsletter_12')
 
 

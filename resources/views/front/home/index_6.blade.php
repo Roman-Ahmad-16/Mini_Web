@@ -50,9 +50,9 @@
     <!-- banner area end -->
 
 
-   @include('front.home.partials.about_6')
+   @include('front.partials.about.about_6')
 
-   @include('front.home.partials.cta_3')
+   @include('front.partials.cta.cta_3')
 
     <div class="rts-business-goal-area-wrapper-6 rts-section-gap">
         <div class="container">
@@ -299,9 +299,9 @@
     </div>
     <!-- rts counter up area end -->
 
-    @include('front.home.partials.testimonial_6')
+    @include('front.partials.testimonials.testimonial_6')
 
-    @include('front.home.partials.blogs_6')
+    @include('front.partials.blog.blogs_6')
 
     <!-- rts galllery area start -->
     <div class="rts-gallery-area">

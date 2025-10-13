@@ -117,9 +117,9 @@
     </div>
     <!-- service area end -->
 
-    @include('front.home.partials.cta_3')
+    @include('front.partials.cta.cta_3')
 
-    @include('front.home.partials.about_3')
+    @include('front.partials.about.about_3')
 
     <div class="working-process-area-three rts-section-gap working-process-bg">
         <div class="container">
@@ -203,7 +203,7 @@
         </div>
     </div>
 
-   @include('front.home.partials.why_us_3')
+   @include('front.partials.why_choose_us.why_us_3')
 
     <!-- case studies area start -->
     <div class="rts-case-studies-area rts-section-gapBottom">
@@ -275,7 +275,7 @@
     </div>
     <!-- case studies area end -->
 
-   @include('front.home.partials.testimonial')
+   @include('front.partials.testimonials.testimonial')
 
     <!-- rts-pricing plane arae -->
     <div class="rts-pricing-plane rts-section-gap bg-pricing-bg-h2 margin-dec-padding-con">
@@ -751,7 +751,7 @@
         </div>
     </div>
 
-  @include('front.home.partials.blogs_3')
+  @include('front.partials.blog.blogs_3')
 
 
 

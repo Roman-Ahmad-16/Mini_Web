@@ -125,10 +125,10 @@
         </div>
 
 
-        @include('front.home.partials.why_us_3')
+        @include('front.partials.why_choose_us.why_us_3')
 
 
-      @include('front.home.partials.testimonial_7')
+      @include('front.partials.testimonials.testimonial_7')
 
 
 

@@ -114,7 +114,7 @@
         </div>
     </div>
 
-   @include('front.home.partials.about_1')
+   @include('front.partials.about.about_1')
 
     <!-- rts service area start -->
     <div class="rts-service-area rts-section-gapBottom">
@@ -272,7 +272,7 @@
     </div>
     <!-- rts business case area end -->
 
- @include('front.home.partials.blogs_3')
+ @include('front.partials.blog.blogs_3')
 
     <div class="rts-trusted-client rts-section-gapBottom">
         <div class="container">
@@ -495,7 +495,7 @@
     </div>
     <!-- rts business case area end -->
 
-   @include('front.home.partials.cta')
+   @include('front.partials.cta.cta')
 
 
 

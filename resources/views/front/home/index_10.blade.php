@@ -159,7 +159,7 @@
             </div>
         </div>
 
-        @include('front.home.partials.about_4')
+        @include('front.partials.about.about_4')
 
         <!-- rts progress area start -->
         <div class="rts-progress-area-main-wrapper rts-section-gapBottom">
@@ -739,10 +739,10 @@
         </div>
         <!-- rts team area ends -->
 
-        @include('front.home.partials.testimonial_5')
+        @include('front.partials.testimonials.testimonial_5')
 
-        @include('front.home.partials.blogs_6')
-        @include('front.home.partials.cta_3')
+        @include('front.partials.blog.blogs_6')
+        @include('front.partials.cta.cta_3')
 
 
 

@@ -256,7 +256,7 @@
         </div>
 
 
-         @include('front.home.partials.why_us_2')
+         @include('front.partials.why_choose_us.why_us_2')
 
 
         <!-- rts progress area start -->
@@ -412,10 +412,10 @@
         </div>
         <!-- rts team area ends -->
 
-       @include('front.home.partials.testimonial_5')
+       @include('front.partials.testimonials.testimonial_5')
 
 
-@include('front.home.partials.blogs_4')
+@include('front.partials.blog.blogs_4')
 
         <!-- appoinment  area start -->
         <div class="appoinment-area-seven bg_image ptb--100">
@@ -450,10 +450,10 @@
         <!-- appoinment  area end -->
 
 
-       @include('front.home.partials.faq_3')
+       @include('front.partials.faq.faq_3')
 
 
-      @include('front.home.partials.cta_3')
+      @include('front.partials.cta.cta_3')
 
 
 

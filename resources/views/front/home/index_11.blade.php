@@ -117,7 +117,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="sign-area">
-                                                    <img src="{{ asset('front/assets/images/about/sign-white') }}.svg" alt="">
+                                                    <img src="{{ asset('front/assets/images/about/sign-white') }}.svg"
+                                                        alt="">
                                                 </div>
                                             </div>
                                             <a href="#" class="rts-btn btn-primary btn-white">About Us</a>
@@ -146,22 +147,28 @@
                                     <div class="col-lg-12">
                                         <div class="client-three-wrapper">
                                             <div class="single">
-                                                <img src="{{ asset('front/assets/images/brand/01.webp') }}" alt="Business_client">
+                                                <img src="{{ asset('front/assets/images/brand/01.webp') }}"
+                                                    alt="Business_client">
                                             </div>
                                             <div class="single">
-                                                <img src="{{ asset('front/assets/images/brand/02.webp') }}" alt="Business_client">
+                                                <img src="{{ asset('front/assets/images/brand/02.webp') }}"
+                                                    alt="Business_client">
                                             </div>
                                             <div class="single">
-                                                <img src="{{ asset('front/assets/images/brand/03.webp') }}" alt="Business_client">
+                                                <img src="{{ asset('front/assets/images/brand/03.webp') }}"
+                                                    alt="Business_client">
                                             </div>
                                             <div class="single">
-                                                <img src="{{ asset('front/assets/images/brand/04.webp') }}" alt="Business_client">
+                                                <img src="{{ asset('front/assets/images/brand/04.webp') }}"
+                                                    alt="Business_client">
                                             </div>
                                             <div class="single">
-                                                <img src="{{ asset('front/assets/images/brand/05.webp') }}" alt="Business_client">
+                                                <img src="{{ asset('front/assets/images/brand/05.webp') }}"
+                                                    alt="Business_client">
                                             </div>
                                             <div class="single">
-                                                <img src="{{ asset('front/assets/images/brand/06.webp') }}" alt="Business_client">
+                                                <img src="{{ asset('front/assets/images/brand/06.webp') }}"
+                                                    alt="Business_client">
                                             </div>
                                         </div>
                                     </div>
@@ -182,7 +189,8 @@
                                                 <div class="circle-text-main">
                                                     <div class="circle">
                                                         <div class="logo">
-                                                            <img src="{{ asset('front/assets/images/banner/icon/video') }}-white.svg" alt="">
+                                                            <img src="{{ asset('front/assets/images/banner/icon/video') }}-white.svg"
+                                                                alt="">
                                                         </div>
                                                         <div class="text-1">
                                                             <p>
@@ -210,7 +218,8 @@
                                                     exceptional.
                                                 </p>
                                                 <div class="avatar-user-area">
-                                                    <img src="{{ asset('front/assets/images/testimonials/01.png') }}" alt="testimonials">
+                                                    <img src="{{ asset('front/assets/images/testimonials/01.png') }}"
+                                                        alt="testimonials">
                                                     <div class="information-wrapper">
                                                         <h5 class="title">William Henry</h5>
                                                         <p>Designer at <span>Vertex Agency</span></p>
@@ -246,7 +255,8 @@
 
                                                             <div class="bottom-details">
                                                                 <a href="#" class="thumbnail">
-                                                                    <img src="{{ asset('front/assets/images/blog/01.webp') }}" alt="blog-area">
+                                                                    <img src="{{ asset('front/assets/images/blog/01.webp') }}"
+                                                                        alt="blog-area">
                                                                 </a>
                                                             </div>
                                                             <p>Business Solution / <span>by David Dolean</span></p>
@@ -261,7 +271,8 @@
 
                                                             <div class="bottom-details">
                                                                 <a href="#" class="thumbnail">
-                                                                    <img src="{{ asset('front/assets/images/blog/02.webp') }}" alt="blog-area">
+                                                                    <img src="{{ asset('front/assets/images/blog/02.webp') }}"
+                                                                        alt="blog-area">
                                                                 </a>
                                                             </div>
                                                             <p>Business Solution / <span>by David Dolean</span></p>
@@ -275,7 +286,8 @@
                                                         <div class="single-blog-area-one in-full-screen">
                                                             <div class="bottom-details">
                                                                 <a href="#" class="thumbnail">
-                                                                    <img src="{{ asset('front/assets/images/blog/03.webp') }}" alt="blog-area">
+                                                                    <img src="{{ asset('front/assets/images/blog/03.webp') }}"
+                                                                        alt="blog-area">
                                                                 </a>
                                                             </div>
                                                             <p>Business Solution / <span>by David Dolean</span></p>
@@ -290,7 +302,8 @@
 
                                                             <div class="bottom-details">
                                                                 <a href="#" class="thumbnail">
-                                                                    <img src="{{ asset('front/assets/images/blog/01.webp') }}" alt="blog-area">
+                                                                    <img src="{{ asset('front/assets/images/blog/01.webp') }}"
+                                                                        alt="blog-area">
                                                                 </a>
                                                             </div>
                                                             <p>Business Solution / <span>by David Dolean</span></p>
@@ -305,7 +318,8 @@
 
                                                             <div class="bottom-details">
                                                                 <a href="#" class="thumbnail">
-                                                                    <img src="{{ asset('front/assets/images/blog/02.webp') }}" alt="blog-area">
+                                                                    <img src="{{ asset('front/assets/images/blog/02.webp') }}"
+                                                                        alt="blog-area">
                                                                 </a>
                                                             </div>
                                                             <p>Business Solution / <span>by David Dolean</span></p>
@@ -320,7 +334,8 @@
 
                                                             <div class="bottom-details">
                                                                 <a href="#" class="thumbnail">
-                                                                    <img src="{{ asset('front/assets/images/blog/03.webp') }}" alt="blog-area">
+                                                                    <img src="{{ asset('front/assets/images/blog/03.webp') }}"
+                                                                        alt="blog-area">
                                                                 </a>
                                                             </div>
                                                             <p>Business Solution / <span>by David Dolean</span></p>

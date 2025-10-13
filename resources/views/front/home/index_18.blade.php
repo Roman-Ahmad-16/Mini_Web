@@ -148,7 +148,8 @@
                     <div class="col-lg-6 pr--30">
                         <div class="thumbnail-working-procss-one" data-animation="zoomOut" data-delay="0.2"
                             data-duration="1.2">
-                            <img class="ml--0" src="{{ asset('front/assets/images/process/02.webp') }}" alt="working-process">
+                            <img class="ml--0" src="{{ asset('front/assets/images/process/02.webp') }}"
+                                alt="working-process">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -256,7 +257,7 @@
         </div>
 
 
-         @include('front.partials.why_choose_us.why_us_2')
+        @include('front.partials.why_choose_us.why_us_2')
 
 
         <!-- rts progress area start -->
@@ -412,10 +413,10 @@
         </div>
         <!-- rts team area ends -->
 
-       @include('front.partials.testimonials.testimonial_5')
+        @include('front.partials.testimonials.testimonial_5')
 
 
-@include('front.partials.blog.blogs_4')
+        @include('front.partials.blog.blogs_4')
 
         <!-- appoinment  area start -->
         <div class="appoinment-area-seven bg_image ptb--100">
@@ -450,10 +451,10 @@
         <!-- appoinment  area end -->
 
 
-       @include('front.partials.faq.faq_3')
+        @include('front.partials.faq.faq_3')
 
 
-      @include('front.partials.cta.cta_3')
+        @include('front.partials.cta.cta_3')
 
 
 

@@ -5,126 +5,126 @@
 
     <body class="index-five">
 
-<!-- rts banner area five -->
-<div class="rts-banner-five-wrapper rts-section-gapBottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="banner-five-content">
-                    <div class="title-area">
-                        <p class="pre"><span>Welcome!</span> Start Growing Your Business Today</p>
-                        <h1 class="title rts-text-anime-style-1">
-                            We Help to Grow <br>
-                            Your <span>Business</span>
-                        </h1>
-                    </div>
-                    <div class="description-area">
-                        <p class="disc">
-                            Porttitor ornare fermentum aliquam pharetra facilisis gravida risus Dui feugiat fusce
-                            conubia ridiculus tristique parturient
-                        </p>
-                        <a href="service.html" class="rts-btn btn-primary">Our Services</a>
+        <!-- rts banner area five -->
+        <div class="rts-banner-five-wrapper rts-section-gapBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="banner-five-content">
+                            <div class="title-area">
+                                <p class="pre"><span>Welcome!</span> Start Growing Your Business Today</p>
+                                <h1 class="title rts-text-anime-style-1">
+                                    We Help to Grow <br>
+                                    Your <span>Business</span>
+                                </h1>
+                            </div>
+                            <div class="description-area">
+                                <p class="disc">
+                                    Porttitor ornare fermentum aliquam pharetra facilisis gravida risus Dui feugiat fusce
+                                    conubia ridiculus tristique parturient
+                                </p>
+                                <a href="service.html" class="rts-btn btn-primary">Our Services</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="row align-items-center mt--65">
+                    <div class="col-lg-9">
+                        <div class="banner-image-primary-five">
+                            <img class="grow" src="{{asset('front/assets/images/banner/05.webp')}}" alt="banner">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="banner-contact-form-five">
+                            <form action="#">
+                                <h5 class="title">Let's Get Started</h5>
+                                <div class="input-single">
+                                    <input type="text" placeholder="Name" required>
+                                </div>
+                                <div class="input-single">
+                                    <input type="text" placeholder="Email" required>
+                                </div>
+                                <div class="input-single">
+                                    <textarea placeholder="Type your Message" required></textarea>
+                                </div>
+                                <button class="rts-btn btn-primary btn-white">Submit Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shape-area">
+                <img src="{{asset('front/assets/images/banner/shape/05.png')}}" alt="shape" class="one">
+                <img src="{{asset('front/assets/images/banner/shape/06.png')}}" alt="shape" class="two">
+                <img src="{{asset('front/assets/images/banner/shape/07.png')}}" alt="shape" class="three">
             </div>
         </div>
-        <div class="row align-items-center mt--65">
-            <div class="col-lg-9">
-                <div class="banner-image-primary-five">
-                    <img class="grow" src="{{asset('front/assets/images/banner/05.webp')}}" alt="banner">
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="banner-contact-form-five">
-                    <form action="#">
-                        <h5 class="title">Let's Get Started</h5>
-                        <div class="input-single">
-                            <input type="text" placeholder="Name" required>
-                        </div>
-                        <div class="input-single">
-                            <input type="text" placeholder="Email" required>
-                        </div>
-                        <div class="input-single">
-                            <textarea placeholder="Type your Message" required></textarea>
-                        </div>
-                        <button class="rts-btn btn-primary btn-white">Submit Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="shape-area">
-        <img src="{{asset('front/assets/images/banner/shape/05.png')}}" alt="shape" class="one">
-        <img src="{{asset('front/assets/images/banner/shape/06.png')}}" alt="shape" class="two">
-        <img src="{{asset('front/assets/images/banner/shape/07.png')}}" alt="shape" class="three">
-    </div>
-</div>
-<!-- rts banner area five end -->
+        <!-- rts banner area five end -->
 
-<!-- rts service area start -->
-<div class="rts-service-area rts-section-gapBottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="title-style-five center">
-                    <span class="pre">Our Services</span>
-                    <h2 class="title">Effective Services</h2>
+        <!-- rts service area start -->
+        <div class="rts-service-area rts-section-gapBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-style-five center">
+                            <span class="pre">Our Services</span>
+                            <h2 class="title">Effective Services</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5 mt--10">
+                    <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.0" data-duration="1.2">
+                        <div class="service-single-main-wrapper-five">
+                            <div class="icon">
+                                <img src="{{asset('front/assets/images/service/icons/08.svg')}}" alt="service">
+                            </div>
+                            <div class="inner-content">
+                                <a href="service-details.html">
+                                    <h5 class="title">Management planning</h5>
+                                </a>
+                                <p class="disc">
+                                    Purus dui eget sollicitudin curae leo proin platea cras, morbi torquent massa
+                                </p>
+                                <a href="service-details.html" class="rts-btn btn-primary btn-white">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
+                        <div class="service-single-main-wrapper-five">
+                            <div class="icon">
+                                <img src="{{asset('front/assets/images/service/icons/09.svg')}}" alt="service">
+                            </div>
+                            <div class="inner-content">
+                                <a href="service-details.html">
+                                    <h5 class="title">Business Growth</h5>
+                                </a>
+                                <p class="disc">
+                                    Purus dui eget sollicitudin curae leo proin platea cras, morbi torquent massa
+                                </p>
+                                <a href="service-details.html" class="rts-btn btn-primary btn-white">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
+                        <div class="service-single-main-wrapper-five">
+                            <div class="icon">
+                                <img src="{{asset('front/assets/images/service/icons/10.svg')}}" alt="service">
+                            </div>
+                            <div class="inner-content">
+                                <a href="service-details.html">
+                                    <h5 class="title">Social planning</h5>
+                                </a>
+                                <p class="disc">
+                                    Purus dui eget sollicitudin curae leo proin platea cras, morbi torquent massa
+                                </p>
+                                <a href="service-details.html" class="rts-btn btn-primary btn-white">Read More</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row g-5 mt--10">
-            <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.0" data-duration="1.2">
-                <div class="service-single-main-wrapper-five">
-                    <div class="icon">
-                        <img src="{{asset('front/assets/images/service/icons/08.svg')}}" alt="service">
-                    </div>
-                    <div class="inner-content">
-                        <a href="service-details.html">
-                            <h5 class="title">Management planning</h5>
-                        </a>
-                        <p class="disc">
-                            Purus dui eget sollicitudin curae leo proin platea cras, morbi torquent massa
-                        </p>
-                        <a href="service-details.html" class="rts-btn btn-primary btn-white">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
-                <div class="service-single-main-wrapper-five">
-                    <div class="icon">
-                        <img src="{{asset('front/assets/images/service/icons/09.svg')}}" alt="service">
-                    </div>
-                    <div class="inner-content">
-                        <a href="service-details.html">
-                            <h5 class="title">Business Growth</h5>
-                        </a>
-                        <p class="disc">
-                            Purus dui eget sollicitudin curae leo proin platea cras, morbi torquent massa
-                        </p>
-                        <a href="service-details.html" class="rts-btn btn-primary btn-white">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
-                <div class="service-single-main-wrapper-five">
-                    <div class="icon">
-                        <img src="{{asset('front/assets/images/service/icons/10.svg')}}" alt="service">
-                    </div>
-                    <div class="inner-content">
-                        <a href="service-details.html">
-                            <h5 class="title">Social planning</h5>
-                        </a>
-                        <p class="disc">
-                            Purus dui eget sollicitudin curae leo proin platea cras, morbi torquent massa
-                        </p>
-                        <a href="service-details.html" class="rts-btn btn-primary btn-white">Read More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- rts service area end -->
+        <!-- rts service area end -->
 
         <!-- rs call to action area three -->
         <div class="rts-call-to-action-area-three bg_image">
@@ -149,69 +149,69 @@
         </div>
         <!-- rs call to action area three end -->
 
-<!-- rts progress area start -->
-<div class="rts-progress-area-main-wrapper rts-section-gap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="progress-circle-main-wrapper">
-                    <div class="single-progress-area">
-                        <div class="single-progress-circle">
-                            <svg class="radial-progress" data-countervalue="76" viewBox="0 0 80 80">
-                                <circle class="bar-static" cx="40" cy="40" r="35"></circle>
-                                <circle class="bar--animated" cx="40" cy="40" r="35"
-                                    style="stroke-dashoffset: 217.8;"></circle>
-                                <text class="countervalue start" x="50%" y="50%"
-                                    transform="matrix(0, 1, -1, 0, 80, 0)"></text>
-                            </svg>
-                            <img src="{{asset('front/assets/images/fun/01.svg')}}" alt="fun">
-                        </div>
-                        <div class="right-counter">
-                            <h2 class="counter title"><span class="odometer" data-count="76">00</span>%
-                            </h2>
-                            <p>Trusted Clients</p>
-                        </div>
-                    </div>
-                    <div class="single-progress-area">
-                        <div class="single-progress-circle">
-                            <svg class="radial-progress" data-countervalue="89" viewBox="0 0 80 80">
-                                <circle class="bar-static" cx="40" cy="40" r="35"></circle>
-                                <circle class="bar--animated" cx="40" cy="40" r="35"
-                                    style="stroke-dashoffset: 217.8;"></circle>
-                                <text class="countervalue start" x="50%" y="50%"
-                                    transform="matrix(0, 1, -1, 0, 80, 0)"></text>
-                            </svg>
-                            <img src="{{asset('front/assets/images/fun/02.svg')}}" alt="fun">
-                        </div>
-                        <div class="right-counter">
-                            <h2 class="counter title"><span class="odometer" data-count="89">00</span>%
-                            </h2>
-                            <p>Project Completed</p>
-                        </div>
-                    </div>
-                    <div class="single-progress-area">
-                        <div class="single-progress-circle">
-                            <svg class="radial-progress" data-countervalue="70" viewBox="0 0 80 80">
-                                <circle class="bar-static" cx="40" cy="40" r="35"></circle>
-                                <circle class="bar--animated" cx="40" cy="40" r="35"
-                                    style="stroke-dashoffset: 217.8;"></circle>
-                                <text class="countervalue start" x="50%" y="50%"
-                                    transform="matrix(0, 1, -1, 0, 80, 0)"></text>
-                            </svg>
-                            <img src="{{asset('front/assets/images/fun/03.svg')}}" alt="fun">
-                        </div>
-                        <div class="right-counter">
-                            <h2 class="counter title"><span class="odometer" data-count="70">00</span>%
-                            </h2>
-                            <p>Business Awards</p>
+        <!-- rts progress area start -->
+        <div class="rts-progress-area-main-wrapper rts-section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="progress-circle-main-wrapper">
+                            <div class="single-progress-area">
+                                <div class="single-progress-circle">
+                                    <svg class="radial-progress" data-countervalue="76" viewBox="0 0 80 80">
+                                        <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                        <circle class="bar--animated" cx="40" cy="40" r="35"
+                                            style="stroke-dashoffset: 217.8;"></circle>
+                                        <text class="countervalue start" x="50%" y="50%"
+                                            transform="matrix(0, 1, -1, 0, 80, 0)"></text>
+                                    </svg>
+                                    <img src="{{asset('front/assets/images/fun/01.svg')}}" alt="fun">
+                                </div>
+                                <div class="right-counter">
+                                    <h2 class="counter title"><span class="odometer" data-count="76">00</span>%
+                                    </h2>
+                                    <p>Trusted Clients</p>
+                                </div>
+                            </div>
+                            <div class="single-progress-area">
+                                <div class="single-progress-circle">
+                                    <svg class="radial-progress" data-countervalue="89" viewBox="0 0 80 80">
+                                        <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                        <circle class="bar--animated" cx="40" cy="40" r="35"
+                                            style="stroke-dashoffset: 217.8;"></circle>
+                                        <text class="countervalue start" x="50%" y="50%"
+                                            transform="matrix(0, 1, -1, 0, 80, 0)"></text>
+                                    </svg>
+                                    <img src="{{asset('front/assets/images/fun/02.svg')}}" alt="fun">
+                                </div>
+                                <div class="right-counter">
+                                    <h2 class="counter title"><span class="odometer" data-count="89">00</span>%
+                                    </h2>
+                                    <p>Project Completed</p>
+                                </div>
+                            </div>
+                            <div class="single-progress-area">
+                                <div class="single-progress-circle">
+                                    <svg class="radial-progress" data-countervalue="70" viewBox="0 0 80 80">
+                                        <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                        <circle class="bar--animated" cx="40" cy="40" r="35"
+                                            style="stroke-dashoffset: 217.8;"></circle>
+                                        <text class="countervalue start" x="50%" y="50%"
+                                            transform="matrix(0, 1, -1, 0, 80, 0)"></text>
+                                    </svg>
+                                    <img src="{{asset('front/assets/images/fun/03.svg')}}" alt="fun">
+                                </div>
+                                <div class="right-counter">
+                                    <h2 class="counter title"><span class="odometer" data-count="70">00</span>%
+                                    </h2>
+                                    <p>Business Awards</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<!-- rts progress area end -->
+        <!-- rts progress area end -->
 
         <!-- rts about area start -->
         <div class="rts-about-five-area rts-section-gapBottom">
@@ -296,288 +296,294 @@
         <!-- rts about area end -->
 
 
- <!-- rts team area start -->
-<div class="rts-team-area rts-section-gap bg_image bg_team-area-five">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="title-style-five center">
-                    <span class="pre">Team Members</span>
-                    <h2 class="title">Meet Our Dedicated Team</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row g-5 mt--10">
-            <div class="col-lg-3 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.0" data-duration="1.2">
-                <div class="single-team-style-5">
-                    <a href="team-details.html" class="thumbnail">
-                        <img src="{{asset('front/assets/images/team/08.webp')}}" alt="thumbnail">
-                    </a>
-                    <div class="inner">
-                        <a href="team-details.html">
-                            <h5 class="title">Andreas Menor</h5>
-                        </a>
-                        <span>Sr. Manager</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
-                <div class="single-team-style-5">
-                    <a href="team-details.html" class="thumbnail">
-                        <img src="{{asset('front/assets/images/team/09.webp')}}" alt="thumbnail">
-                    </a>
-                    <div class="inner">
-                        <a href="team-details.html">
-                            <h5 class="title">John Dion</h5>
-                        </a>
-                        <span>Sr. Manager</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
-                <div class="single-team-style-5">
-                    <a href="team-details.html" class="thumbnail">
-                        <img src="{{asset('front/assets/images/team/10.webp')}}" alt="thumbnail">
-                    </a>
-                    <div class="inner">
-                        <a href="team-details.html">
-                            <h5 class="title">Martin Anderson</h5>
-                        </a>
-                        <span>Sr. Manager</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.6" data-duration="1.2">
-                <div class="single-team-style-5">
-                    <a href="team-details.html" class="thumbnail">
-                        <img src="{{asset('front/assets/images/team/11.webp')}}" alt="thumbnail">
-                    </a>
-                    <div class="inner">
-                        <a href="team-details.html">
-                            <h5 class="title">Kupar Tamil</h5>
-                        </a>
-                        <span>Sr. Manager</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- rts team area end -->
-
-
-<!-- rts business grotha area start -->
-<div class="rts-business-groth-area rts-section-gap">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="business-groth-inner-wrapper-5">
-                    <div class="title-style-five">
-                        <span class="pre">Business Growth</span>
-                        <h2 class="title rts-text-anime-style-1">Contributing To Important <br> Global Initiatives
-                        </h2>
-                    </div>
-                    <div class="progress-wrapper-about-4 mt--50 mb--50">
-
-                        <div class="single-progress">
-                            <h6 class="title">Business Solution</h6>
-                            <div class="progress">
-                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s"
-                                    data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                                <span class="progress-number">100%</span>
-                            </div>
+        <!-- rts team area start -->
+        <div class="rts-team-area rts-section-gap bg_image bg_team-area-five">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-style-five center">
+                            <span class="pre">Team Members</span>
+                            <h2 class="title">Meet Our Dedicated Team</h2>
                         </div>
-                        <div class="single-progress">
-                            <h6 class="title">Empowering Success</h6>
-                            <div class="progress">
-                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s"
-                                    data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                                <span class="progress-number">100%</span>
-                            </div>
-                        </div>
-                        <div class="single-progress">
-                            <h6 class="title">Simplifying Success</h6>
-                            <div class="progress">
-                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s"
-                                    data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                                <span class="progress-number">100%</span>
+                    </div>
+                </div>
+                <div class="row g-5 mt--10">
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.0" data-duration="1.2">
+                        <div class="single-team-style-5">
+                            <a href="team-details.html" class="thumbnail">
+                                <img src="{{asset('front/assets/images/team/08.webp')}}" alt="thumbnail">
+                            </a>
+                            <div class="inner">
+                                <a href="team-details.html">
+                                    <h5 class="title">Andreas Menor</h5>
+                                </a>
+                                <span>Sr. Manager</span>
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="rts-btn btn-primary">Read More</a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="business-groth-5-thumbnail">
-                    <img src="{{asset('front/assets/images/business/02.webp')}}" alt="business">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- rts business grotha area ends -->
-
-<div class="rts-trusted-client rts-section-gapBottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="title-area-client-client text-center">
-                    <p class="client-title">Our Trusted Clients</p>
-                </div>
-            </div>
-        </div>
-        <div class="row mt--65">
-            <div class="col-lg-12">
-                <div class="client-three-wrapper">
-                    <div class="single">
-                        <img src="{{asset('front/assets/images/brand/01.webp')}}" alt="Business_client">
-                    </div>
-                    <div class="single">
-                        <img src="{{asset('front/assets/images/brand/02.webp')}}" alt="Business_client">
-                    </div>
-                    <div class="single">
-                        <img src="{{asset('front/assets/images/brand/03.webp')}}" alt="Business_client">
-                    </div>
-                    <div class="single">
-                        <img src="{{asset('front/assets/images/brand/04.webp')}}" alt="Business_client">
-                    </div>
-                    <div class="single">
-                        <img src="{{asset('front/assets/images/brand/05.webp')}}" alt="Business_client">
-                    </div>
-                    <div class="single">
-                        <img src="{{asset('front/assets/images/brand/06.webp')}}" alt="Business_client">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="rts-project-area rts-section-gap bg_project-5 bg_image">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="title-style-five center">
-                    <span class="pre">Popular Projects</span>
-                    <h2 class="title">Our Completed Projects</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row mt--50">
-            <div class="col-lg-12">
-                <div class="project-swiper-5-area">
-                    <div class="swiper mySwiper-project-five" dir="ltr">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="row g-5">
-                                    <div class="col-lg-5">
-                                        <div class="project-content-left-5">
-                                            <div class="icon">
-                                                <img src="{{asset('front/assets/images/project/01.svg')}}" alt="project">
-                                            </div>
-                                            <div class="title-area">
-                                                <h6 class="title">Pro Business Solution</h6>
-                                                <span>Case Study, Growth</span>
-                                            </div>
-                                            <div class="inner">
-                                                <p class="disc">
-                                                    Ornare etiam laoreet dictumst nisl quisque scelerisque cras ut
-                                                    porta
-                                                    interdum purus mattis iaculis litora turpis torquent posuere
-                                                    sodales
-                                                    himenaeos
-                                                </p>
-                                                <a href="project-details.html" class="rts-btn btn-primary">View
-                                                    Project</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="thumbnail-project-5">
-                                            <img src="{{asset('front/assets/images/project/11.webp')}}" alt="project">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="row g-5">
-                                    <div class="col-lg-5">
-                                        <div class="project-content-left-5">
-                                            <div class="icon">
-                                                <img src="{{asset('front/assets/images/project/01.svg')}}" alt="project">
-                                            </div>
-                                            <div class="title-area">
-                                                <h6 class="title">Best Business Solution</h6>
-                                                <span>Case Study, Growth</span>
-                                            </div>
-                                            <div class="inner">
-                                                <p class="disc">
-                                                    Ornare etiam laoreet dictumst nisl quisque scelerisque cras ut
-                                                    porta
-                                                    interdum purus mattis iaculis litora turpis torquent posuere
-                                                    sodales
-                                                    himenaeos
-                                                </p>
-                                                <a href="project-details.html" class="rts-btn btn-primary">View
-                                                    Project</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="thumbnail-project-5">
-                                            <img src="{{asset('front/assets/images/project/11.webp')}}" alt="project">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="row g-5">
-                                    <div class="col-lg-5">
-                                        <div class="project-content-left-5">
-                                            <div class="icon">
-                                                <img src="{{asset('front/assets/images/project/01.svg')}}" alt="project">
-                                            </div>
-                                            <div class="title-area">
-                                                <h6 class="title">Pro Business Solution</h6>
-                                                <span>Case Study, Growth</span>
-                                            </div>
-                                            <div class="inner">
-                                                <p class="disc">
-                                                    Ornare etiam laoreet dictumst nisl quisque scelerisque cras ut
-                                                    porta
-                                                    interdum purus mattis iaculis litora turpis torquent posuere
-                                                    sodales
-                                                    himenaeos
-                                                </p>
-                                                <a href="project-details.html" class="rts-btn btn-primary">View
-                                                    Project</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="thumbnail-project-5">
-                                            <img src="{{asset('front/assets/images/project/11.webp')}}" alt="project">
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
+                        <div class="single-team-style-5">
+                            <a href="team-details.html" class="thumbnail">
+                                <img src="{{asset('front/assets/images/team/09.webp')}}" alt="thumbnail">
+                            </a>
+                            <div class="inner">
+                                <a href="team-details.html">
+                                    <h5 class="title">John Dion</h5>
+                                </a>
+                                <span>Sr. Manager</span>
                             </div>
                         </div>
-                        <div class="swiper-pagination-fraction"></div>
-                        <div class="swiper-button-next"><i class="fa-sharp fa-regular fa-arrow-right"></i></div>
-                        <div class="swiper-button-prev"><i class="fa-sharp fa-regular fa-arrow-left"></i></div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
+                        <div class="single-team-style-5">
+                            <a href="team-details.html" class="thumbnail">
+                                <img src="{{asset('front/assets/images/team/10.webp')}}" alt="thumbnail">
+                            </a>
+                            <div class="inner">
+                                <a href="team-details.html">
+                                    <h5 class="title">Martin Anderson</h5>
+                                </a>
+                                <span>Sr. Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.6" data-duration="1.2">
+                        <div class="single-team-style-5">
+                            <a href="team-details.html" class="thumbnail">
+                                <img src="{{asset('front/assets/images/team/11.webp')}}" alt="thumbnail">
+                            </a>
+                            <div class="inner">
+                                <a href="team-details.html">
+                                    <h5 class="title">Kupar Tamil</h5>
+                                </a>
+                                <span>Sr. Manager</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
-    </div>
-</div>
+        <!-- rts team area end -->
+
+
+        <!-- rts business grotha area start -->
+        <div class="rts-business-groth-area rts-section-gap">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="business-groth-inner-wrapper-5">
+                            <div class="title-style-five">
+                                <span class="pre">Business Growth</span>
+                                <h2 class="title rts-text-anime-style-1">Contributing To Important <br> Global Initiatives
+                                </h2>
+                            </div>
+                            <div class="progress-wrapper-about-4 mt--50 mb--50">
+
+                                <div class="single-progress">
+                                    <h6 class="title">Business Solution</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s"
+                                            data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                            aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                        <span class="progress-number">100%</span>
+                                    </div>
+                                </div>
+                                <div class="single-progress">
+                                    <h6 class="title">Empowering Success</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s"
+                                            data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                            aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                        <span class="progress-number">100%</span>
+                                    </div>
+                                </div>
+                                <div class="single-progress">
+                                    <h6 class="title">Simplifying Success</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s"
+                                            data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                            aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                        <span class="progress-number">100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="rts-btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="business-groth-5-thumbnail">
+                            <img src="{{asset('front/assets/images/business/02.webp')}}" alt="business">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- rts business grotha area ends -->
+
+        <div class="rts-trusted-client rts-section-gapBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="title-area-client-client text-center">
+                            <p class="client-title">Our Trusted Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt--65">
+                    <div class="col-lg-12">
+                        <div class="client-three-wrapper">
+                            <div class="single">
+                                <img src="{{asset('front/assets/images/brand/01.webp')}}" alt="Business_client">
+                            </div>
+                            <div class="single">
+                                <img src="{{asset('front/assets/images/brand/02.webp')}}" alt="Business_client">
+                            </div>
+                            <div class="single">
+                                <img src="{{asset('front/assets/images/brand/03.webp')}}" alt="Business_client">
+                            </div>
+                            <div class="single">
+                                <img src="{{asset('front/assets/images/brand/04.webp')}}" alt="Business_client">
+                            </div>
+                            <div class="single">
+                                <img src="{{asset('front/assets/images/brand/05.webp')}}" alt="Business_client">
+                            </div>
+                            <div class="single">
+                                <img src="{{asset('front/assets/images/brand/06.webp')}}" alt="Business_client">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rts-project-area rts-section-gap bg_project-5 bg_image">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-style-five center">
+                            <span class="pre">Popular Projects</span>
+                            <h2 class="title">Our Completed Projects</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt--50">
+                    <div class="col-lg-12">
+                        <div class="project-swiper-5-area">
+                            <div class="swiper mySwiper-project-five" dir="ltr">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="row g-5">
+                                            <div class="col-lg-5">
+                                                <div class="project-content-left-5">
+                                                    <div class="icon">
+                                                        <img src="{{asset('front/assets/images/project/01.svg')}}"
+                                                            alt="project">
+                                                    </div>
+                                                    <div class="title-area">
+                                                        <h6 class="title">Pro Business Solution</h6>
+                                                        <span>Case Study, Growth</span>
+                                                    </div>
+                                                    <div class="inner">
+                                                        <p class="disc">
+                                                            Ornare etiam laoreet dictumst nisl quisque scelerisque cras ut
+                                                            porta
+                                                            interdum purus mattis iaculis litora turpis torquent posuere
+                                                            sodales
+                                                            himenaeos
+                                                        </p>
+                                                        <a href="project-details.html" class="rts-btn btn-primary">View
+                                                            Project</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <div class="thumbnail-project-5">
+                                                    <img src="{{asset('front/assets/images/project/11.webp')}}"
+                                                        alt="project">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="row g-5">
+                                            <div class="col-lg-5">
+                                                <div class="project-content-left-5">
+                                                    <div class="icon">
+                                                        <img src="{{asset('front/assets/images/project/01.svg')}}"
+                                                            alt="project">
+                                                    </div>
+                                                    <div class="title-area">
+                                                        <h6 class="title">Best Business Solution</h6>
+                                                        <span>Case Study, Growth</span>
+                                                    </div>
+                                                    <div class="inner">
+                                                        <p class="disc">
+                                                            Ornare etiam laoreet dictumst nisl quisque scelerisque cras ut
+                                                            porta
+                                                            interdum purus mattis iaculis litora turpis torquent posuere
+                                                            sodales
+                                                            himenaeos
+                                                        </p>
+                                                        <a href="project-details.html" class="rts-btn btn-primary">View
+                                                            Project</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <div class="thumbnail-project-5">
+                                                    <img src="{{asset('front/assets/images/project/11.webp')}}"
+                                                        alt="project">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="row g-5">
+                                            <div class="col-lg-5">
+                                                <div class="project-content-left-5">
+                                                    <div class="icon">
+                                                        <img src="{{asset('front/assets/images/project/01.svg')}}"
+                                                            alt="project">
+                                                    </div>
+                                                    <div class="title-area">
+                                                        <h6 class="title">Pro Business Solution</h6>
+                                                        <span>Case Study, Growth</span>
+                                                    </div>
+                                                    <div class="inner">
+                                                        <p class="disc">
+                                                            Ornare etiam laoreet dictumst nisl quisque scelerisque cras ut
+                                                            porta
+                                                            interdum purus mattis iaculis litora turpis torquent posuere
+                                                            sodales
+                                                            himenaeos
+                                                        </p>
+                                                        <a href="project-details.html" class="rts-btn btn-primary">View
+                                                            Project</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <div class="thumbnail-project-5">
+                                                    <img src="{{asset('front/assets/images/project/11.webp')}}"
+                                                        alt="project">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination-fraction"></div>
+                                <div class="swiper-button-next"><i class="fa-sharp fa-regular fa-arrow-right"></i></div>
+                                <div class="swiper-button-prev"><i class="fa-sharp fa-regular fa-arrow-left"></i></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- tectimonisl-area start -->
         <div class="rts-testimonials-area-five rts-section-gap">
@@ -605,7 +611,8 @@
                                 <div class="swiper-slide">
                                     <div class="single-testimonials-style-five">
                                         <div class="thumbnail">
-                                            <img src="{{ asset('front/assets/images/testimonials/03.webp') }}" alt="testimoanils">
+                                            <img src="{{ asset('front/assets/images/testimonials/03.webp') }}"
+                                                alt="testimoanils">
                                         </div>
                                         <div class="inner-content">
                                             <div class="name-area">
@@ -618,7 +625,8 @@
                                                 volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                             </p>
                                             <div class="body-end">
-                                                <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}"
+                                                <a href="#"><img
+                                                        src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}"
                                                         alt="Client_logo"></a>
                                                 <div class="star-icon">
                                                     <i class="fas fa-star"></i>
@@ -634,7 +642,8 @@
                                 <div class="swiper-slide">
                                     <div class="single-testimonials-style-five">
                                         <div class="thumbnail">
-                                            <img src="{{ asset('front/assets/images/testimonials/04.webp') }}" alt="testimoanils">
+                                            <img src="{{ asset('front/assets/images/testimonials/04.webp') }}"
+                                                alt="testimoanils">
                                         </div>
                                         <div class="inner-content">
                                             <div class="name-area">
@@ -647,7 +656,8 @@
                                                 volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                             </p>
                                             <div class="body-end">
-                                                <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/02.webp') }}"
+                                                <a href="#"><img
+                                                        src="{{ asset('front/assets/images/testimonials/icons/02.webp') }}"
                                                         alt="Client_logo"></a>
                                                 <div class="star-icon">
                                                     <i class="fas fa-star"></i>
@@ -663,7 +673,8 @@
                                 <div class="swiper-slide">
                                     <div class="single-testimonials-style-five">
                                         <div class="thumbnail">
-                                            <img src="{{ asset('front/assets/images/testimonials/03.webp') }}" alt="testimoanils">
+                                            <img src="{{ asset('front/assets/images/testimonials/03.webp') }}"
+                                                alt="testimoanils">
                                         </div>
                                         <div class="inner-content">
                                             <div class="name-area">
@@ -676,7 +687,8 @@
                                                 volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                             </p>
                                             <div class="body-end">
-                                                <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}"
+                                                <a href="#"><img
+                                                        src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}"
                                                         alt="Client_logo"></a>
                                                 <div class="star-icon">
                                                     <i class="fas fa-star"></i>

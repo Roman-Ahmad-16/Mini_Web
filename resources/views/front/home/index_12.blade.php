@@ -12,7 +12,7 @@
     @include('front.home.partials.work_process_12')
     @include('front.home.partials.projects_12')
     @include('front.partials.clients.clients_12')
-    @include('front.partials.pricing.pricing_12')
+    @include('front.partials.pricing.pricing_2')
     @include('front.partials.testimonials.testimonials_12')
     @include('front.home.partials.appointment_12')
     @include('front.partials.blog.blogs_12')

@@ -17,7 +17,7 @@
     <br><br><br><br>
     @include('front.about.partials.vision')
 
-    @include('front.home.partials.testimonial')
+    @include('front.partials.testimonials.testimonial_5')
     <br><br><br><br>
 
 @endsection

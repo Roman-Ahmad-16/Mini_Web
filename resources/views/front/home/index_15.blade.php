@@ -160,7 +160,7 @@
         </div>
 
 
-      @include('front.partials.about.about_5')
+        @include('front.partials.about.about_5')
 
 
         <!-- rts c;ients review area start -->
@@ -174,7 +174,8 @@
                                 <div class="swiper-slide">
                                     <div class="single-testimonials-hr">
                                         <div class="brand">
-                                            <img src="{{ asset('front/assets/images/testimonials/icons/04') }}.svg" alt="avatar">
+                                            <img src="{{ asset('front/assets/images/testimonials/icons/04') }}.svg"
+                                                alt="avatar">
                                         </div>
                                         <p class="disc">
                                             4.88 out of 5 star from 1,645 reviews
@@ -191,7 +192,8 @@
                                 <div class="swiper-slide">
                                     <div class="single-testimonials-hr">
                                         <div class="brand">
-                                            <img src="{{ asset('front/assets/images/testimonials/icons/04') }}.svg" alt="avatar">
+                                            <img src="{{ asset('front/assets/images/testimonials/icons/04') }}.svg"
+                                                alt="avatar">
                                         </div>
                                         <p class="disc">
                                             4.88 out of 5 star from 1,645 reviews
@@ -208,7 +210,8 @@
                                 <div class="swiper-slide">
                                     <div class="single-testimonials-hr">
                                         <div class="brand">
-                                            <img src="{{ asset('front/assets/images/testimonials/icons/04') }}.svg" alt="avatar">
+                                            <img src="{{ asset('front/assets/images/testimonials/icons/04') }}.svg"
+                                                alt="avatar">
                                         </div>
                                         <p class="disc">
                                             4.88 out of 5 star from 1,645 reviews
@@ -225,7 +228,8 @@
                                 <div class="swiper-slide">
                                     <div class="single-testimonials-hr">
                                         <div class="brand">
-                                            <img src="{{ asset('front/assets/images/testimonials/icons/04') }}.svg" alt="avatar">
+                                            <img src="{{ asset('front/assets/images/testimonials/icons/04') }}.svg"
+                                                alt="avatar">
                                         </div>
                                         <p class="disc">
                                             4.88 out of 5 star from 1,645 reviews
@@ -276,8 +280,8 @@
                 </div>
             </div>
             <!-- <div class="bg-shape-vedio-section">
-                <img src="{{ asset('front/assets/images/gallery/bg-vedio') }}.png" alt="bg">
-            </div> -->
+                        <img src="{{ asset('front/assets/images/gallery/bg-vedio') }}.png" alt="bg">
+                    </div> -->
         </div>
         <!-- start vedio area end -->
 
@@ -312,7 +316,8 @@
                                         <div class="swiper-slide">
                                             <div class="single-case-studies-four">
                                                 <a href="project-details.html" class="thumbnail">
-                                                    <img src="{{ asset('front/assets/images/project/07.webp') }}" alt="project">
+                                                    <img src="{{ asset('front/assets/images/project/07.webp') }}"
+                                                        alt="project">
                                                 </a>
                                                 <div class="inner">
                                                     <a href="project-details.html">
@@ -321,14 +326,16 @@
                                                     </a>
                                                 </div>
                                                 <div class="eye">
-                                                    <img src="{{ asset('front/assets/images/project/eye.svg') }}" alt="project">
+                                                    <img src="{{ asset('front/assets/images/project/eye.svg') }}"
+                                                        alt="project">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="single-case-studies-four">
                                                 <a href="project-details.html" class="thumbnail">
-                                                    <img src="{{ asset('front/assets/images/project/08.webp') }}" alt="project">
+                                                    <img src="{{ asset('front/assets/images/project/08.webp') }}"
+                                                        alt="project">
                                                 </a>
                                                 <div class="inner">
                                                     <a href="project-details.html">
@@ -337,14 +344,16 @@
                                                     </a>
                                                 </div>
                                                 <div class="eye">
-                                                    <img src="{{ asset('front/assets/images/project/eye.svg') }}" alt="project">
+                                                    <img src="{{ asset('front/assets/images/project/eye.svg') }}"
+                                                        alt="project">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="single-case-studies-four">
                                                 <a href="project-details.html" class="thumbnail">
-                                                    <img src="{{ asset('front/assets/images/project/09.webp') }}" alt="project">
+                                                    <img src="{{ asset('front/assets/images/project/09.webp') }}"
+                                                        alt="project">
                                                 </a>
                                                 <div class="inner">
                                                     <a href="project-details.html">
@@ -353,14 +362,16 @@
                                                     </a>
                                                 </div>
                                                 <div class="eye">
-                                                    <img src="{{ asset('front/assets/images/project/eye.svg') }}" alt="project">
+                                                    <img src="{{ asset('front/assets/images/project/eye.svg') }}"
+                                                        alt="project">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="single-case-studies-four">
                                                 <a href="project-details.html" class="thumbnail">
-                                                    <img src="{{ asset('front/assets/images/project/08.webp') }}" alt="project">
+                                                    <img src="{{ asset('front/assets/images/project/08.webp') }}"
+                                                        alt="project">
                                                 </a>
                                                 <div class="inner">
                                                     <a href="project-details.html">
@@ -369,7 +380,8 @@
                                                     </a>
                                                 </div>
                                                 <div class="eye">
-                                                    <img src="{{ asset('front/assets/images/project/eye.svg') }}" alt="project">
+                                                    <img src="{{ asset('front/assets/images/project/eye.svg') }}"
+                                                        alt="project">
                                                 </div>
                                             </div>
                                         </div>
@@ -493,7 +505,7 @@
         </div>
         <!-- rts team area ends -->
 
-      @include('front.partials.testimonials.testimonial_5')
+        @include('front.partials.testimonials.testimonial_5')
 
         <!-- rts business process area start -->
         <div class="rts-business-process-area rts-section-gap">
@@ -543,9 +555,9 @@
         </div>
         <!-- rts business process area end -->
 
-       @include('front.partials.blog.blogs_5')
+        @include('front.partials.blog.blogs_5')
 
-       @include('front.partials.cta.cta_3')
+        @include('front.partials.cta.cta_3')
 
 
         <!-- offcanvase search -->

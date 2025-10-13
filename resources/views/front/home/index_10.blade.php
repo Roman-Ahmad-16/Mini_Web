@@ -742,6 +742,7 @@
         @include('front.partials.testimonials.testimonial_5')
 
         @include('front.partials.blog.blogs_6')
+        
         @include('front.partials.cta.cta_3')
 
 

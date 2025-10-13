@@ -153,7 +153,7 @@
         </div>
 
 
-       @include('front.partials.testimonials.testimonial_7')
+        @include('front.partials.testimonials.testimonial_7')
 
 
         <!-- appoinment contact area start -->
@@ -248,15 +248,18 @@
 
 
 
-    @include('front.partials.blog.blogs_6')
+        @include('front.partials.blog.blogs_6')
 
 
 
-      @include('front.partials.cta.cta')
+        @include('front.partials.cta.cta')
+
+        
         <button class="close-icon-menu" title="Close menu"><i class="far fa-times"></i></button>
         <!-- inner menu area desktop start -->
         <div class="rts-sidebar-menu-desktop">
-            <a class="logo-1" href="index.html"><img class="logo" src="{{ asset('front/assets/images/logo/01.svg') }}" alt="finbiz_logo"></a>
+            <a class="logo-1" href="index.html"><img class="logo" src="{{ asset('front/assets/images/logo/01.svg') }}"
+                    alt="finbiz_logo"></a>
             <div class="body d-none d-xl-block">
                 <p class="disc">
                     We must explain to you how all seds this mistakens idea denouncing pleasures and praising account.

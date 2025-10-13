@@ -128,16 +128,7 @@
         @include('front.partials.why_choose_us.why_us_3')
 
 
-      @include('front.partials.testimonials.testimonial_7')
-
-
-
-
-
-
-
-
-
+        @include('front.partials.testimonials.testimonial_7')
 
 
         <!-- appoinment contact area start -->
@@ -232,7 +223,7 @@
 
 
 
-     @include('front.home.partials.blogs_3')
+        @include('front.home.partials.blogs_3')
 
         @include('front.home.partials.cta_2')
 

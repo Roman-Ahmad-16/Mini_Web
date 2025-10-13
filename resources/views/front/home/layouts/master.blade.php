@@ -28,10 +28,9 @@
 
     @yield('content')
 
+    @include('front.home.layouts.partials.brands')
+
     @include('front.home.layouts.partials.footer')
-
-
-
 
     @include('front.home.layouts.partials.script')
 

@@ -219,7 +219,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 pr--70 pr_md--0 pr_sm--0">
                         <div class="thumbnail-about-five">
-                            <img src="assets/images/about/10.webp" alt="">
+                            <img src="{{ asset('front/assets/images/about/10.webp') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 mt_md--30 mt_sm--30">
@@ -239,7 +239,7 @@
                                 <!-- ingle about start -->
                                 <div class="about-single-home-7">
                                     <div class="icon">
-                                        <img src="assets/images/about/icons/03.svg" alt="">
+                                        <img src="{{ asset('front/assets/images/about/icons/03.svg') }}" alt="">
                                     </div>
                                     <div class="discription">
                                         <h6 class="title">
@@ -273,7 +273,7 @@
                                 <!-- ingle about start -->
                                 <div class="about-single-home-7">
                                     <div class="icon">
-                                        <img src="assets/images/about/icons/05.svg" alt="">
+                                        <img src="{{ asset('front/assets/images/about/icons/05.svg') }}" alt="">
                                     </div>
                                     <div class="discription">
                                         <h6 class="title">
@@ -605,7 +605,7 @@
                                 <div class="swiper-slide">
                                     <div class="single-testimonials-style-five">
                                         <div class="thumbnail">
-                                            <img src="assets/images/testimonials/03.webp" alt="testimoanils">
+                                            <img src="{{ asset('front/assets/images/testimonials/03.webp') }}" alt="testimoanils">
                                         </div>
                                         <div class="inner-content">
                                             <div class="name-area">
@@ -618,7 +618,7 @@
                                                 volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                             </p>
                                             <div class="body-end">
-                                                <a href="#"><img src="assets/images/testimonials/icons/03.webp"
+                                                <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}"
                                                         alt="Client_logo"></a>
                                                 <div class="star-icon">
                                                     <i class="fas fa-star"></i>
@@ -634,7 +634,7 @@
                                 <div class="swiper-slide">
                                     <div class="single-testimonials-style-five">
                                         <div class="thumbnail">
-                                            <img src="assets/images/testimonials/04.webp" alt="testimoanils">
+                                            <img src="{{ asset('front/assets/images/testimonials/04.webp') }}" alt="testimoanils">
                                         </div>
                                         <div class="inner-content">
                                             <div class="name-area">
@@ -647,7 +647,7 @@
                                                 volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                             </p>
                                             <div class="body-end">
-                                                <a href="#"><img src="assets/images/testimonials/icons/02.webp"
+                                                <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/02.webp') }}"
                                                         alt="Client_logo"></a>
                                                 <div class="star-icon">
                                                     <i class="fas fa-star"></i>
@@ -663,7 +663,7 @@
                                 <div class="swiper-slide">
                                     <div class="single-testimonials-style-five">
                                         <div class="thumbnail">
-                                            <img src="assets/images/testimonials/03.webp" alt="testimoanils">
+                                            <img src="{{ asset('front/assets/images/testimonials/03.webp') }}" alt="testimoanils">
                                         </div>
                                         <div class="inner-content">
                                             <div class="name-area">
@@ -676,7 +676,7 @@
                                                 volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                             </p>
                                             <div class="body-end">
-                                                <a href="#"><img src="assets/images/testimonials/icons/03.webp"
+                                                <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}"
                                                         alt="Client_logo"></a>
                                                 <div class="star-icon">
                                                     <i class="fas fa-star"></i>
@@ -714,7 +714,7 @@
                         <!-- single Post blog large -->
                         <div class="rts-blog-h-2-wrapper">
                             <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/04.webp" alt="Business_blog">
+                                <img src="{{ asset('front/assets/images/blog/04.webp') }}" alt="Business_blog">
                             </a>
                             <div class="body">
                                 <span>Business Solution / by David Dolean</span>
@@ -734,7 +734,7 @@
                         <!-- single Post blog large -->
                         <div class="rts-blog-h-2-wrapper">
                             <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/05.webp" alt="Business_blog">
+                                <img src="{{ asset('front/assets/images/blog/05.webp') }}" alt="Business_blog">
                             </a>
                             <div class="body">
                                 <span>Business Solution / by David Dolean</span>
@@ -754,7 +754,7 @@
                         <!-- single Post blog large -->
                         <div class="rts-blog-h-2-wrapper">
                             <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/06.webp" alt="Business_blog">
+                                <img src="{{ asset('front/assets/images/blog/06.webp') }}" alt="Business_blog">
                             </a>
                             <div class="body">
                                 <span>Business Solution / by David Dolean</span>

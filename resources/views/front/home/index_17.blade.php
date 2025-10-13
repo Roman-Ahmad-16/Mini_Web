@@ -403,14 +403,14 @@
 
 
 
-      @include('front.home.partials.testimonial_6')
+        @include('front.home.partials.testimonial_6')
 
 
 
 
 
 
-@include('front.home.partials.blogs_6')
+        @include('front.home.partials.blogs_6')
 
 
 

@@ -3,7 +3,6 @@
 
 @section('content')
 
-<<<<<<< HEAD
     <body>
 
        <div class="page-wrapper radious-none-button">
@@ -1279,6 +1278,4 @@
 
 
     </body>
-=======
->>>>>>> 17d2f28b0b307f209683fbfdcf190444c7668cff
 @endsection

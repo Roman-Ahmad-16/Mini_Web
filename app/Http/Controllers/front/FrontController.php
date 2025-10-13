@@ -80,6 +80,15 @@ class FrontController extends Controller
         return view("front.home.index_19");
     }
 
+    public function accounts()
+    {
+        return view("front.home.accounts");
+    }
+
+     public function appointment()
+    {
+        return view("front.home.appointment");
+    }
 
 
 
@@ -112,6 +121,3 @@ class FrontController extends Controller
 
 
 }
-
-
-

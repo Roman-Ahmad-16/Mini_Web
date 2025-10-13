@@ -35,7 +35,7 @@
     </div>
 
 
-    @include('front.partials.service3')
+    @include('front.home.partials.service3')
     
     @include('front.about.partials.work_process')
     <br><br><br><br>

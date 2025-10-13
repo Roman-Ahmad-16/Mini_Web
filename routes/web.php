@@ -25,8 +25,9 @@ Route::get('/index_16', [FrontController::class, 'index_16'])->name('front.index
 Route::get('/index_17', [FrontController::class, 'index_17'])->name('front.index_17');
 Route::get('/index_18', [FrontController::class, 'index_18'])->name('front.index_18');
 Route::get('/index_19', [FrontController::class, 'index_19'])->name('front.index_19');
+Route::get('/accounts', [FrontController::class, 'accounts'])->name('front.accounts');
 
-
+Route::get('/appointment', [FrontController::class, 'appointment'])->name('front.appointment');
 
 
 

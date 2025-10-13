@@ -31,7 +31,7 @@
                                             <div class="botton-content">
                                                 <div class="avatar-area">
                                                     <div class="thumbnail">
-                                                        <img src="assets/images/testimonials/avatar/04.webp" alt="avatar">
+                                                        <img src="{{ asset('front/assets/images/testimonials/avatar/04.webp') }}" alt="avatar">
                                                     </div>
                                                     <div class="inner">
                                                         <h5 class="title">Logan James</h5>
@@ -62,7 +62,7 @@
                                             <div class="botton-content">
                                                 <div class="avatar-area">
                                                     <div class="thumbnail">
-                                                        <img src="assets/images/testimonials/avatar/04.webp" alt="avatar">
+                                                        <img src="{{ asset('front/assets/images/testimonials/avatar/04.webp') }}" alt="avatar">
                                                     </div>
                                                     <div class="inner">
                                                         <h5 class="title">Logan James</h5>
@@ -93,7 +93,7 @@
                                             <div class="botton-content">
                                                 <div class="avatar-area">
                                                     <div class="thumbnail">
-                                                        <img src="assets/images/testimonials/avatar/04.webp" alt="avatar">
+                                                        <img src="{{ asset('front/assets/images/testimonials/avatar/04.webp') }}" alt="avatar">
                                                     </div>
                                                     <div class="inner">
                                                         <h5 class="title">Logan James</h5>

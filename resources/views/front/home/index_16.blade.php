@@ -12,7 +12,7 @@
                     <div class="col-lg-12">
                         <div class="banner-busines-coatch-wrapper">
                             <div class="pre-title">
-                                <img src="assets/images/banner/icon/04.svg" alt="banner">
+                                <img src="{{ asset('front/assets/images/banner/icon/04.svg') }}" alt="banner">
                                 <span>I am A Coach</span>
                             </div>
                             <h1 class="title rts-text-anime-style-1">Your Partner in
@@ -21,7 +21,7 @@
                             <a href="#" class="rts-btn btn-primary btn-white">Get Your Free Guide Now</a>
 
                             <div class="button-image-lead">
-                                <img src="assets/images/banner/small-img/01.png" alt="small">
+                                <img src="{{ asset('front/assets/images/banner/small-img/01.png') }}" alt="small">
                                 <span>2k industry leaders.</span>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                             <div class="sticky-statement narrow">
                                 <div class="left-side">
                                     <div class="icon">
-                                        <img src="assets/images/service/01.svg" alt="service">
+                                        <img src="{{ asset('front/assets/images/service/01.svg"') }} alt="service">
                                     </div>
                                     <h5 class="title">Business Solution</h5>
                                 </div>
@@ -54,7 +54,7 @@
                             <div class="sticky-statement narrow">
                                 <div class="left-side">
                                     <div class="icon">
-                                        <img src="assets/images/service/02.svg" alt="service">
+                                        <img src="{{ asset('front/assets/images/service/02.svg"') }} alt="service">
                                     </div>
                                     <h5 class="title">Creative Ideas</h5>
                                 </div>
@@ -67,7 +67,7 @@
                             <div class="sticky-statement narrow">
                                 <div class="left-side">
                                     <div class="icon">
-                                        <img src="assets/images/service/03.svg" alt="service">
+                                        <img src="{{ asset('front/assets/images/service/03.svg"') }} alt="service">
                                     </div>
                                     <h5 class="title">Market Research</h5>
                                 </div>
@@ -80,7 +80,7 @@
                             <div class="sticky-statement narrow">
                                 <div class="left-side">
                                     <div class="icon">
-                                        <img src="assets/images/service/01.svg" alt="service">
+                                        <img src="{{ asset('front/assets/images/service/01.svg"') }} alt="service">
                                     </div>
                                     <h5 class="title">Technology Solution</h5>
                                 </div>
@@ -105,7 +105,7 @@
                             <a href="service.html" class="rts-btn btn-primary">View All Service</a>
                         </div>
                         <div class="service-arrow-bottom-main">
-                            <img src="assets/images/banner/shape/08.png" alt="service">
+                            <img src="{{ asset('front/assets/images/banner/shape/08.png') }}" alt="service">
                         </div>
                     </div>
                 </div>
@@ -128,22 +128,22 @@
                     <div class="col-lg-12">
                         <div class="client-three-wrapper">
                             <div class="single">
-                                <img src="assets/images/brand/01.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/01.webp"') }} alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/02.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/02.webp"') }} alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/03.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/03.webp"') }} alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/04.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/04.webp"') }} alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/05.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/05.webp"') }} alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/06.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/06.webp"') }} alt="Business_client">
                             </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                     <div class="col-lg-6">
                         <div class="thumbnail-working-procss-one" data-animation="zoomOut" data-delay="0.2"
                             data-duration="1.2">
-                            <img src="assets/images/process/02.webp" alt="working-process">
+                            <img src="{{ asset('front/assets/images/process/02.webp"') }} alt="working-process">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -173,7 +173,7 @@
                                 data-duration="1.2">
                                 <div class="left">
                                     <div class="icon">
-                                        <img src="assets/images/process/icon/01.svg" alt="process">
+                                        <img src="{{ asset('front/assets/images/process/icon/01.svg') }}" alt="process">
                                     </div>
                                 </div>
                                 <div class="inner-content">
@@ -191,7 +191,7 @@
                                 data-duration="1.2">
                                 <div class="left">
                                     <div class="icon">
-                                        <img src="assets/images/process/icon/02.svg" alt="process">
+                                        <img src="{{ asset('front/assets/images/process/icon/02.svg') }}" alt="process">
                                     </div>
                                 </div>
                                 <div class="inner-content">
@@ -209,7 +209,7 @@
                                 data-duration="1.2">
                                 <div class="left">
                                     <div class="icon">
-                                        <img src="assets/images/process/icon/03.svg" alt="process">
+                                        <img src="{{ asset('front/assets/images/process/icon/03.svg') }}" alt="process">
                                     </div>
                                 </div>
                                 <div class="inner-content">
@@ -246,7 +246,7 @@
                                         <text class="countervalue start" x="50%" y="50%"
                                             transform="matrix(0, 1, -1, 0, 80, 0)"></text>
                                     </svg>
-                                    <img src="assets/images/fun/01.svg" alt="fun">
+                                    <img src="{{ asset('front/assets/images/fun/01.svg"') }} alt="fun">
                                 </div>
                                 <div class="right-counter">
                                     <h2 class="counter title"><span class="odometer" data-count="76">00</span>%
@@ -263,7 +263,7 @@
                                         <text class="countervalue start" x="50%" y="50%"
                                             transform="matrix(0, 1, -1, 0, 80, 0)"></text>
                                     </svg>
-                                    <img src="assets/images/fun/02.svg" alt="fun">
+                                    <img src="{{ asset('front/assets/images/fun/02.svg"') }} alt="fun">
                                 </div>
                                 <div class="right-counter">
                                     <h2 class="counter title"><span class="odometer" data-count="89">00</span>%
@@ -280,7 +280,7 @@
                                         <text class="countervalue start" x="50%" y="50%"
                                             transform="matrix(0, 1, -1, 0, 80, 0)"></text>
                                     </svg>
-                                    <img src="assets/images/fun/03.svg" alt="fun">
+                                    <img src="{{ asset('front/assets/images/fun/03.svg"') }} alt="fun">
                                 </div>
                                 <div class="right-counter">
                                     <h2 class="counter title"><span class="odometer" data-count="70">00</span>%
@@ -313,7 +313,7 @@
                         <div class="service-main-wrapper-list">
                             <div class="single-service-wrapper">
                                 <div class="thumbnail">
-                                    <img src="assets/images/service/17.webp" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/17.webp"') }} alt="service">
                                 </div>
                                 <div class="content">
                                     <h5 class="title">Leadership Development</h5>
@@ -321,7 +321,7 @@
                             </div>
                             <div class="single-service-wrapper">
                                 <div class="thumbnail">
-                                    <img src="assets/images/service/18.webp" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/18.webp"') }} alt="service">
                                 </div>
                                 <div class="content">
                                     <h5 class="title">Construction Business Coaching</h5>
@@ -329,7 +329,7 @@
                             </div>
                             <div class="single-service-wrapper">
                                 <div class="thumbnail">
-                                    <img src="assets/images/service/19.webp" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/19.webp"') }} alt="service">
                                 </div>
                                 <div class="content">
                                     <h5 class="title">Internet Companies</h5>
@@ -337,7 +337,7 @@
                             </div>
                             <div class="single-service-wrapper">
                                 <div class="thumbnail">
-                                    <img src="assets/images/service/20.webp" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/20.webp"') }} alt="service">
                                 </div>
                                 <div class="content">
                                     <h5 class="title">Financial Consulting Services</h5>
@@ -345,7 +345,7 @@
                             </div>
                             <div class="single-service-wrapper">
                                 <div class="thumbnail">
-                                    <img src="assets/images/service/21.webp" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/21.webp"') }} alt="service">
                                 </div>
                                 <div class="content">
                                     <h5 class="title">Insurance Agency</h5>
@@ -353,7 +353,7 @@
                             </div>
                             <div class="single-service-wrapper">
                                 <div class="thumbnail">
-                                    <img src="assets/images/service/22.webp" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/22.webp"') }} alt="service">
                                 </div>
                                 <div class="content">
                                     <h5 class="title">IT Consulting Services</h5>
@@ -361,7 +361,7 @@
                             </div>
                             <div class="single-service-wrapper">
                                 <div class="thumbnail">
-                                    <img src="assets/images/service/23.webp" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/23.webp"') }} alt="service">
                                 </div>
                                 <div class="content">
                                     <h5 class="title">Retail Business Consultant</h5>
@@ -728,7 +728,7 @@
                                     <div class="team-single-one-start">
                                         <div class="team-image-area">
                                             <a href="team-details.html">
-                                                <img loading="lazy" src="assets/images/team/04.webp"
+                                                <img loading="lazy" src="{{ asset('front/assets/images/team/04.webp"') }}
                                                     alt="Business_Team_single">
                                                 <div class="team-social">
                                                     <div class="main">
@@ -754,7 +754,7 @@
                                     <div class="team-single-one-start">
                                         <div class="team-image-area">
                                             <a href="team-details.html">
-                                                <img loading="lazy" src="assets/images/team/05.webp"
+                                                <img loading="lazy" src="{{ asset('front/assets/images/team/05.webp"') }}
                                                     alt="Business_Team_single">
                                                 <div class="team-social">
                                                     <div class="main">
@@ -780,7 +780,7 @@
                                     <div class="team-single-one-start">
                                         <div class="team-image-area">
                                             <a href="team-details.html">
-                                                <img loading="lazy" src="assets/images/team/06.webp"
+                                                <img loading="lazy" src="{{ asset('front/assets/images/team/06.webp"') }}
                                                     alt="Business_Team_single">
                                                 <div class="team-social">
                                                     <div class="main">
@@ -806,7 +806,7 @@
                                     <div class="team-single-one-start">
                                         <div class="team-image-area">
                                             <a href="team-details.html">
-                                                <img loading="lazy" src="assets/images/team/07.webp"
+                                                <img loading="lazy" src="{{ asset('front/assets/images/team/07.webp"') }}
                                                     alt="Business_Team_single">
                                                 <div class="team-social">
                                                     <div class="main">
@@ -832,7 +832,7 @@
                                     <div class="team-single-one-start">
                                         <div class="team-image-area">
                                             <a href="team-details.html">
-                                                <img loading="lazy" src="assets/images/team/07.webp"
+                                                <img loading="lazy" src="{{ asset('front/assets/images/team/07.webp"') }}
                                                     alt="Business_Team_single">
                                                 <div class="team-social">
                                                     <div class="main">

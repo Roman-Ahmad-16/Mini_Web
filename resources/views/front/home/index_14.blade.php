@@ -11,7 +11,7 @@
                     <div class="col-lg-7">
                         <div class="banner-accountent-content">
                             <span class="pre-title">
-                                <img src="assets/images/banner/icon/03.svg" alt="">
+                                <img src="{{ asset('front/assets/images/banner/icon/03') }}.svg" alt="">
                                 Accounting & Tax Services
                             </span>
                             <h1 class="title">Charlotte Emma</h1>
@@ -101,22 +101,22 @@
                     <div class="col-lg-12">
                         <div class="client-three-wrapper">
                             <div class="single">
-                                <img src="assets/images/brand/01.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/01.webp') }}" alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/02.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/02.webp') }}" alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/03.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/03.webp') }}" alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/04.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/04.webp') }}" alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/05.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/05.webp') }}" alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/06.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/06.webp') }}" alt="Business_client">
                             </div>
                         </div>
                     </div>

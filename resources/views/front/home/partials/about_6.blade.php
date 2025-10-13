@@ -5,7 +5,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 pr--40 pr_sm--10">
                         <div class="thumbnail-about-six">
-                            <img src="assets/images/about/11.webp" alt="about">
+                            <img src="{{ asset('front/assets/images/about/11.webp') }}" alt="about">
                         </div>
                     </div>
                     <div class="col-lg-6 mt_sm--30">
@@ -21,7 +21,7 @@
                             <div class="about-service-wrapper-main">
                                 <div class="single-about-service">
                                     <div class="icon">
-                                        <img src="assets/images/about/icons/06.svg" alt="service">
+                                        <img src="{{ asset('front/assets/images/about/icons/06.svg') }}" alt="service">
                                     </div>
                                     <h5 class="title">
                                         Management <br>
@@ -30,7 +30,7 @@
                                 </div>
                                 <div class="single-about-service">
                                     <div class="icon">
-                                        <img src="assets/images/about/icons/07.svg" alt="service">
+                                        <img src="{{ asset('front/assets/images/about/icons/07.svg') }}" alt="service">
                                     </div>
                                     <h5 class="title">
                                         Business <br>

@@ -18,10 +18,10 @@
                                     <div class="swiper-slide">
                                         <div class="testimonails-area-seven">
                                             <div class="thumbnail-testimoanis">
-                                                <img src="assets/images/testimonials/06.webp" alt="testimonials">
+                                                <img src="{{ asset('front/assets/images/testimonials/06.webp') }}" alt="testimonials">
                                             </div>
                                             <div class="right-content-area-main-wrapper">
-                                                <img src="assets/images/testimonials/icons/03.webp" alt="testimonials">
+                                                <img src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}" alt="testimonials">
                                                 <p class="disc">
                                                     I can't recommend The Gourmet Haven enough. It's a place for special
                                                     occasions, date
@@ -41,10 +41,10 @@
                                     <div class="swiper-slide">
                                         <div class="testimonails-area-seven">
                                             <div class="thumbnail-testimoanis">
-                                                <img src="assets/images/testimonials/06.webp" alt="testimonials">
+                                                <img src="{{ asset('front/assets/images/testimonials/06.webp') }}" alt="testimonials">
                                             </div>
                                             <div class="right-content-area-main-wrapper">
-                                                <img src="assets/images/testimonials/icons/03.webp" alt="testimonials">
+                                                <img src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}" alt="testimonials">
                                                 <p class="disc">
                                                     I can't recommend The Gourmet Haven enough. It's a place for special
                                                     occasions, date
@@ -64,10 +64,10 @@
                                     <div class="swiper-slide">
                                         <div class="testimonails-area-seven">
                                             <div class="thumbnail-testimoanis">
-                                                <img src="assets/images/testimonials/06.webp" alt="testimonials">
+                                                <img src="{{ asset('front/assets/images/testimonials/06.webp') }}" alt="testimonials">
                                             </div>
                                             <div class="right-content-area-main-wrapper">
-                                                <img src="assets/images/testimonials/icons/03.webp" alt="testimonials">
+                                                <img src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}" alt="testimonials">
                                                 <p class="disc">
                                                     I can't recommend The Gourmet Haven enough. It's a place for special
                                                     occasions, date

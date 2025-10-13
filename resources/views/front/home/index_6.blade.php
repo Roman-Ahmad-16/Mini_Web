@@ -124,19 +124,19 @@
                             <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
                                 aria-labelledby="nav-home-tab" tabindex="0">
                                 <div class="thumbnail-area-wrapper-inner-6">
-                                    <img src="assets/images/business-goal/03.webp" alt="">
+                                    <img src="{{ asset('front/assets/images/business-goal/03.webp') }}" alt="">
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="nav-profile" role="tabpanel"
                                 aria-labelledby="nav-profile-tab" tabindex="0">
                                 <div class="thumbnail-area-wrapper-inner-6">
-                                    <img src="assets/images/business-goal/03.webp" alt="">
+                                    <img src="{{ asset('front/assets/images/business-goal/03.webp') }}" alt="">
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="nav-contact" role="tabpanel"
                                 aria-labelledby="nav-contact-tab" tabindex="0">
                                 <div class="thumbnail-area-wrapper-inner-6">
-                                    <img src="assets/images/business-goal/03.webp" alt="">
+                                    <img src="{{ asset('front/assets/images/business-goal/03.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -200,7 +200,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.0" data-duration="1.2">
                     <div class="single-project-area-main-wrapper-6">
                         <a href="project-details.html" class="thumbnail">
-                            <img src="assets/images/project/12.webp" alt="project">
+                            <img src="{{ asset('front/assets/images/project/12.webp') }}" alt="project">
                         </a>
                         <div class="inner">
                             <a href="project-details.html">
@@ -216,7 +216,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
                     <div class="single-project-area-main-wrapper-6">
                         <a href="project-details.html" class="thumbnail">
-                            <img src="assets/images/project/13.webp" alt="project">
+                            <img src="{{ asset('front/assets/images/project/13.webp') }}" alt="project">
                         </a>
                         <div class="inner">
                             <a href="project-details.html">
@@ -232,7 +232,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
                     <div class="single-project-area-main-wrapper-6">
                         <a href="project-details.html" class="thumbnail">
-                            <img src="assets/images/project/14.webp" alt="project">
+                            <img src="{{ asset('front/assets/images/project/14.webp') }}" alt="project">
                         </a>
                         <div class="inner">
                             <a href="project-details.html">
@@ -248,7 +248,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.6" data-duration="1.2">
                     <div class="single-project-area-main-wrapper-6">
                         <a href="project-details.html" class="thumbnail">
-                            <img src="assets/images/project/15.webp" alt="project">
+                            <img src="{{ asset('front/assets/images/project/15.webp') }}" alt="project">
                         </a>
                         <div class="inner">
                             <a href="project-details.html">
@@ -310,43 +310,43 @@
                 <div class="col-lg-12">
                     <div class="gallery-area-main-wrapper-4">
                         <div class="single-gallery">
-                            <a href="assets/images/gallery/06.webp" class="thumbnail gallery-image">
-                                <img src="assets/images/gallery/06.webp" alt="gallery">
+                            <a href="{{ asset('front/assets/images/gallery/06.webp') }}"  class="thumbnail gallery-image">
+                                <img src="{{ asset('front/assets/images/gallery/06.webp') }}" alt="gallery">
                             </a>
                             <div class="instagram">
-                                <img src="assets/images/gallery/instagram.svg" alt="instagram.svg">
+                                <img src="{{ asset('front/assets/images/gallery/instagram.svg') }}" alt="instagram.svg">
                             </div>
                         </div>
                         <div class="single-gallery">
-                            <a href="assets/images/gallery/07.webp" class="thumbnail gallery-image">
-                                <img src="assets/images/gallery/07.webp" alt="gallery">
+                            <a href="{{ asset('front/assets/images/gallery/07.webp') }}" class="thumbnail gallery-image">
+                                <img src="{{ asset('front/assets/images/gallery/07.webp') }}" alt="gallery">
                             </a>
                             <div class="instagram">
-                                <img src="assets/images/gallery/instagram.svg" alt="instagram.svg">
+                                <img src="{{ asset('front/assets/images/gallery/instagram.svg') }}" alt="instagram.svg">
                             </div>
                         </div>
                         <div class="single-gallery">
-                            <a href="assets/images/gallery/08.webp" class="thumbnail gallery-image">
-                                <img src="assets/images/gallery/08.webp" alt="gallery">
+                            <a href="{{ asset('front/assets/images/gallery/08.webp') }}" class="thumbnail gallery-image">
+                                <img src="{{ asset('front/assets/images/gallery/08.webp') }}" alt="gallery">
                             </a>
                             <div class="instagram">
-                                <img src="assets/images/gallery/instagram.svg" alt="instagram.svg">
+                                <img src="{{ asset('front/assets/images/gallery/instagram.svg') }}" alt="instagram.svg">
                             </div>
                         </div>
                         <div class="single-gallery">
-                            <a href="assets/images/gallery/09.webp" class="thumbnail gallery-image">
-                                <img src="assets/images/gallery/09.webp" alt="gallery">
+                            <a href="{{ asset('front/assets/images/gallery/09.webp') }}" class="thumbnail gallery-image">
+                                <img src="{{ asset('front/assets/images/gallery/09.webp') }}" alt="gallery">
                             </a>
                             <div class="instagram">
-                                <img src="assets/images/gallery/instagram.svg" alt="instagram.svg">
+                                <img src="{{ asset('front/assets/images/gallery/instagram.svg') }}" alt="instagram.svg">
                             </div>
                         </div>
                         <div class="single-gallery">
-                            <a href="assets/images/gallery/10.webp" class="thumbnail gallery-image">
-                                <img src="assets/images/gallery/10.webp" alt="gallery">
+                            <a href="{{ asset('front/assets/images/gallery/10.webp') }}" class="thumbnail gallery-image">
+                                <img src="{{ asset('front/assets/images/gallery/10.webp') }}" alt="gallery">
                             </a>
                             <div class="instagram">
-                                <img src="assets/images/gallery/instagram.svg" alt="instagram.svg">
+                                <img src="{{ asset('front/assets/images/gallery/instagram.svg') }}" alt="instagram.svg">
                             </div>
                         </div>
                     </div>

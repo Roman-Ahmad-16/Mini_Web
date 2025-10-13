@@ -24,7 +24,7 @@
                             <div class="swiper-slide">
                                 <div class="single-testimonials-style-five">
                                     <div class="thumbnail">
-                                        <img src="assets/images/testimonials/03.webp" alt="testimoanils">
+                                        <img src="{{ asset('front/assets/images/testimonials/03.webp') }}" alt="testimoanils">
                                     </div>
                                     <div class="inner-content">
                                         <div class="name-area">
@@ -37,7 +37,7 @@
                                             volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                         </p>
                                         <div class="body-end">
-                                            <a href="#"><img src="assets/images/testimonials/icons/03.webp"
+                                            <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}"
                                                     alt="Client_logo"></a>
                                             <div class="star-icon">
                                                 <i class="fas fa-star"></i>
@@ -53,7 +53,7 @@
                             <div class="swiper-slide">
                                 <div class="single-testimonials-style-five">
                                     <div class="thumbnail">
-                                        <img src="assets/images/testimonials/04.webp" alt="testimoanils">
+                                        <img src="{{ asset('front/assets/images/testimonials/04.webp') }}" alt="testimoanils">
                                     </div>
                                     <div class="inner-content">
                                         <div class="name-area">
@@ -66,7 +66,7 @@
                                             volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                         </p>
                                         <div class="body-end">
-                                            <a href="#"><img src="assets/images/testimonials/icons/02.webp"
+                                            <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/02.webp') }}"
                                                     alt="Client_logo"></a>
                                             <div class="star-icon">
                                                 <i class="fas fa-star"></i>
@@ -82,7 +82,7 @@
                             <div class="swiper-slide">
                                 <div class="single-testimonials-style-five">
                                     <div class="thumbnail">
-                                        <img src="assets/images/testimonials/03.webp" alt="testimoanils">
+                                        <img src="{{ asset('front/assets/images/testimonials/03.webp') }}" alt="testimoanils">
                                     </div>
                                     <div class="inner-content">
                                         <div class="name-area">
@@ -95,7 +95,7 @@
                                             volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
                                         </p>
                                         <div class="body-end">
-                                            <a href="#"><img src="assets/images/testimonials/icons/03.webp"
+                                            <a href="#"><img src="{{ asset('front/assets/images/testimonials/icons/03.webp') }}"
                                                     alt="Client_logo"></a>
                                             <div class="star-icon">
                                                 <i class="fas fa-star"></i>

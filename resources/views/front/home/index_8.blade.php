@@ -11,7 +11,7 @@
                 <div class="col-lg-12">
                     <div class="banner-inner-content-eight">
                         <div class="pre-title-area">
-                            <img src="assets/images/banner/icon/02.svg" alt="banner">
+                            <img src="{{ asset('front/assets/images/banner/icon/02.svg') }}" alt="banner">
                             <p>Business Success Starts Here</p>
                         </div>
                         <h1 class="title rts-text-anime-style-1"><span>Empowering </span>Leaders Performance</h1>
@@ -49,7 +49,7 @@
                                     Worldwide</span>
                             </div>
                             <div class="absolute-image">
-                                <img src="assets/images/banner/11.webp" alt="bottom">
+                                <img src="{{ asset('front/assets/images/banner/11.webp') }}" alt="bottom">
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
         <!-- counter up area end -->
         <div class="banner-shape-area">
             <div class="shape-area">
-                <img src="assets/images/banner/shape/shape.svg" alt="shape">
+                <img src="{{ asset('front/assets/images/banner/shape/shape.svg') }}" alt="shape">
             </div>
         </div>
     </div>
@@ -74,7 +74,7 @@
                         <div class="sticky-statement narrow">
                             <div class="left-side">
                                 <div class="icon">
-                                    <img src="assets/images/service/01.svg" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/01.svg"') }} alt="service">
                                 </div>
                                 <h5 class="title">Business Solution</h5>
                             </div>
@@ -87,7 +87,7 @@
                         <div class="sticky-statement narrow">
                             <div class="left-side">
                                 <div class="icon">
-                                    <img src="assets/images/service/02.svg" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/02.svg"') }} alt="service">
                                 </div>
                                 <h5 class="title">Creative Ideas</h5>
                             </div>
@@ -100,7 +100,7 @@
                         <div class="sticky-statement narrow">
                             <div class="left-side">
                                 <div class="icon">
-                                    <img src="assets/images/service/03.svg" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/03.svg"') }} alt="service">
                                 </div>
                                 <h5 class="title">Market Research</h5>
                             </div>
@@ -113,7 +113,7 @@
                         <div class="sticky-statement narrow">
                             <div class="left-side">
                                 <div class="icon">
-                                    <img src="assets/images/service/01.svg" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/01.svg"') }} alt="service">
                                 </div>
                                 <h5 class="title">Technology Solution</h5>
                             </div>
@@ -138,7 +138,7 @@
                         <a href="service.html" class="rts-btn btn-primary">View All Service</a>
                     </div>
                     <div class="service-arrow-bottom-main">
-                        <img src="assets/images/banner/shape/08.png" alt="service">
+                        <img src="{{ asset('front/assets/images/banner/shape/08.png') }}" alt="service">
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@
                             <p>Call Us Anytime! <a href="#">+(125) 2153-2158</a></p>
                         </div>
                         <div class="mid-image">
-                            <img src="assets/images/service/01.png" alt="service_image">
+                            <img src="{{ asset('front/assets/images/service/01.png"') }} alt="service_image">
                         </div>
                     </div>
                 </div>
@@ -275,7 +275,7 @@
                                     <div class="swiper-slide">
                                         <div class="single-case-studies-four">
                                             <a href="project-details.html" class="thumbnail">
-                                                <img src="assets/images/project/07.webp" alt="project">
+                                                <img src="{{ asset('front/assets/images/project/07.webp') }}" alt="project">
                                             </a>
                                             <div class="inner">
                                                 <a href="project-details.html">
@@ -284,14 +284,14 @@
                                                 </a>
                                             </div>
                                             <div class="eye">
-                                                <img src="assets/images/project/eye.svg" alt="project">
+                                                <img src="{{ asset('front/assets/images/project/eye.svg') }}" alt="project">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="single-case-studies-four">
                                             <a href="project-details.html" class="thumbnail">
-                                                <img src="assets/images/project/08.webp" alt="project">
+                                                <img src="{{ asset('front/assets/images/project/08.webp') }}" alt="project">
                                             </a>
                                             <div class="inner">
                                                 <a href="project-details.html">
@@ -300,14 +300,14 @@
                                                 </a>
                                             </div>
                                             <div class="eye">
-                                                <img src="assets/images/project/eye.svg" alt="project">
+                                                <img src="{{ asset('front/assets/images/project/eye.svg') }}" alt="project">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="single-case-studies-four">
                                             <a href="project-details.html" class="thumbnail">
-                                                <img src="assets/images/project/09.webp" alt="project">
+                                                <img src="{{ asset('front/assets/images/project/09.webp') }}" alt="project">
                                             </a>
                                             <div class="inner">
                                                 <a href="project-details.html">
@@ -316,14 +316,14 @@
                                                 </a>
                                             </div>
                                             <div class="eye">
-                                                <img src="assets/images/project/eye.svg" alt="project">
+                                                <img src="{{ asset('front/assets/images/project/eye.svg') }}" alt="project">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="single-case-studies-four">
                                             <a href="project-details.html" class="thumbnail">
-                                                <img src="assets/images/project/08.webp" alt="project">
+                                                <img src="{{ asset('front/assets/images/project/08.webp') }}" alt="project">
                                             </a>
                                             <div class="inner">
                                                 <a href="project-details.html">
@@ -332,7 +332,7 @@
                                                 </a>
                                             </div>
                                             <div class="eye">
-                                                <img src="assets/images/project/eye.svg" alt="project">
+                                                <img src="{{ asset('front/assets/images/project/eye.svg') }}" alt="project">
                                             </div>
                                         </div>
                                     </div>
@@ -364,22 +364,22 @@
                 <div class="col-lg-12">
                     <div class="client-three-wrapper">
                         <div class="single">
-                            <img src="assets/images/brand/01.webp" alt="Business_client">
+                            <img src="{{ asset('front/assets/images/brand/01.webp') }}" alt="Business_client">
                         </div>
                         <div class="single">
-                            <img src="assets/images/brand/02.webp" alt="Business_client">
+                            <img src="{{ asset('front/assets/images/brand/02.webp') }}" alt="Business_client">
                         </div>
                         <div class="single">
-                            <img src="assets/images/brand/03.webp" alt="Business_client">
+                            <img src="{{ asset('front/assets/images/brand/03.webp') }}" alt="Business_client">
                         </div>
                         <div class="single">
-                            <img src="assets/images/brand/04.webp" alt="Business_client">
+                            <img src="{{ asset('front/assets/images/brand/04.webp') }}" alt="Business_client">
                         </div>
                         <div class="single">
-                            <img src="assets/images/brand/05.webp" alt="Business_client">
+                            <img src="{{ asset('front/assets/images/brand/05.webp') }}" alt="Business_client">
                         </div>
                         <div class="single">
-                            <img src="assets/images/brand/06.webp" alt="Business_client">
+                            <img src="{{ asset('front/assets/images/brand/06.webp') }}" alt="Business_client">
                         </div>
                     </div>
                 </div>

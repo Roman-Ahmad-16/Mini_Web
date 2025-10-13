@@ -14,7 +14,7 @@
                     <div class="col-lg-6 order-2 order-md-2 order-sm-2 order-lg-1">
                         <div class="banner-accountent-content">
                             <span class="pre-title">
-                                <img src="assets/images/banner/icon/03.svg" alt="">
+                                <img src="{{ asset('front/assets/images/banner/icon/03') }}.svg" alt="">
                                 Accounting & Tax Services
                             </span>
                             <h1 class="title">Charlotte Emma</h1>
@@ -30,9 +30,9 @@
                     </div>
                     <div class="col-lg-6 order-1 order-md-1 order-sm-1 order-lg-2">
                         <div class="thumbnail-banner-area-accountent">
-                            <img src="assets/images/banner/27.webp" alt="banner">
+                            <img src="{{ asset('front/assets/images/banner/27.webp') }}" alt="banner">
                             <div class="absolute-rating-area">
-                                <img src="assets/images/banner/small-img/03.png" alt="small-image">
+                                <img src="{{ asset('front/assets/images/banner/small-img') }}/03.png" alt="small-image">
                                 <div class="stars-area">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -64,7 +64,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.0" data-duration="1.2">
                         <div class="service-single-main-wrapper-five">
                             <div class="icon">
-                                <img src="assets/images/service/icons/08.svg" alt="service">
+                                <img src="{{ asset('front/assets/images/service/icons/08') }}.svg" alt="service">
                             </div>
                             <div class="inner-content">
                                 <a href="service-details.html">
@@ -80,7 +80,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
                         <div class="service-single-main-wrapper-five">
                             <div class="icon">
-                                <img src="assets/images/service/icons/09.svg" alt="service">
+                                <img src="{{ asset('front/assets/images/service/icons/09') }}.svg" alt="service">
                             </div>
                             <div class="inner-content">
                                 <a href="service-details.html">
@@ -96,7 +96,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
                         <div class="service-single-main-wrapper-five">
                             <div class="icon">
-                                <img src="assets/images/service/icons/10.svg" alt="service">
+                                <img src="{{ asset('front/assets/images/service/icons/10') }}.svg" alt="service">
                             </div>
                             <div class="inner-content">
                                 <a href="service-details.html">
@@ -129,22 +129,22 @@
                     <div class="col-lg-12">
                         <div class="client-three-wrapper">
                             <div class="single">
-                                <img src="assets/images/brand/01.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/01.webp') }}" alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/02.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/02.webp') }}" alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/03.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/03.webp') }}" alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/04.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/04.webp') }}" alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/05.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/05.webp') }}" alt="Business_client">
                             </div>
                             <div class="single">
-                                <img src="assets/images/brand/06.webp" alt="Business_client">
+                                <img src="{{ asset('front/assets/images/brand/06.webp') }}" alt="Business_client">
                             </div>
                         </div>
                     </div>
@@ -256,7 +256,7 @@
         <button class="close-icon-menu" title="Close menu"><i class="far fa-times"></i></button>
         <!-- inner menu area desktop start -->
         <div class="rts-sidebar-menu-desktop">
-            <a class="logo-1" href="index.html"><img class="logo" src="assets/images/logo/01.svg" alt="finbiz_logo"></a>
+            <a class="logo-1" href="index.html"><img class="logo" src="{{ asset('front/assets/images/logo/01.svg') }}" alt="finbiz_logo"></a>
             <div class="body d-none d-xl-block">
                 <p class="disc">
                     We must explain to you how all seds this mistakens idea denouncing pleasures and praising account.

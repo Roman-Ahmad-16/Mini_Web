@@ -23,42 +23,42 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="single">
-                                                <img src="assets/images/brand/01.png" alt="">
+                                                <img src="{{ asset('front/assets/images/brand/01.png') }}" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="single">
-                                                <img src="assets/images/brand/02.png" alt="">
+                                                <img src="{{ asset('front/assets/images/brand/02.png') }}" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="single">
-                                                <img src="assets/images/brand/03.png" alt="">
+                                                <img src="{{ asset('front/assets/images/brand/03.png') }}" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="single">
-                                                <img src="assets/images/brand/04.png" alt="">
+                                                <img src="{{ asset('front/assets/images/brand/04.png') }}" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="single">
-                                                <img src="assets/images/brand/01.png" alt="">
+                                                <img src="{{ asset('front/assets/images/brand/01.png') }}" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="single">
-                                                <img src="assets/images/brand/02.png" alt="">
+                                                <img src="{{ asset('front/assets/images/brand/02.png') }}" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="single">
-                                                <img src="assets/images/brand/03.png" alt="">
+                                                <img src="{{ asset('front/assets/images/brand/03.png') }}" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="single">
-                                                <img src="assets/images/brand/04.png" alt="">
+                                                <img src="{{ asset('front/assets/images/brand/04.png') }}" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -69,7 +69,7 @@
                                 <a href="#" class="rts-btn btn-primary btn-border">Get started</a>
                             </div>
                             <div class="bottom-right-image">
-                                <img src="assets/images/banner/32.webp" alt="banner">
+                                <img src="{{ asset('front/assets/images/banner/32.webp') }}" alt="banner">
                             </div>
                         </div>
                         <div class="stars-area-bottom">
@@ -81,7 +81,7 @@
                                 <i class="fa-solid fa-star"></i>
                             </div>
                             <p>Based on 185 reviews</p>
-                            <img src="assets/images/brand/05.png" alt="brand">
+                            <img src="{{ asset('front/assets/images/brand/05.png') }}" alt="brand">
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
                             <div class="signle-service-style-10">
                                 <div class="content-area-wrapper">
                                     <div class="icon">
-                                        <img src="assets/images/service/icons/11.svg" alt="service">
+                                        <img src="{{ asset('front/assets/images/service/icons/11') }}.svg" alt="service">
                                     </div>
                                     <h5 class="title">Business Solution</h5>
                                     <p class="disc">
@@ -120,13 +120,13 @@
                                             class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                                 <div class="thumbnail">
-                                    <img src="assets/images/service/07.webp" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/07.webp') }}" alt="service">
                                 </div>
                             </div>
                             <div class="signle-service-style-10">
                                 <div class="content-area-wrapper">
                                     <div class="icon">
-                                        <img src="assets/images/service/icons/12.svg" alt="service">
+                                        <img src="{{ asset('front/assets/images/service/icons/12') }}.svg" alt="service">
                                     </div>
                                     <h5 class="title">Marketing Solution</h5>
                                     <p class="disc">
@@ -136,16 +136,16 @@
                                             class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                                 <div class="thumbnail">
-                                    <img src="assets/images/service/08.webp" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/08.webp') }}" alt="service">
                                 </div>
                             </div>
                             <div class="signle-service-style-10 order-control-sm-device">
                                 <div class="thumbnail">
-                                    <img src="assets/images/service/09.webp" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/09.webp') }}" alt="service">
                                 </div>
                                 <div class="content-area-wrapper">
                                     <div class="icon">
-                                        <img src="assets/images/service/icons/13.svg" alt="service">
+                                        <img src="{{ asset('front/assets/images/service/icons/13') }}.svg" alt="service">
                                     </div>
                                     <h5 class="title">Agency Marketing</h5>
                                     <p class="disc">
@@ -158,11 +158,11 @@
                             <div class="signle-service-style-10 order-control-sm-device">
 
                                 <div class="thumbnail">
-                                    <img src="assets/images/service/10.webp" alt="service">
+                                    <img src="{{ asset('front/assets/images/service/10.webp') }}" alt="service">
                                 </div>
                                 <div class="content-area-wrapper">
                                     <div class="icon">
-                                        <img src="assets/images/service/icons/14.svg" alt="service">
+                                        <img src="{{ asset('front/assets/images/service/icons/14') }}.svg" alt="service">
                                     </div>
                                     <h5 class="title">Startup Paskages</h5>
                                     <p class="disc">
@@ -191,10 +191,10 @@
                     <div class="col-lg-7">
                         <div class="about-6-thumbnail-left-wrapper">
                             <div class="single-thumbnail">
-                                <img src="assets/images/about/12.webp" alt="about">
+                                <img src="{{ asset('front/assets/images/about/12.webp') }}" alt="about">
                             </div>
                             <div class="single-thumbnail mt--40">
-                                <img src="assets/images/about/13.webp" alt="about">
+                                <img src="{{ asset('front/assets/images/about/13.webp') }}" alt="about">
                             </div>
                             <div class="progress-circle-main-wrapper">
                                 <div class="progress-area-wrapper images-r">
@@ -239,7 +239,7 @@
                                     </div>
                                 </div>
                                 <div class="sign-area">
-                                    <img src="assets/images/about/sign.svg" alt="">
+                                    <img src="{{ asset('front/assets/images/about/sign.svg') }}" alt="">
                                 </div>
                             </div>
                             <a href="about.html" class="rts-btn btn-primary">About Us</a>
@@ -263,7 +263,7 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12">
                                     <div class="single-counter-wrapper">
                                         <div class="icon">
-                                            <img src="assets/images/service/13.svg" alt="">
+                                            <img src="{{ asset('front/assets/images/service/13.svg') }}" alt="">
                                         </div>
                                         <h2 class="counter title"><span class="odometer" data-count="858">00</span>+
                                         </h2>
@@ -273,7 +273,7 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12">
                                     <div class="single-counter-wrapper">
                                         <div class="icon">
-                                            <img src="assets/images/service/14.svg" alt="">
+                                            <img src="{{ asset('front/assets/images/service/14.svg') }}" alt="">
                                         </div>
                                         <h2 class="counter title"><span class="odometer" data-count="650">00</span>+
                                         </h2>
@@ -283,7 +283,7 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12">
                                     <div class="single-counter-wrapper">
                                         <div class="icon">
-                                            <img src="assets/images/service/15.svg" alt="">
+                                            <img src="{{ asset('front/assets/images/service/15.svg') }}" alt="">
                                         </div>
                                         <h2 class="counter title"><span class="odometer" data-count="567">00</span>+
                                         </h2>
@@ -293,7 +293,7 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12">
                                     <div class="single-counter-wrapper">
                                         <div class="icon">
-                                            <img src="assets/images/service/16.svg" alt="">
+                                            <img src="{{ asset('front/assets/images/service/16.svg') }}" alt="">
                                         </div>
                                         <h2 class="counter title"><span class="odometer" data-count="28">00</span>K+
                                         </h2>
@@ -331,7 +331,7 @@
                         data-duration="1.2">
                         <div class="single-team-area-one-start">
                             <a href="team-details.html" class="thumbnail">
-                                <img src="assets/images/team/01.webp" alt="team">
+                                <img src="{{ asset('front/assets/images/team/01.webp') }}" alt="team">
                             </a>
                             <div class="inner-content">
                                 <div class="text-top">
@@ -354,7 +354,7 @@
                         data-duration="1.2">
                         <div class="single-team-area-one-start">
                             <a href="team-details.html" class="thumbnail">
-                                <img src="assets/images/team/02.webp" alt="team">
+                                <img src="{{ asset('front/assets/images/team/02.webp') }}" alt="team">
                             </a>
                             <div class="inner-content">
                                 <div class="text-top">
@@ -377,7 +377,7 @@
                         data-duration="1.2">
                         <div class="single-team-area-one-start">
                             <a href="team-details.html" class="thumbnail">
-                                <img src="assets/images/team/03.webp" alt="team">
+                                <img src="{{ asset('front/assets/images/team/03.webp') }}" alt="team">
                             </a>
                             <div class="inner-content">
                                 <div class="text-top">

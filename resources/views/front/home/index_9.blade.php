@@ -22,12 +22,12 @@
                 </div>
             </div>
             <div class="image-right-absolute">
-                <img class="" src="assets/images/banner/12.webp" alt="banner">
+                <img class="" src="{{ asset('front/assets/images/banner/12.webp') }}" alt="banner">
             </div>
             <div class="circle-text-main">
                 <div class="circle">
                     <div class="logo">
-                        <img src="assets/images/banner/icon/video.svg" alt="">
+                        <img src="{{ asset('front/assets/images/banner/icon/video') }}.svg" alt="">
                     </div>
                     <div class="text">
                         <p>
@@ -115,22 +115,22 @@
                             </div>
                             <div class="right-brand-area-wrapper">
                                 <div class="single-image">
-                                    <img src="assets/images/brand/01.webp" alt="brand">
+                                    <img src="{{ asset('front/assets/images/brand/01.webp') }}" alt="brand">
                                 </div>
                                 <div class="single-image">
-                                    <img src="assets/images/brand/02.webp" alt="brand">
+                                    <img src="{{ asset('front/assets/images/brand/02.webp') }}" alt="brand">
                                 </div>
                                 <div class="single-image">
-                                    <img src="assets/images/brand/03.webp" alt="brand">
+                                    <img src="{{ asset('front/assets/images/brand/03.webp') }}" alt="brand">
                                 </div>
                                 <div class="single-image">
-                                    <img src="assets/images/brand/04.webp" alt="brand">
+                                    <img src="{{ asset('front/assets/images/brand/04.webp') }}" alt="brand">
                                 </div>
                                 <div class="single-image">
-                                    <img src="assets/images/brand/05.webp" alt="brand">
+                                    <img src="{{ asset('front/assets/images/brand/05.webp') }}" alt="brand">
                                 </div>
                                 <div class="single-image">
-                                    <img src="assets/images/brand/06.webp" alt="brand">
+                                    <img src="{{ asset('front/assets/images/brand/06.webp') }}" alt="brand">
                                 </div>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                                 <p>Call Us Anytime! <a href="#">+(125) 2153-2158</a></p>
                             </div>
                             <div class="mid-image">
-                                <img src="assets/images/service/01.png" alt="service_image">
+                                <img src="{{ asset('front/assets/images/service/01.png') }}" alt="service_image">
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@
                                     <div class="team-single-one-start">
                                         <div class="team-image-area">
                                             <a href="team-details.html">
-                                                <img src="assets/images/team/12.webp" alt="Business_Team_single">
+                                                <img src="{{ asset('front/assets/images/team/12.webp') }}" alt="Business_Team_single">
                                                 <div class="team-social">
                                                     <div class="main">
                                                         <i class="fal fa-plus"></i>
@@ -209,7 +209,7 @@
                                     <div class="team-single-one-start">
                                         <div class="team-image-area">
                                             <a href="team-details.html">
-                                                <img src="assets/images/team/13.webp" alt="Business_Team_single">
+                                                <img src="{{ asset('front/assets/images/team/13.webp') }}" alt="Business_Team_single">
                                                 <div class="team-social">
                                                     <div class="main">
                                                         <i class="fal fa-plus"></i>
@@ -234,7 +234,7 @@
                                     <div class="team-single-one-start">
                                         <div class="team-image-area">
                                             <a href="team-details.html">
-                                                <img src="assets/images/team/14.webp" alt="Business_Team_single">
+                                                <img src="{{ asset('front/assets/images/team/14.webp') }}" alt="Business_Team_single">
                                                 <div class="team-social">
                                                     <div class="main">
                                                         <i class="fal fa-plus"></i>
@@ -259,7 +259,7 @@
                                     <div class="team-single-one-start">
                                         <div class="team-image-area">
                                             <a href="team-details.html">
-                                                <img src="assets/images/team/15.webp" alt="Business_Team_single">
+                                                <img src="{{ asset('front/assets/images/team/15.webp') }}" alt="Business_Team_single">
                                                 <div class="team-social">
                                                     <div class="main">
                                                         <i class="fal fa-plus"></i>
@@ -284,7 +284,7 @@
                                     <div class="team-single-one-start">
                                         <div class="team-image-area">
                                             <a href="team-details.html">
-                                                <img src="assets/images/team/07.webp" alt="Business_Team_single">
+                                                <img src="{{ asset('front/assets/images/team/07.webp') }}" alt="Business_Team_single">
                                                 <div class="team-social">
                                                     <div class="main">
                                                         <i class="fal fa-plus"></i>
@@ -369,7 +369,7 @@
                     <div class="col-lg-6">
                         <div class="modern-funfacts-area-wrapper">
                             <div class="thumbnail">
-                                <img src="assets/images/fun-facts/01.webp" alt="funfacts">
+                                <img src="{{ asset('front/assets/images/fun-facts/01') }}.webp" alt="funfacts">
                             </div>
                         </div>
                     </div>
@@ -403,7 +403,7 @@
                 <div class="row g-0">
                     <div class="col-lg-6">
                         <div class="thumbnail-appoinment-9">
-                            <img src="assets/images/appoinment/05.webp" alt="appoinment">
+                            <img src="{{ asset('front/assets/images/appoinment/05.webp') }}" alt="appoinment">
                         </div>
                     </div>
                     <div class="col-lg-6">

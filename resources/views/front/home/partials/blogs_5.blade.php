@@ -15,7 +15,7 @@
                         <!-- single Post blog large -->
                         <div class="rts-blog-h-2-wrapper">
                             <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/04.webp" alt="Business_blog">
+                                <img src="{{ asset('front/assets/images/blog/04.webp') }}" alt="Business_blog">
                             </a>
                             <div class="body">
                                 <span>Business Solution / by David Dolean</span>
@@ -35,7 +35,7 @@
                         <!-- single Post blog large -->
                         <div class="rts-blog-h-2-wrapper">
                             <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/05.webp" alt="Business_blog">
+                                <img src="{{ asset('front/assets/images/blog/05.webp') }}" alt="Business_blog">
                             </a>
                             <div class="body">
                                 <span>Business Solution / by David Dolean</span>
@@ -55,7 +55,7 @@
                         <!-- single Post blog large -->
                         <div class="rts-blog-h-2-wrapper">
                             <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/06.webp" alt="Business_blog">
+                                <img src="{{ asset('front/assets/images/blog/06.webp') }}" alt="Business_blog">
                             </a>
                             <div class="body">
                                 <span>Business Solution / by David Dolean</span>

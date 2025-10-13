@@ -256,7 +256,7 @@
                                 <!-- ingle about start -->
                                 <div class="about-single-home-7">
                                     <div class="icon">
-                                        <img src="assets/images/about/icons/04.svg" alt="">
+                                        <img src="{{ asset('front/assets/images/about/icons/04.svg') }}" alt="">
                                     </div>
                                     <div class="discription">
                                         <h6 class="title">

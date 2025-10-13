@@ -12,7 +12,7 @@
                     <div class="col-lg-9">
                         <div class="banner-one-inner text-center">
                             <p class="pre-title">
-                                <img src="assets/images/banner/icon/star.svg" alt="">
+                                <img src="{{ asset('front/assets/images/banner/icon/star') }}.svg" alt="">
                                 Think. Improve. Expand. Repeat.
                             </p>
                             <h1 class="title rts-text-anime-style-1">The Future of Investing Starts Here</h1>
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="shape">
-            <img src="assets/images/banner/line-shape.svg" alt="">
+            <img src="{{ asset('front/assets/images/banner/line-shape') }}.svg" alt="">
         </div>
     </div>
     <div class="image-slider-area">
@@ -36,42 +36,42 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="image">
-                        <img src="assets/images/banner/35.webp" alt="">
+                        <img src="{{ asset('front/assets/images/banner/35.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="image">
-                        <img src="assets/images/banner/36.webp" alt="">
+                        <img src="{{ asset('front/assets/images/banner/36.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="image">
-                        <img src="assets/images/banner/37.webp" alt="">
+                        <img src="{{ asset('front/assets/images/banner/37.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="image">
-                        <img src="assets/images/banner/38.webp" alt="">
+                        <img src="{{ asset('front/assets/images/banner/38.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="image">
-                        <img src="assets/images/banner/35.webp" alt="">
+                        <img src="{{ asset('front/assets/images/banner/35.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="image">
-                        <img src="assets/images/banner/36.webp" alt="">
+                        <img src="{{ asset('front/assets/images/banner/36.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="image">
-                        <img src="assets/images/banner/37.webp" alt="">
+                        <img src="{{ asset('front/assets/images/banner/37.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="image">
-                        <img src="assets/images/banner/38.webp" alt="">
+                        <img src="{{ asset('front/assets/images/banner/38.webp') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                                 We are the leading agency dedicated to enhancing your deals, driving growth, and delivering exceptional results. Trust us to maximize your potential and take your business to the next level
                             </p>
                             <div class="bottom">
-                                <img src="assets/images/banner/small-img/01.png" alt="user">
+                                <img src="{{ asset('front/assets/images/banner/small-img') }}/01.png" alt="user">
                                 <span class="info">
                                     2.5k Client Connect with our Company
                                 </span>
@@ -180,7 +180,7 @@
                 <div class="col-lg-12">
                     <div class="title-between-area">
                         <div class="title-style-five">
-                            <span class="pre"><img src="assets/images/banner/icon/star.svg" alt=""> RECENT CASE STUDIES</span>
+                            <span class="pre"><img src="{{ asset('front/assets/images/banner/icon/star') }}.svg" alt=""> RECENT CASE STUDIES</span>
                             <h2 class="title rts-text-anime-style-1">Our Business Cases
                             </h2>
                         </div>
@@ -202,7 +202,7 @@
                                 <div class="swiper-slide">
                                     <div class="single-case-studies-four">
                                         <a href="project-details.html" class="thumbnail">
-                                            <img src="assets/images/project/07.webp" alt="project">
+                                            <img src="{{ asset('front/assets/images/project/07.webp') }}" alt="project">
                                         </a>
                                         <div class="inner">
                                             <a href="project-details.html">
@@ -211,14 +211,14 @@
                                             </a>
                                         </div>
                                         <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
+                                            <img src="{{ asset('front/assets/images/project/eye.svg') }}" alt="project">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-case-studies-four">
                                         <a href="project-details.html" class="thumbnail">
-                                            <img src="assets/images/project/08.webp" alt="project">
+                                            <img src="{{ asset('front/assets/images/project/08.webp') }}" alt="project">
                                         </a>
                                         <div class="inner">
                                             <a href="project-details.html">
@@ -227,14 +227,14 @@
                                             </a>
                                         </div>
                                         <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
+                                            <img src="{{ asset('front/assets/images/project/eye.svg') }}" alt="project">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-case-studies-four">
                                         <a href="project-details.html" class="thumbnail">
-                                            <img src="assets/images/project/09.webp" alt="project">
+                                            <img src="{{ asset('front/assets/images/project/09.webp') }}" alt="project">
                                         </a>
                                         <div class="inner">
                                             <a href="project-details.html">
@@ -243,14 +243,14 @@
                                             </a>
                                         </div>
                                         <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
+                                            <img src="{{ asset('front/assets/images/project/eye.svg') }}" alt="project">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-case-studies-four">
                                         <a href="project-details.html" class="thumbnail">
-                                            <img src="assets/images/project/08.webp" alt="project">
+                                            <img src="{{ asset('front/assets/images/project/08.webp') }}" alt="project">
                                         </a>
                                         <div class="inner">
                                             <a href="project-details.html">
@@ -259,7 +259,7 @@
                                             </a>
                                         </div>
                                         <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
+                                            <img src="{{ asset('front/assets/images/project/eye.svg') }}" alt="project">
                                         </div>
                                     </div>
                                 </div>
@@ -285,12 +285,12 @@
             </div>
             <div class="row">
                 <div class="client-wrapper-one">
-                    <a href="#" data-animation="fadeInUp" data-delay="0.1" data-duration="1.2"><img src="assets/images/client/1.webp" alt="business_invena"></a>
-                    <a href="#" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2"><img src="assets/images/client/2.webp" alt="business_invena"></a>
-                    <a href="#" data-animation="fadeInUp" data-delay="0.3" data-duration="1.2"><img src="assets/images/client/3.webp" alt="business_invena"></a>
-                    <a href="#" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2"><img src="assets/images/client/4.webp" alt="business_invena"></a>
-                    <a href="#" data-animation="fadeInUp" data-delay="0.5" data-duration="1.2"><img src="assets/images/client/5.webp" alt="business_invena"></a>
-                    <a href="#" data-animation="fadeInUp" data-delay="0.6" data-duration="1.2"><img src="assets/images/client/6.webp" alt="business_invena"></a>
+                    <a href="#" data-animation="fadeInUp" data-delay="0.1" data-duration="1.2"><img src="{{ asset('front/assets/images/client/1.webp') }}" alt="business_invena"></a>
+                    <a href="#" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2"><img src="{{ asset('front/assets/images/client/2.webp') }}" alt="business_invena"></a>
+                    <a href="#" data-animation="fadeInUp" data-delay="0.3" data-duration="1.2"><img src="{{ asset('front/assets/images/client/3.webp') }}" alt="business_invena"></a>
+                    <a href="#" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2"><img src="{{ asset('front/assets/images/client/4.webp') }}" alt="business_invena"></a>
+                    <a href="#" data-animation="fadeInUp" data-delay="0.5" data-duration="1.2"><img src="{{ asset('front/assets/images/client/5.webp') }}" alt="business_invena"></a>
+                    <a href="#" data-animation="fadeInUp" data-delay="0.6" data-duration="1.2"><img src="{{ asset('front/assets/images/client/6.webp') }}" alt="business_invena"></a>
                 </div>
             </div>
         </div>
@@ -302,7 +302,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-style-four center">
-                        <span class="pre"><img src="assets/images/banner/icon/star.svg" alt=""> TEAM LEADER</span>
+                        <span class="pre"><img src="{{ asset('front/assets/images/banner/icon/star') }}.svg" alt=""> TEAM LEADER</span>
                         <h2 class="title rts-text-anime-style-1">Advisory Leaders
                         </h2>
                     </div>
@@ -316,7 +316,7 @@
                                 <div class="team-single-one-start bg-none shadow-0">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/17.webp" alt="Business_Team_single">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/team/17.webp') }}" alt="Business_Team_single">
                                         </a>
                                     </div>
                                     <div class="single-details text-center" dir="rtl">
@@ -331,7 +331,7 @@
                                 <div class="team-single-one-start bg-none shadow-0">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/18.webp" alt="Business_Team_single">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/team/18.webp') }}" alt="Business_Team_single">
                                         </a>
                                     </div>
                                     <div class="single-details text-center" dir="rtl">
@@ -346,7 +346,7 @@
                                 <div class="team-single-one-start bg-none shadow-0">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/19.webp" alt="Business_Team_single">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/team/19.webp') }}" alt="Business_Team_single">
                                         </a>
                                     </div>
                                     <div class="single-details text-center" dir="rtl">
@@ -361,7 +361,7 @@
                                 <div class="team-single-one-start bg-none shadow-0">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/20.webp" alt="Business_Team_single">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/team/20.webp') }}" alt="Business_Team_single">
                                         </a>
                                     </div>
                                     <div class="single-details text-center" dir="rtl">
@@ -376,7 +376,7 @@
                                 <div class="team-single-one-start bg-none shadow-0">
                                     <div class="team-image-area">
                                         <a href="team-details.html">
-                                            <img loading="lazy" src="assets/images/team/18.webp" alt="Business_Team_single">
+                                            <img loading="lazy" src="{{ asset('front/assets/images/team/18.webp') }}" alt="Business_Team_single">
                                         </a>
                                     </div>
                                     <div class="single-details text-center" dir="rtl">
@@ -403,7 +403,7 @@
                 <div class="col-lg-12">
                     <div class="title-between-area">
                         <div class="title-style-five">
-                            <span class="pre"><img src="assets/images/banner/icon/star.svg" alt=""> TESTIMONIAL</span>
+                            <span class="pre"><img src="{{ asset('front/assets/images/banner/icon/star') }}.svg" alt=""> TESTIMONIAL</span>
                             <h2 class="title rts-text-anime-style-1">Our Customers Say
                             </h2>
                         </div>
@@ -425,7 +425,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-wrapper-investment">
                                         <div class="thumbnail">
-                                            <img src="assets/images/testimonials/10.webp" alt="project">
+                                            <img src="{{ asset('front/assets/images/testimonials/10.webp') }}" alt="project">
                                         </div>
                                         <div class="content">
                                             <h4 class="title">Liam Nguyen</h4>
@@ -441,7 +441,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-wrapper-investment">
                                         <div class="thumbnail">
-                                            <img src="assets/images/testimonials/11.webp" alt="project">
+                                            <img src="{{ asset('front/assets/images/testimonials/11.webp') }}" alt="project">
                                         </div>
                                         <div class="content">
                                             <h4 class="title">Alex Morgan</h4>
@@ -457,7 +457,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-wrapper-investment">
                                         <div class="thumbnail">
-                                            <img src="assets/images/testimonials/10.webp" alt="project">
+                                            <img src="{{ asset('front/assets/images/testimonials/10.webp') }}" alt="project">
                                         </div>
                                         <div class="content">
                                             <h4 class="title">Liam Nguyen</h4>
@@ -473,7 +473,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-wrapper-investment">
                                         <div class="thumbnail">
-                                            <img src="assets/images/testimonials/11.webp" alt="project">
+                                            <img src="{{ asset('front/assets/images/testimonials/11.webp') }}" alt="project">
                                         </div>
                                         <div class="content">
                                             <h4 class="title">Liam Nguyen</h4>

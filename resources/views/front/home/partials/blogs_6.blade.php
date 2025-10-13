@@ -14,7 +14,7 @@
                     <div class="col-lg-6" data-animation="fadeInUp" data-delay="0.0" data-duration="1.2">
                         <div class="single-blog-card-6">
                             <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/10.webp" alt="blog">
+                                <img src="{{ asset('front/assets/images/blog/10.webp') }}" alt="blog">
                             </a>
                             <div class="inner-content">
                                 <p class="top">Business Solution <span>/ by David Dolean</span></p>

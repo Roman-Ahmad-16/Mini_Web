@@ -113,10 +113,6 @@ class FrontController extends Controller
         return view("front.contact-us");
     }
 
-    public function pages()
-    {
-        return view("front.pages");
-    }
 
 
 

@@ -19,14 +19,14 @@
     @include('front.home.partials.service')
 
     <br><br><br>
-    @include('front.home.partials.faq')
+    @include('front.home.partials.faq_2')
     <br><br><br>
 
     @include('front.home.partials.pricing')
 
     @include('front.home.partials.testimonial')
 
-    @include('front.home.partials.appointment')
+    @include('front.home.partials.appointment_12')
 
 
     <div id="side-bar" class="side-bar header-two">

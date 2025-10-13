@@ -1,12 +1,4 @@
-<style>
-    .bar--animated {
-        stroke: white !important;
-    }
 
-    .rts-progress-area-main-wrapper {
-        background-color: black;
-    }
-</style>
 
 <!-- rts progress area start -->
 <div class="rts-progress-area-main-wrapper rts-section-gap ">
@@ -27,10 +19,10 @@
                             <img src="{{ asset('front/assets/images/fun/01.svg') }}" alt="fun">
                         </div>
                         <div class="right-counter">
-                            <h2 class="counter title" style="color:white;"><span class="odometer"
+                            <h2 class="counter title"><span class="odometer"
                                     data-count="76">00</span>%
                             </h2>
-                            <p style="color:white;">Trusted Clients</p>
+                            <p >Trusted Clients</p>
                         </div>
                     </div>
                     <div class="single-progress-area">
@@ -45,10 +37,10 @@
                             <img src="{{ asset('front/assets/images/fun/02.svg') }}" alt="fun">
                         </div>
                         <div class="right-counter">
-                            <h2 class="counter title" style="color:white;"><span class="odometer"
+                            <h2 class="counter title" ><span class="odometer"
                                     data-count="89">00</span>%
                             </h2>
-                            <p style="color:white;">Project Completed</p>
+                            <p >Project Completed</p>
                         </div>
                     </div>
                     <div class="single-progress-area">
@@ -63,10 +55,10 @@
                             <img src="{{ asset('front/assets/images/fun/03.svg') }}" alt="fun">
                         </div>
                         <div class="right-counter">
-                            <h2 class="counter title" style="color:white;"><span class="odometer"
+                            <h2 class="counter title" ><span class="odometer"
                                     data-count="70">00</span>%
                             </h2>
-                            <p style="color:white;">Business Awards</p>
+                            <p>Business Awards</p>
                         </div>
                     </div>
 

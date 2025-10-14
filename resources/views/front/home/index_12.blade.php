@@ -9,12 +9,12 @@
     @include('front.partials.about.about_12')
     @include('front.partials.cta.cta_12')
     @include('front.partials.service.service_12')
-    @include('front.home.partials.work_process_12')
+    @include('front.partials.work_process.work_process_12')
     @include('front.home.partials.projects_12')
-    @include('front.partials.clients.clients_12')
+   
     @include('front.partials.pricing.pricing_2')
     @include('front.partials.testimonials.testimonials_12')
-    @include('front.home.partials.appointment_12')
+    @include('front.partials.appointment.appointment_12')
     @include('front.partials.blog.blogs_12')
     @include('front.home.partials.newsletter_12')
 

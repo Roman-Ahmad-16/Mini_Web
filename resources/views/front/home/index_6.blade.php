@@ -21,63 +21,7 @@
 
         @include('front.partials.blog.blogs_6')
 
-        <!-- rts galllery area start -->
-        <div class="rts-gallery-area">
-            <div class="container-full">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="gallery-area-main-wrapper-4">
-                            <div class="single-gallery">
-                                <a href="{{ asset('front/assets/images/gallery/06.webp') }}"
-                                    class="thumbnail gallery-image">
-                                    <img src="{{ asset('front/assets/images/gallery/06.webp') }}" alt="gallery">
-                                </a>
-                                <div class="instagram">
-                                    <img src="{{ asset('front/assets/images/gallery/instagram.svg') }}" alt="instagram.svg">
-                                </div>
-                            </div>
-                            <div class="single-gallery">
-                                <a href="{{ asset('front/assets/images/gallery/07.webp') }}"
-                                    class="thumbnail gallery-image">
-                                    <img src="{{ asset('front/assets/images/gallery/07.webp') }}" alt="gallery">
-                                </a>
-                                <div class="instagram">
-                                    <img src="{{ asset('front/assets/images/gallery/instagram.svg') }}" alt="instagram.svg">
-                                </div>
-                            </div>
-                            <div class="single-gallery">
-                                <a href="{{ asset('front/assets/images/gallery/08.webp') }}"
-                                    class="thumbnail gallery-image">
-                                    <img src="{{ asset('front/assets/images/gallery/08.webp') }}" alt="gallery">
-                                </a>
-                                <div class="instagram">
-                                    <img src="{{ asset('front/assets/images/gallery/instagram.svg') }}" alt="instagram.svg">
-                                </div>
-                            </div>
-                            <div class="single-gallery">
-                                <a href="{{ asset('front/assets/images/gallery/09.webp') }}"
-                                    class="thumbnail gallery-image">
-                                    <img src="{{ asset('front/assets/images/gallery/09.webp') }}" alt="gallery">
-                                </a>
-                                <div class="instagram">
-                                    <img src="{{ asset('front/assets/images/gallery/instagram.svg') }}" alt="instagram.svg">
-                                </div>
-                            </div>
-                            <div class="single-gallery">
-                                <a href="{{ asset('front/assets/images/gallery/10.webp') }}"
-                                    class="thumbnail gallery-image">
-                                    <img src="{{ asset('front/assets/images/gallery/10.webp') }}" alt="gallery">
-                                </a>
-                                <div class="instagram">
-                                    <img src="{{ asset('front/assets/images/gallery/instagram.svg') }}" alt="instagram.svg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- rts galllery area end -->
+           @include('front.partials.gallery.gallery_1')
 
 
 

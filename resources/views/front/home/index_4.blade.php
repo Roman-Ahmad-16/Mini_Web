@@ -12,7 +12,7 @@
 
     @include('front.partials.cta.cta')
 
-    @include('front.partials.why_choose_us.why_choose_us_4')
+    @include('front.partials.why_choose_us.why_us_4')
 
     @include('front.partials.counter.counter_3')
 

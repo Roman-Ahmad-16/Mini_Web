@@ -26,7 +26,7 @@
 
     @include('front.partials.testimonials.testimonial')
 
-    @include('front.home.partials.appointment_12')
+    @include('front.partials.appointment.appointment_12')
 
 
     <div id="side-bar" class="side-bar header-two">

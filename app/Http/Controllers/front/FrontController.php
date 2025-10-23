@@ -4,6 +4,7 @@ namespace App\Http\Controllers\front;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Contact;
 
 class FrontController extends Controller
 {
@@ -85,7 +86,7 @@ class FrontController extends Controller
         return view("front.home.accounts");
     }
 
-     public function appointment()
+    public function appointment()
     {
         return view("front.home.appointment");
     }
@@ -97,7 +98,7 @@ class FrontController extends Controller
 
 
 
-    
+
     public function aboutus()
     {
         return view("front.about.about-us");
@@ -112,6 +113,40 @@ class FrontController extends Controller
     {
         return view("front.contact-us");
     }
+
+    public function store(Request $request)
+    {
+        $request->validate([
+            "name" => "required|string|max:150",
+            "email" => "required|string|max:150",
+            "phone_no" => "required|string|max:150",
+            "message" => "required|string|max:500",
+        ]);
+
+        $contact = new Contact();
+        
+        $contact->name = $request->name;
+        $contact->email = $request->email;
+        $contact->phone_no = $request->phone_no;
+        $contact->message = $request->message;
+        $contact->save();
+
+        return back()->with('success', 'Your message has been sent successfully!');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

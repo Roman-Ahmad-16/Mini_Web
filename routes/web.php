@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\front\FrontController;
+use App\Http\Controllers\Admin\ContactController;
 
 Route::get('/service/detail', function () {
     return view('front.service_detail');
@@ -49,6 +50,19 @@ Route::get('/contact-us', [FrontController::class, 'contactus'])->name('contact-
 
 
 
-Route::get('/dashboard' , function(){
+Route::get('/dashboard', function () {
     return view('admin.dashboard.layouts.master');
 });
+
+
+
+
+
+Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
+Route::get('/contact/create', [ContactController::class, 'create'])->name('contact.create');
+Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
+Route::get('/contact/edit/{id}', [ContactController::class, 'edit'])->name('contact.edit');
+Route::post('/contact/update/{id}', [ContactController::class, 'update'])->name('contact.update');
+Route::get('/contact/delete/{id}', [ContactController::class, 'delete'])->name('contact.delete');
+// front
+Route::post('/contact/submit', [FrontController::class, 'store'])->name('front.contact.store');

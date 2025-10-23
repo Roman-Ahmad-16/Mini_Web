@@ -7,9 +7,9 @@
     @include('front.about.partials.banner')
     <br><br><br><br>
 
-    @include('front.home.partials.service2')
+    @include('front.partials.service.service2')
 
-    @include('front.home.partials.appointment')
+    @include('front.partials.appointment.appointment_9')
 
 
 

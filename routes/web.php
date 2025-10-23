@@ -36,3 +36,19 @@ Route::get('/appointment', [FrontController::class, 'appointment'])->name('front
 Route::get('/about-us', [FrontController::class, 'aboutus'])->name('about-us');
 Route::get('/services', [FrontController::class, 'services'])->name('front.services');
 Route::get('/contact-us', [FrontController::class, 'contactus'])->name('contact-us');
+
+
+
+
+
+
+
+
+
+
+
+
+
+Route::get('/dashboard' , function(){
+    return view('admin.dashboard.layouts.master');
+});

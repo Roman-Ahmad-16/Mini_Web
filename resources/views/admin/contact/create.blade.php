@@ -11,16 +11,16 @@
             <div class="row">
                 <div class="mb-3 col-6">
                     <label class="form-label">Name:</label>
-                    <input type="text" name="name" class="form-control" value="{{ old('name') }}">
-                    @error('name')
+                    <input type="text" name="your_name" class="form-control" value="{{ old('your_name') }}">
+                    @error('your_name')
                         <small class="text-danger">{{ $message }}</small>
                     @enderror
                 </div>
 
                 <div class="mb-3 col-6">
                     <label class="form-label">Email:</label>
-                    <input type="email" name="email" class="form-control" value="{{ old('email') }}">
-                    @error('email')
+                    <input type="email" name="your_email" class="form-control" value="{{ old('your_email') }}">
+                    @error('your_email')
                         <small class="text-danger">{{ $message }}</small>
                     @enderror
                 </div>
@@ -29,16 +29,16 @@
             <div class="row">
                 <div class="mb-3 col-6">
                     <label class="form-label">Phone No:</label>
-                    <input type="phone_no" name="phone_no" class="form-control" value="{{ old('phone_no') }}">
-                        @error('phone_no')
+                    <input type="phone_no" name="your_phone_no" class="form-control" value="{{ old('your_phone_no') }}">
+                        @error('your_phone_no')
                             <small class="text-danger">{{ $message }}</small>
                         @enderror
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label">Mesage:</label>
-                    <textarea name="message" class="form-control" rows="4">{{ old('message') }}</textarea>
-                    @error('message')
+                    <textarea name="your_message" class="form-control" rows="4">{{ old('your_message') }}</textarea>
+                    @error('your_message')
                         <small class="text-danger">{{ $message }}</small>
                     @enderror
                 </div>

@@ -24,16 +24,22 @@ class ContactController extends Controller
         $contact = new Contact();
 
         $request->validate([
-            "name" => "string|required|max:150",
-            "email" => "string|required|max:150",
-            "phone_no" => "string|required|max:150",
-            "message" => "string|required|max:150",
+            "your_name" => "string|required|max:150",
+            "your_email" => "string|required|max:150",
+            "your_phone_no" => "string|required|max:150",
+            "your_message" => "string|required|max:150",
+        ], [
+            "your_name.required" => "Please enter your full name.",
+            "your_email.required" => "We need your email address to contact you.",
+            "your_email.email" => "Please enter a valid email address.",
+            "your_phone_no.required" => "Your phone number is required.",
+            "your_message.required" => "Please write a message before submitting."
         ]);
 
-        $contact->name = $request->name;
-        $contact->email = $request->email;
-        $contact->phone_no = $request->phone_no;
-        $contact->message = $request->message;
+        $contact->name = $request->your_name;
+        $contact->email = $request->your_email;
+        $contact->phone_no = $request->your_phone_no;
+        $contact->message = $request->your_message;
 
         $contact->save();
 

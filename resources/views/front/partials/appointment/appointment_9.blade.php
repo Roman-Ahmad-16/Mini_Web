@@ -18,16 +18,16 @@
 
                         <div class="half-input-wrapper">
                             <div class="single-input">
-                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="text" name="your_name" placeholder="Your Name" required>
                             </div>
                             <div class="single-input">
-                                <input type="email" name="email" placeholder="Email Address" required>
+                                <input type="email" name="your_email" placeholder="Email Address" required>
                             </div>
                         </div>
 
                         <div class="half-input-wrapper">
                             <div class="single-input">
-                                <input type="text" name="phone_no" placeholder="Contact Number" required>
+                                <input type="text" name="your_phone_no" placeholder="Contact Number" required>
                             </div>
                             <div class="single-input">
                                 <input type="text" name="subject" placeholder="Subject (optional)">
@@ -35,7 +35,7 @@
                         </div>
 
                         <div class="single-input">
-                            <textarea name="message" placeholder="Type Your Message" required></textarea>
+                            <textarea name="your_message" placeholder="Type Your Message" required></textarea>
                         </div>
 
                         <button type="submit" class="rts-btn btn-primary">Submit Message</button>

@@ -35,8 +35,15 @@
                             <td>{{ $contact->message }}</td>
                             <td>
                                 <div class="d-flex justify-content-center gap-2">
-                                    <a href="{{ route('contact.edit', $contact->id) }}" class="btn btn-warning">Edit</a>
-                                    <a href="{{ route('contact.delete', $contact->id) }}" class="btn btn-danger">Delete</a>
+                                    <a href="{{ route('contact.edit', $contact->name) }}" class="btn btn-warning">Edit</a>
+                                    <form action="{{ route('contact.delete') }}" method="POST" style="display:inline;">
+                                        @csrf
+                                        <input type="hidden" name="id" value="{{ $contact->id }}">
+                                        <button type="submit" class="btn btn-danger"
+                                            onclick="return confirm('Are you sure you want to delete this contact?')">
+                                            Delete
+                                        </button>
+                                    </form>
                                 </div>
                             </td>
                         </tr>

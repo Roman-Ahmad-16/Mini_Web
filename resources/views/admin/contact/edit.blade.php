@@ -4,9 +4,12 @@
     <div class="container mt-4">
         <h2 class="text-dark mb-4">Edit Project</h2>
 
-        <form action="{{ route('contact.update', $contact->id) }}" method="POST" enctype="multipart/form-data"
+        <form action="{{ route('contact.update') }}" method="POST" enctype="multipart/form-data"
             class="shadow p-4 rounded bg-light">
             @csrf
+
+            {{-- hidden input (id) --}}
+            <input type="hidden" name="id" value="{{ $contact->id }}">
 
             <div class="row">
                 <div class="mb-3 col-6">
@@ -30,7 +33,8 @@
             <div class="row">
                 <div class="mb-3 col-6">
                     <label class="form-label">Phone No:</label>
-                    <input type="phone_no" name="phone_no" class="form-control" value="{{ old('phone_no', $contact->phone_no) }}">
+                    <input type="phone_no" name="phone_no" class="form-control"
+                        value="{{ old('phone_no', $contact->phone_no) }}">
                     @error('phone_no')
                         <small class="text-danger">{{ $message }}</small>
                     @enderror

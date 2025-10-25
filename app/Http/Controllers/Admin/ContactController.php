@@ -46,21 +46,27 @@ class ContactController extends Controller
         return redirect()->route("contact.index")->with('success', 'Message sent. Thank you!');
     }
 
-    public function edit($id)
+    public function edit($name)
     {
-        $contact = Contact::find($id);
+        $contact = Contact::where('name', $name)->firstOrFail();
         return view("admin.contact.edit", compact('contact'));
     }
 
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
-        $contact = Contact::find($id);
+        $contact = Contact::findOrFail($request->id);
 
         $request->validate([
             "name" => "string|required|max:150",
             "email" => "string|required|max:150",
             "phone_no" => "string|required|max:150",
             "message" => "string|required|max:150",
+        ], [
+            "name.required" => "Please enter your full name.",
+            "email.required" => "We need your email address to contact you.",
+            "email.email" => "Please enter a valid email address.",
+            "phone_no.required" => "Your phone number is required.",
+            "message.required" => "Please write a message before submitting."
         ]);
 
         $contact->name = $request->name;
@@ -73,9 +79,9 @@ class ContactController extends Controller
         return redirect()->route("contact.index")->with('success', 'Contact updated.');
     }
 
-    public function delete($id)
+    public function delete(Request $request)
     {
-        $contact = Contact::find($id);
+        $contact = Contact::findOrFail($request->id);
         $contact->delete();
         return redirect()->route("contact.index");
     }

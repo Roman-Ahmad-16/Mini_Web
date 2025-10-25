@@ -71,8 +71,8 @@ Route::get('/dashboard', function () {
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 Route::get('/contact/create', [ContactController::class, 'create'])->name('contact.create');
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
-Route::get('/contact/edit/{id}', [ContactController::class, 'edit'])->name('contact.edit');
-Route::post('/contact/update/{id}', [ContactController::class, 'update'])->name('contact.update');
-Route::get('/contact/delete/{id}', [ContactController::class, 'delete'])->name('contact.delete');
+Route::get('/contact/edit/{name}', [ContactController::class, 'edit'])->name('contact.edit');
+Route::post('/contact/update', [ContactController::class, 'update'])->name('contact.update');
+Route::post('/contact/delete', [ContactController::class, 'delete'])->name('contact.delete');
 // front
 Route::post('/contact/submit', [FrontController::class, 'store'])->name('front.contact.store');

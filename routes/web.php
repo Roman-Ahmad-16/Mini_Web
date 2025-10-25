@@ -3,12 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\front\FrontController;
 use App\Http\Controllers\Admin\ContactController;
-use App\Http\Controllers\MailController;
 
 
 
 
-Route::get("/send-mail", [MailController::class,"sendEmail"]);
 
 
 

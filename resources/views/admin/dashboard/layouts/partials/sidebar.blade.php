@@ -34,6 +34,10 @@
                 <i class="nav-icon bi bi-circle"></i>
                 <p>Admin</p>
               </a>
+              <a href="{{ route('contact.index') }}" class="nav-link active">
+                <i class="nav-icon bi bi-circle"></i>
+                <p>Contact Us</p>
+              </a>
             </li>
 
           </ul>

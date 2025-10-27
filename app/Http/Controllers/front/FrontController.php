@@ -119,7 +119,8 @@ class FrontController extends Controller
 
     public function store(Request $request)
     {
-        // ✅ Step 1: Validate user input
+        // Return Associated array (key value pairs )
+
         $validated = $request->validate([
             "your_name" => "required|string|max:150",
             "your_email" => "required|email|max:150",
@@ -133,15 +134,17 @@ class FrontController extends Controller
             "your_message.required" => "Please write a message before submitting."
         ]);
 
-        // ✅ Step 2: Save data to database
         $contact = new Contact();
+
+        // Associated array (key value pairs )
+
         $contact->name = $validated['your_name'];
         $contact->email = $validated['your_email'];
         $contact->phone_no = $validated['your_phone_no'];
         $contact->message = $validated['your_message'];
+
         $contact->save();
 
-        // ✅ Step 3: Prepare data for email
         $contactData = [
             'name' => $validated['your_name'],
             'email' => $validated['your_email'],

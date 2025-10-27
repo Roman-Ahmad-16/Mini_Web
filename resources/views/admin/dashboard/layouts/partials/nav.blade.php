@@ -11,7 +11,7 @@
         </div>
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-end">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="http://127.0.0.1:8000/">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
           </ol>
         </div>

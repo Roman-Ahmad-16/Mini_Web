@@ -117,64 +117,45 @@ class FrontController extends Controller
         return view("front.contact-us");
     }
 
-public function store(Request $request)
-{
-    // ✅ Step 1: Validate user input
-    $validated = $request->validate([
-        "your_name" => "required|string|max:150",
-        "your_email" => "required|email|max:150",
-        "your_phone_no" => "required|string|max:150",
-        "your_message" => "required|string|max:500",
-    ], [
-        "your_name.required" => "Please enter your full name.",
-        "your_email.required" => "We need your email address to contact you.",
-        "your_email.email" => "Please enter a valid email address.",
-        "your_phone_no.required" => "Your phone number is required.",
-        "your_message.required" => "Please write a message before submitting."
-    ]);
+    public function store(Request $request)
+    {
+        // ✅ Step 1: Validate user input
+        $validated = $request->validate([
+            "your_name" => "required|string|max:150",
+            "your_email" => "required|email|max:150",
+            "your_phone_no" => "required|string|max:150",
+            "your_message" => "required|string|max:500",
+        ], [
+            "your_name.required" => "Please enter your full name.",
+            "your_email.required" => "We need your email address to contact you.",
+            "your_email.email" => "Please enter a valid email address.",
+            "your_phone_no.required" => "Your phone number is required.",
+            "your_message.required" => "Please write a message before submitting."
+        ]);
 
-    // ✅ Step 2: Save data to database
-    $contact = new Contact();
-    $contact->name = $validated['your_name'];
-    $contact->email = $validated['your_email'];
-    $contact->phone_no = $validated['your_phone_no'];
-    $contact->message = $validated['your_message'];
-    $contact->save();
+        // ✅ Step 2: Save data to database
+        $contact = new Contact();
+        $contact->name = $validated['your_name'];
+        $contact->email = $validated['your_email'];
+        $contact->phone_no = $validated['your_phone_no'];
+        $contact->message = $validated['your_message'];
+        $contact->save();
 
-    // ✅ Step 3: Prepare data for email
-    $contactData = [
-        'name' => $validated['your_name'],
-        'email' => $validated['your_email'],
-        'phone_no' => $validated['your_phone_no'],
-        'message' => $validated['your_message'],
-    ];
+        // ✅ Step 3: Prepare data for email
+        $contactData = [
+            'name' => $validated['your_name'],
+            'email' => $validated['your_email'],
+            'phone_no' => $validated['your_phone_no'],
+            'message' => $validated['your_message'],
+        ];
 
-    // ✅ Step 4: Send email to user (confirmation)
-    Mail::to($validated['your_email'])->send(new UserContactMail($contactData));
+        // ✅ Step 4: Send email to user (confirmation)
+        Mail::to($validated['your_email'])->send(new UserContactMail($contactData));
 
-    // ✅ Step 5: Send email to admin (notification)
-    Mail::to('romanehsan30@gmail.com')->send(new AdminContactMail($contactData));
+        // ✅ Step 5: Send email to admin (notification)
+        Mail::to('romanehsan30@gmail.com')->send(new AdminContactMail($contactData));
 
-    // ✅ Step 6: Redirect with success message
-    return back()->with('success', 'Your message has been sent successfully!');
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        // ✅ Step 6: Redirect with success message
+        return back()->with('success', 'Your message has been sent successfully!');
+    }
 }

@@ -3,7 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\front\FrontController;
 use App\Http\Controllers\Admin\ContactController;
-
+use App\Http\Controllers\Admin\ServiceController;
+use App\Http\Controllers\Admin\ServiceCategoryController;
 
 
 
@@ -76,3 +77,33 @@ Route::post('/contact/update', [ContactController::class, 'update'])->name('cont
 Route::post('/contact/delete', [ContactController::class, 'delete'])->name('contact.delete');
 // front
 Route::post('/contact/submit', [FrontController::class, 'store'])->name('front.contact.store');
+
+
+
+
+
+
+
+
+
+
+
+////////// SERVICE //////////////////
+Route::get('/services', [ServiceController::class, 'index'])->name('service.index');
+Route::get('/service/create', [ServiceController::class, 'create'])->name('service.create');
+Route::post('/service/store', [ServiceController::class, 'store'])->name('service.store');
+Route::get('/service/edit/{id}', [ServiceController::class, 'edit'])->name('service.edit');
+Route::get('/servic/detail/{id}', [ServiceController::class, 'detail'])->name('servic.detail');
+Route::post('/service/update/{id}', [ServiceController::class, 'update'])->name('service.update');
+Route::get('/service/delete/{id}', [ServiceController::class, 'delete'])->name('service.delete');
+
+
+
+////////// SERVICE CATEOGORIES //////////////////
+Route::get('service_categories', [ServiceCategoryController::class, 'index'])->name('service_categories.index');
+Route::get('service_categories/create', [ServiceCategoryController::class, 'create'])->name('service_categories.create');
+Route::post('service_categories', [ServiceCategoryController::class, 'store'])->name('service_categories.store');
+Route::get('service_categories/{id}/edit', [ServiceCategoryController::class, 'edit'])->name('service_categories.edit');
+Route::get('service_category/detail/{id}', [ServiceCategoryController::class, 'detail'])->name('service_category.detail');
+Route::post('service_categories/{id}', [ServiceCategoryController::class, 'update'])->name('service_categories.update');
+Route::delete('service_categories/{id}', [ServiceCategoryController::class, 'delete'])->name('service_categories.delete');

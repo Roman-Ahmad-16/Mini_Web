@@ -158,7 +158,6 @@ class FrontController extends Controller
         // ✅ Step 5: Send email to admin (notification)
         Mail::to('romanehsan30@gmail.com')->send(new AdminContactMail($contactData));
 
-        // ✅ Step 6: Redirect with success message
         return back()->with('success', 'Your message has been sent successfully!');
     }
 }

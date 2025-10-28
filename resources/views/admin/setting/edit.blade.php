@@ -216,7 +216,7 @@
                                         <button type="submit" class="btn btn-primary">{{ __('Update') }}</button>
                                     </div>
                                 </div>
-                                
+
                             </form>
                         </div>
                     </div>
@@ -226,5 +226,27 @@
         </div>
         </div>
         <!-- /.row -->
+        <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    // Har image input ke liye event listener lagao
+                document.querySelectorAll('.up-img').forEach(input => {
+                    input.addEventListener('change', function(e) {
+                        const file = e.target.files[0];
+                        if (file) {
+                            const reader = new FileReader();
+
+                            reader.onload = function(event) {
+                                const imgPreview = e.target.closest('.form-group').querySelector('.show-img');
+                                if (imgPreview) {
+                                    imgPreview.src = event.target.result;
+                                }
+                            }
+                            reader.readAsDataURL(file);
+                        }
+                    });
+                });
+                });
+        </script>
+
     </section>
 @endsection

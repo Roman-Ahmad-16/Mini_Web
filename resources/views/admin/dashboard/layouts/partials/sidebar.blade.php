@@ -99,6 +99,16 @@
           </ul>
         </li>
 
+        <li class="nav-item menu-open">
+          <a href="{{ route('setting.edit') }}" class="nav-link active">
+            <i class="nav-icon bi bi-speedometer"></i>
+            <p>
+              Setting
+            </p>
+          </a>
+        </li>
+        
+
       </ul>
       <!--end::Sidebar Menu-->
     </nav>

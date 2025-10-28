@@ -5,6 +5,7 @@ use App\Http\Controllers\front\FrontController;
 use App\Http\Controllers\Admin\ContactController;
 use App\Http\Controllers\Admin\ServiceController;
 use App\Http\Controllers\Admin\ServiceCategoryController;
+use App\Http\Controllers\Admin\SettingController;
 
 
 
@@ -107,3 +108,15 @@ Route::get('service_categories/{id}/edit', [ServiceCategoryController::class, 'e
 Route::get('service_category/detail/{id}', [ServiceCategoryController::class, 'detail'])->name('service_category.detail');
 Route::post('service_categories/{id}', [ServiceCategoryController::class, 'update'])->name('service_categories.update');
 Route::delete('service_categories/{id}', [ServiceCategoryController::class, 'delete'])->name('service_categories.delete');
+
+
+
+
+
+
+
+
+// Settings 
+
+Route::get('/setting', [SettingController::class,   'edit'])->name('setting.edit');
+Route::post('/setting/update', [SettingController::class, 'update'])->name('setting.update');

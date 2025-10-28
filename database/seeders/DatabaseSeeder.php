@@ -15,5 +15,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(ServiceCategorySeeder::class);
         $this->call(ServiceSeeder::class);
+        $this->call(SettingsTableSeeder::class);
+
     }
 }

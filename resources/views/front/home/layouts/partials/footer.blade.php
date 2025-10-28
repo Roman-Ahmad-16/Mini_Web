@@ -40,6 +40,14 @@
                             <li><a href="#"><i class="far fa-arrow-right"></i> Contact Us</a></li>
                             <li><a href="#"><i class="far fa-arrow-right"></i> Pricing &amp; Plans</a></li>
                             <li><a href="#"><i class="far fa-arrow-right"></i> Cookie Policy</a></li>
+                            @if(!empty($setting->phone_no))
+                                <li>
+                                    <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                                    <div class="info">
+                                        <h5><a href="tel:{{ $setting->phone_no }}">{{ $setting->phone_no }}</a></h5>
+                                    </div>
+                                </li>
+                            @endif
                         </ul>
                         <ul class="links margin-left-70">
                             <li><a href="#"><i class="far fa-arrow-right"></i> About Us</a></li>

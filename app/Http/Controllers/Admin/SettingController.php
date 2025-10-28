@@ -89,11 +89,6 @@ class SettingController extends Controller
 
         $setting->save();
 
-        $notification = array(
-            'message' => 'Settings Upldated Successfully!',
-            'alert' => 'success',
-        );
-
-        return redirect()->back()->with('notification', $notification);
+        return redirect()->back();
     }
 }

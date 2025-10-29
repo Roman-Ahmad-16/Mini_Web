@@ -35,12 +35,12 @@
     </div>
 
 
-    @include('front.home.partials.service3')
+    @include('front.partials.service.service2')
     
     @include('front.about.partials.work_process')
     <br><br><br><br>
-    @include('front.home.partials.testimonial')
+    @include('front.partials.testimonials.testimonial_6')
 
-    @include('front.home.partials.appointment')
+    @include('front.partials.appointment.appointment_9')
 
 @endsection

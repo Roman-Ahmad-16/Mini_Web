@@ -8,13 +8,135 @@ use Illuminate\Support\Facades\Mail;
 use App\Mail\UserContactMail;
 use App\Mail\AdminContactMail;
 use App\Models\Contact;
+use App\Models\SerivceCategory;
+use App\Models\Service;
 
 class FrontController extends Controller
 {
     public function index_1()
     {
-        return view("front.home.index_1");
+        $service_categories = SerivceCategory::where('status', 1)->get();
+        return view("front.home.index_1", compact('service_categories'));
     }
+
+
+
+
+
+    public function services()
+    {
+        return view("front.service");
+    }
+
+
+    public function categoryWiseService($id)
+    {
+        $services = Service::where('category_id', $id)->get();
+        return view('categoryWiseService', compact('services'));
+    }
+
+    public function serviceDetail($id)
+    {
+        $service = Service::findOrFail($id);
+        $services = Service::where('status', 1)->where('category_id', $service->category_id)->where('id', '!=', $id)->get();
+        return view('front.service_detail', compact('service' , 'services'));
+    }
+
+
+
+    public function contactus()
+    {
+        return view("front.contact-us");
+    }
+
+    public function store(Request $request)
+    {
+        // Return Associated array (key value pairs )
+
+        $validated = $request->validate([
+            "your_name" => "required|string|max:150",
+            "your_email" => "required|email|max:150",
+            "your_phone_no" => "required|string|max:150",
+            "your_message" => "required|string|max:500",
+        ], [
+            "your_name.required" => "Please enter your full name.",
+            "your_email.required" => "We need your email address to contact you.",
+            "your_email.email" => "Please enter a valid email address.",
+            "your_phone_no.required" => "Your phone number is required.",
+            "your_message.required" => "Please write a message before submitting."
+        ]);
+
+        $contact = new Contact();
+
+        // Associated array (key value pairs )
+
+        $contact->name = $validated['your_name'];
+        $contact->email = $validated['your_email'];
+        $contact->phone_no = $validated['your_phone_no'];
+        $contact->message = $validated['your_message'];
+
+        $contact->save();
+
+        $contactData = [
+            'name' => $validated['your_name'],
+            'email' => $validated['your_email'],
+            'phone_no' => $validated['your_phone_no'],
+            'message' => $validated['your_message'],
+        ];
+
+        Mail::to($validated['your_email'])->send(new UserContactMail($contactData));
+
+        Mail::to('romanehsan30@gmail.com')->send(new AdminContactMail($contactData));
+
+        return back()->with('success', 'Your message has been sent successfully!');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public function index_3()
     {
         return view("front.home.index_3");
@@ -107,57 +229,5 @@ class FrontController extends Controller
         return view("front.about.about-us");
     }
 
-    public function services()
-    {
-        return view("front.service");
-    }
 
-    public function contactus()
-    {
-        return view("front.contact-us");
-    }
-
-    public function store(Request $request)
-    {
-        // Return Associated array (key value pairs )
-
-        $validated = $request->validate([
-            "your_name" => "required|string|max:150",
-            "your_email" => "required|email|max:150",
-            "your_phone_no" => "required|string|max:150",
-            "your_message" => "required|string|max:500",
-        ], [
-            "your_name.required" => "Please enter your full name.",
-            "your_email.required" => "We need your email address to contact you.",
-            "your_email.email" => "Please enter a valid email address.",
-            "your_phone_no.required" => "Your phone number is required.",
-            "your_message.required" => "Please write a message before submitting."
-        ]);
-
-        $contact = new Contact();
-
-        // Associated array (key value pairs )
-
-        $contact->name = $validated['your_name'];
-        $contact->email = $validated['your_email'];
-        $contact->phone_no = $validated['your_phone_no'];
-        $contact->message = $validated['your_message'];
-
-        $contact->save();
-
-        $contactData = [
-            'name' => $validated['your_name'],
-            'email' => $validated['your_email'],
-            'phone_no' => $validated['your_phone_no'],
-            'message' => $validated['your_message'],
-        ];
-
-        // ✅ Step 4: Send email to user (confirmation)
-        Mail::to($validated['your_email'])->send(new UserContactMail($contactData));
-
-        // ✅ Step 5: Send email to admin (notification)
-        Mail::to('romanehsan30@gmail.com')->send(new AdminContactMail($contactData));
-
-        return back()->with('success', 'Your message has been sent successfully!');
-    }
 }

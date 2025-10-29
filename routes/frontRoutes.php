@@ -23,23 +23,19 @@ Route::get('/index_16', [FrontController::class, 'index_16'])->name('front.index
 Route::get('/index_17', [FrontController::class, 'index_17'])->name('front.index_17');
 Route::get('/index_18', [FrontController::class, 'index_18'])->name('front.index_18');
 Route::get('/index_19', [FrontController::class, 'index_19'])->name('front.index_19');
+
+
 Route::get('/accounts', [FrontController::class, 'accounts'])->name('front.accounts');
-
-
-Route::get('/service/detail', function () {
-    return view('front.service_detail');
-});
-
-
-
 Route::get('/appointment', [FrontController::class, 'appointment'])->name('front.appointment');
-
-
-
-
-
 Route::get('/about-us', [FrontController::class, 'aboutus'])->name('about-us');
+
+
+
+
+
 Route::get('/services', [FrontController::class, 'services'])->name('front.services');
+Route::get('/service/{id}', [FrontController::class,'categoryWiseService'])->name('front.categoryWiseService');
+Route::get('/service/detail/{id}', [FrontController::class, 'serviceDetail'])->name('front.serviceDetail');
 
 
 Route::get('/contact-us', [FrontController::class, 'contactus'])->name('contact-us');

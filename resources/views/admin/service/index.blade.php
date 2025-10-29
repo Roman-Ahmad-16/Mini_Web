@@ -23,7 +23,6 @@
                         <th>Banner image</th>
                         <th>Icon</th>
                         <th>Thumbnail</th>
-                        <th>Enroll Projects</th>
                         <th>Order no</th>
                         <th>Status</th>
                         <th>Actions</th>
@@ -46,11 +45,6 @@
                             <td>
                                 <img src="{{ asset($service->thumbnail) }}" alt="thumbnail" width="80">
                             </td>
-                            <td>
-                                <a href="{{ route('servic.detail' , $service->id) }}" class="btn btn-sm btn-warning">
-                                    {{$service->projects ? $service->projects->count() : 0 }}
-                                </a>
-                            </td>
                             <td>{{ $service->order_no }}</td>
                             <td>
                                 @if($service->status=='active')
@@ -62,7 +56,6 @@
                             <td>
                                 <div class="d-flex justify-content-center gap-2">
                                     <a href="{{ route('service.edit', $service->id) }}" class="btn btn-sm btn-warning">Edit</a>
-                                    <a href="{{ route('servic.detail' , $service->id) }}" class="btn btn-sm btn-primary">Detail</a>
                                     <a href="{{ route('service.delete', $service->id) }}"
                                         class="btn btn-sm btn-danger">Delete</a>
                                 </div>

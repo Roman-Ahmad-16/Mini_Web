@@ -91,15 +91,11 @@
                 <div class="col-xl-8">
                     <div class="service-details-left-area">
                         <div class="thumbnail">
-                            <img src="{{ asset('front/assets/images/service/11.webp') }}" alt="">
+                            <img src="{{ asset($service->banner_image) }}" alt="">
                         </div>
-                        <h3 class="title">Business Growth Mangment</h3>
+                        <h3 class="title">{{$service->title}}</h3>
                         <p class="disc">
-                            Continually myocardinate holistic mindshare with client-based web services. Assertively
-                            e-enable catalysts for change before tested markets. Phosfluorescently maintain wireless
-                            scenarios after intermandated applications. Conveniently predominate revolutionary quality
-                            vectors through future-proof manufactured products. Enthusiastically transform distinctive
-                            collaboration.
+                           {{ $service->description }}
                         </p>
                         <p class="disc">
                             Intrinsicly coordinate multifunctional functionalities reliable potentialities. Objectively
@@ -110,7 +106,7 @@
                         <div class="service-short-main-wrapper">
                             <div class="single-short-service">
                                 <div class="icon">
-                                    <img src="{{ asset('front/assets/images/service/05.svg') }}" alt="">
+                                    <i class="{{ $service->icon }}" style="font-size:50px;"></i>
                                 </div>
                                 <div class="inner-content">
                                     <h5 class="title-sm">Instant Business Growth</h5>
@@ -174,7 +170,7 @@
                         </p>
                         <div class="single-step-service-details">
                             <div class="thumbnail">
-                                <img src="{{ asset('front/assets/images/service/12.webp') }}" alt="service">
+                                <img src="{{ asset($service->thumbnail) }}" alt="service">
                             </div>
                             <div class="inner">
                                 <h5 class="title-f">Define Your Objectives and Plan</h5>
@@ -188,7 +184,7 @@
                         </div>
                         <div class="single-step-service-details">
                             <div class="thumbnail">
-                                <img src="{{ asset('front/assets/images/service/13.webp') }}" alt="service">
+                                <img src="{{ asset($service->banner_image) }}" alt="service">
                             </div>
                             <div class="inner">
                                 <h5 class="title-f">Build and Design Your Website</h5>
@@ -208,35 +204,19 @@
                     <div class="rts-single-wized Categories service">
                         <div class="wized-header">
                             <h5 class="title">
-                                Categories
+                                Other Services
                             </h5>
                         </div>
                         <div class="wized-body">
-                            <!-- single categoris -->
+
+                            @foreach ($services as $service)
+                            
                             <ul class="single-categories">
-                                <li><a href="#">Business Solution <i class="far fa-long-arrow-right"></i></a></li>
+                                <li><a href="{{ route('front.serviceDetail' , $service->id) }}">{{$service->title}} <i class="far fa-long-arrow-right"></i></a></li>
                             </ul>
-                            <!-- single categoris End -->
-                            <!-- single categoris -->
-                            <ul class="single-categories">
-                                <li><a href="#">Strategy Growth <i class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
-                            <!-- single categoris -->
-                            <ul class="single-categories">
-                                <li><a href="#">Finance Solution <i class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
-                            <!-- single categoris -->
-                            <ul class="single-categories">
-                                <li><a href="#">Investment Policy <i class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
-                            <!-- single categoris -->
-                            <ul class="single-categories">
-                                <li><a href="#">Tax Managment <i class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
+
+                            @endforeach
+
                         </div>
                     </div>
                     <!-- single wizered End -->
@@ -291,6 +271,6 @@
     </div>
     <!-- rts business details area left main end -->
      
-    @include('front.home.partials.appointment')
+    @include('front.partials.appointment.appointment_9')
 
 @endsection

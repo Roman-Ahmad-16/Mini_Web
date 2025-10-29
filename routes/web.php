@@ -35,7 +35,7 @@ Route::post('/contact/delete', [ContactController::class, 'delete'])->name('cont
 
 
 ////////// SERVICE //////////////////
-Route::get('/services', [ServiceController::class, 'index'])->name('service.index');
+Route::get('/service', [ServiceController::class, 'index'])->name('service.index');
 Route::get('/service/create', [ServiceController::class, 'create'])->name('service.create');
 Route::post('/service/store', [ServiceController::class, 'store'])->name('service.store');
 Route::get('/service/edit/{id}', [ServiceController::class, 'edit'])->name('service.edit');

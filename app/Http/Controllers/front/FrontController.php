@@ -39,7 +39,7 @@ class FrontController extends Controller
     {
         $service = Service::findOrFail($id);
         $services = Service::where('status', 1)->where('category_id', $service->category_id)->where('id', '!=', $id)->get();
-        return view('front.service_detail', compact('service' , 'services'));
+        return view('service_detail', compact('service' , 'services'));
     }
 
 

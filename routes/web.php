@@ -15,43 +15,23 @@ use App\Http\Controllers\Admin\SettingController;
 require base_path('routes/frontRoutes.php');
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Route::get('/dashboard', function () {
     return view('admin.dashboard.layouts.master');
 });
 
 
+////////// Settings /////////////
+Route::get('/setting', [SettingController::class,   'edit'])->name('setting.edit');
+Route::post('/setting/update', [SettingController::class, 'update'])->name('setting.update');
 
 
-
+/////////// Contact ////////////////
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 Route::get('/contact/create', [ContactController::class, 'create'])->name('contact.create');
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
 Route::get('/contact/edit/{name}', [ContactController::class, 'edit'])->name('contact.edit');
 Route::post('/contact/update', [ContactController::class, 'update'])->name('contact.update');
 Route::post('/contact/delete', [ContactController::class, 'delete'])->name('contact.delete');
-// front
-
-
-
-
-
-
-
-
-
 
 
 ////////// SERVICE //////////////////
@@ -64,7 +44,6 @@ Route::post('/service/update/{id}', [ServiceController::class, 'update'])->name(
 Route::get('/service/delete/{id}', [ServiceController::class, 'delete'])->name('service.delete');
 
 
-
 ////////// SERVICE CATEOGORIES //////////////////
 Route::get('service_categories', [ServiceCategoryController::class, 'index'])->name('service_categories.index');
 Route::get('service_categories/create', [ServiceCategoryController::class, 'create'])->name('service_categories.create');
@@ -73,15 +52,3 @@ Route::get('service_categories/{id}/edit', [ServiceCategoryController::class, 'e
 Route::get('service_category/detail/{id}', [ServiceCategoryController::class, 'detail'])->name('service_category.detail');
 Route::post('service_categories/{id}', [ServiceCategoryController::class, 'update'])->name('service_categories.update');
 Route::delete('service_categories/{id}', [ServiceCategoryController::class, 'delete'])->name('service_categories.delete');
-
-
-
-
-
-
-
-
-// Settings 
-
-Route::get('/setting', [SettingController::class,   'edit'])->name('setting.edit');
-Route::post('/setting/update', [SettingController::class, 'update'])->name('setting.update');

@@ -12,7 +12,7 @@
         @endif
 
         <div class="table-responsive">
-            <table class="table table-bordered table-hover align-middle">
+            <table class="table table-bordered table-hover align-middle data_table">
                 <thead class="table-dark text-center">
                     <tr>
                         <th>#</th>

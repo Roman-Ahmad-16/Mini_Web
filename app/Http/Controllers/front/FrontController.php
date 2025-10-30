@@ -27,14 +27,11 @@ class FrontController extends Controller
     {
         return view("front.service");
     }
-
-
     public function categoryWiseService($id)
     {
         $services = Service::where('category_id', $id)->get();
         return view('categoryWiseService', compact('services'));
     }
-
     public function serviceDetail($id)
     {
         $service = Service::findOrFail($id);
@@ -44,6 +41,12 @@ class FrontController extends Controller
 
 
 
+
+
+
+
+
+    
     public function contactus()
     {
         return view("front.contact-us");

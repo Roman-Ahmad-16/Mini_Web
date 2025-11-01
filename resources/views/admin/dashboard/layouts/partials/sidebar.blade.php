@@ -31,72 +31,30 @@
         </li>
 
         <li class="nav-item menu-open">
-          <a href="#" class="nav-link active">
+          <a href="{{ route('contact.index') }}" class="nav-link active">
             <i class="nav-icon bi bi-speedometer"></i>
             <p>
               Enquiries
-              <i class="nav-arrow bi bi-chevron-right"></i>
             </p>
           </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="{{ route('contact.create') }}" class="nav-link active">
-                <i class="nav-icon bi bi-circle"></i>
-                <p>Add Enquery</p>
-              </a>
-              <a href="{{ route('contact.index') }}" class="nav-link active">
-                <i class="nav-icon bi bi-circle"></i>
-                <p>View Enquery</p>
-              </a>
-            </li>
-
-          </ul>
         </li>
 
         <li class="nav-item menu-open">
-          <a href="#" class="nav-link active">
+          <a href="{{ route('service.index') }}" class="nav-link active">
             <i class="nav-icon bi bi-speedometer"></i>
             <p>
               Services
-              <i class="nav-arrow bi bi-chevron-right"></i>
             </p>
           </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="{{ route('service.create') }}" class="nav-link active">
-                <i class="nav-icon bi bi-circle"></i>
-                <p>Add Service</p>
-              </a>
-              <a href="{{ route('service.index') }}" class="nav-link active">
-                <i class="nav-icon bi bi-circle"></i>
-                <p>View Services</p>
-              </a>
-            </li>
-
-          </ul>
         </li>
 
         <li class="nav-item menu-open">
-          <a href="#" class="nav-link active">
+          <a href="{{ route('service_categories.index') }}" class="nav-link active">
             <i class="nav-icon bi bi-speedometer"></i>
             <p>
               Service Categories
-              <i class="nav-arrow bi bi-chevron-right"></i>
             </p>
           </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="{{ route('service_categories.create') }}" class="nav-link active">
-                <i class="nav-icon bi bi-circle"></i>
-                <p>Add Category</p>
-              </a>
-              <a href="{{ route('service_categories.index') }}" class="nav-link active">
-                <i class="nav-icon bi bi-circle"></i>
-                <p>View Categories</p>
-              </a>
-            </li>
-
-          </ul>
         </li>
 
         <li class="nav-item menu-open">
@@ -107,7 +65,16 @@
             </p>
           </a>
         </li>
-        
+
+        <li class="nav-item menu-open">
+          <a href="{{ route('admin.slider') }}" class="nav-link active">
+            <i class="nav-icon bi bi-speedometer"></i>
+            <p>
+              Slider
+            </p>
+          </a>
+        </li>
+
 
       </ul>
       <!--end::Sidebar Menu-->

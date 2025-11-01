@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\ContactController;
 use App\Http\Controllers\Admin\ServiceController;
 use App\Http\Controllers\Admin\ServiceCategoryController;
 use App\Http\Controllers\Admin\SettingController;
+use App\Http\Controllers\Admin\SliderController;
 
 
 
@@ -21,7 +22,7 @@ Route::get('/dashboard', function () {
 
 
 ////////// Settings /////////////
-Route::get('/setting', [SettingController::class,   'edit'])->name('setting.edit');
+Route::get('/setting', [SettingController::class, 'edit'])->name('setting.edit');
 Route::post('/setting/update', [SettingController::class, 'update'])->name('setting.update');
 
 
@@ -52,3 +53,12 @@ Route::get('service_categories/{id}/edit', [ServiceCategoryController::class, 'e
 Route::get('service_category/detail/{id}', [ServiceCategoryController::class, 'detail'])->name('service_category.detail');
 Route::post('service_categories/{id}', [ServiceCategoryController::class, 'update'])->name('service_categories.update');
 Route::delete('service_categories/{id}', [ServiceCategoryController::class, 'delete'])->name('service_categories.delete');
+
+
+////////// Slider Controller ///////////////
+Route::get("/slider", [SliderController::class, "index"])->name("admin.slider");
+Route::get("/slider/add", [SliderController::class, "add"])->name("admin.slider.add");
+Route::post("/slider/store", [SliderController::class, "store"])->name("admin.slider.store");
+Route::delete("/slider/delete/{id}/", [SliderController::class, "destroy"])->name("admin.slider.delete");
+Route::get("/slider/edit/{id}/", [SliderController::class, "edit"])->name("admin.slider.edit");
+Route::post("/slider/update/{id}/", [SliderController::class, "update"])->name("admin.slider.update");

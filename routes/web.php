@@ -8,6 +8,9 @@ use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\BlogController;
 use App\Http\Controllers\Admin\BCategoryController;
+use App\Http\Controllers\Admin\GalleryController;
+use App\Http\Controllers\Admin\GcategoryController;
+
 
 
 
@@ -86,3 +89,22 @@ Route::get('/blog-categories/edit/{id}', [BCategoryController::class, 'edit'])->
 Route::post('/blog-categories/update/{id}', [BCategoryController::class, 'update'])->name('blog_category.update');
 Route::get('/blog-categories/detail/{id}', [BCategoryController::class, 'detail'])->name('blog_category.detail');
 Route::delete('/blog-categories/delete/{id}', [BCategoryController::class, 'delete'])->name('blog_category.delete');
+
+
+
+// Gallery Category Routes:-
+Route::get('/gallery-categories', [GcategoryController::class, 'gcategory'])->name('admin.gcategory.index');
+Route::get('/gallery-category/add', [GcategoryController::class, 'add'])->name('admin.gcategory.add');
+Route::post('/gallery-category/store', [GcategoryController::class, 'store'])->name('admin.gcategory.store');
+Route::get('/gallery-category/edit/{id}', [GcategoryController::class, 'edit'])->name('admin.gcategory.edit');
+Route::post('/gallery-category/update/{id}', [GcategoryController::class, 'update'])->name('admin.gcategory.update');
+Route::get('/gallery-category/delete/{id}',  [GcategoryController::class, 'delete'])->name('admin.gcategory.delete');
+
+
+// Gallery Routes:-
+Route::get('/galleries', [GalleryController::class, 'index'])->name('admin.gallery.index');
+Route::get('/gallery/add', [GalleryController::class, 'add'])->name('admin.gallery.add');
+Route::post('/gallery/store', [GalleryController::class, 'store'])->name('admin.gallery.store');
+Route::get('/gallery/edit/{id}', [GalleryController::class, 'edit'])->name('admin.gallery.edit');
+Route::post('/gallery/update/{id}', [GalleryController::class, 'update'])->name('admin.gallery.update');
+Route::get('/gallery/delete/{id}',  [GalleryController::class, 'delete'])->name('admin.gallery.delete');

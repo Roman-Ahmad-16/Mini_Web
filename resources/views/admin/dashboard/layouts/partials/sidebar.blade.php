@@ -93,6 +93,24 @@
           </a>
         </li>
 
+        <li class="nav-item menu-open">
+          <a href="{{ route('admin.gallery.index') }}" class="nav-link active">
+            <i class="nav-icon bi bi-speedometer"></i>
+            <p>
+              Gallery
+            </p>
+          </a>
+        </li>
+
+        <li class="nav-item menu-open">
+          <a href="{{ route('admin.gcategory.index') }}" class="nav-link active">
+            <i class="nav-icon bi bi-speedometer"></i>
+            <p>
+              Gallery Categories
+            </p>
+          </a>
+        </li>
+
 
       </ul>
       <!--end::Sidebar Menu-->

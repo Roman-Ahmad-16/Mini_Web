@@ -75,6 +75,24 @@
           </a>
         </li>
 
+        <li class="nav-item menu-open">
+          <a href="{{ route('blog.index') }}" class="nav-link active">
+            <i class="nav-icon bi bi-speedometer"></i>
+            <p>
+              Blogs
+            </p>
+          </a>
+        </li>
+
+        <li class="nav-item menu-open">
+          <a href="{{ route('blog_category.index') }}" class="nav-link active">
+            <i class="nav-icon bi bi-speedometer"></i>
+            <p>
+              Blog Categories
+            </p>
+          </a>
+        </li>
+
 
       </ul>
       <!--end::Sidebar Menu-->

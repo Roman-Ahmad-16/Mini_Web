@@ -6,6 +6,8 @@ use App\Http\Controllers\Admin\ServiceController;
 use App\Http\Controllers\Admin\ServiceCategoryController;
 use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\Admin\SliderController;
+use App\Http\Controllers\Admin\BlogController;
+use App\Http\Controllers\Admin\BCategoryController;
 
 
 
@@ -62,3 +64,25 @@ Route::post("/slider/store", [SliderController::class, "store"])->name("admin.sl
 Route::delete("/slider/delete/{id}/", [SliderController::class, "destroy"])->name("admin.slider.delete");
 Route::get("/slider/edit/{id}/", [SliderController::class, "edit"])->name("admin.slider.edit");
 Route::post("/slider/update/{id}/", [SliderController::class, "update"])->name("admin.slider.update");
+
+
+
+
+//////////////// Blog //////////////////
+Route::get('/blogs', [BlogController::class, 'index'])->name('blog.index');
+Route::get('/blogs/create', [BlogController::class, 'create'])->name('blog.create');
+Route::post('/blogs/store', [BlogController::class, 'store'])->name('blog.store');
+Route::get('/blogs/edit/{id}', [BlogController::class, 'edit'])->name('blog.edit');
+Route::post('/blogs/update/{id}', [BlogController::class, 'update'])->name('blog.update');
+Route::delete('/blogs/delete/{id}', [BlogController::class, 'delete'])->name('blog.delete');
+
+
+
+////////////////// Blog Category //////////////////
+Route::get('/blog-categories', [BCategoryController::class, 'index'])->name('blog_category.index');
+Route::get('/blog-categories/create', [BCategoryController::class, 'create'])->name('blog_category.create');
+Route::post('/blog-categories/store', [BCategoryController::class, 'store'])->name('blog_category.store');
+Route::get('/blog-categories/edit/{id}', [BCategoryController::class, 'edit'])->name('blog_category.edit');
+Route::post('/blog-categories/update/{id}', [BCategoryController::class, 'update'])->name('blog_category.update');
+Route::get('/blog-categories/detail/{id}', [BCategoryController::class, 'detail'])->name('blog_category.detail');
+Route::delete('/blog-categories/delete/{id}', [BCategoryController::class, 'delete'])->name('blog_category.delete');
